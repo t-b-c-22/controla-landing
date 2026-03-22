@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-azul: #4141e2;
+  --color-azul-hover: #3333c0;
+  --color-azul-light: rgba(65, 65, 226, 0.08);
+  --color-navy: #132342;
+  --color-navy-mid: #1a2f54;
+  --color-naranja: #e05e27;
+  --color-naranja-hover: #c84f1e;
+  --color-verde: #69ca90;
+  --color-gris: #e8edef;
+  --color-gris-dark: #8899a6;
+  --color-texto: #2d3748;
+  --color-texto-light: #64748b;
+  --font-sans: var(--font-albert-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light only;
+}
+
+body {
+  font-family: var(--font-albert-sans), -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  color: var(--color-texto);
+  line-height: 1.6;
+  background: #ffffff;
+}
+
+/* FAQ accordion animation */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+}
+
+.faq-answer.open {
+  max-height: 500px;
+}
+
+/* FAQ plus icon rotation */
+.faq-icon {
+  transition: transform 0.3s;
+}
+
+.faq-icon.open {
+  transform: rotate(45deg);
+}
+
+/* Mobile menu */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 400px;
+}

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Bash(node -e \"console.log\\(''node available''\\)\")",
+      "Bash(/c/Python314/python -c \"\nfrom docx import Document\ndoc = Document\\(r'c:\\\\Users\\\\tomas\\\\Desktop\\\\Claude Cowork\\\\CLAUDE OUTPUTS\\\\Controla-Estrategia\\\\Controla_PRD-Landing_v1.docx'\\)\nfor p in doc.paragraphs:\n    print\\(p.text\\)\nfor table in doc.tables:\n    for row in table.rows:\n        for cell in row.cells:\n            print\\(cell.text\\)\n        print\\('---ROW---'\\)\n    print\\('===TABLE==='\\)\n\" 2>&1)",
+      "Bash(/c/Python314/python -m pip install python-docx)",
+      "Bash(/c/Python314/python -c \"\nfrom docx import Document\ndoc = Document\\(r'c:\\\\Users\\\\tomas\\\\Desktop\\\\Claude Cowork\\\\CLAUDE OUTPUTS\\\\Controla-Estrategia\\\\Controla_PRD-Landing_v1.docx'\\)\nfor p in doc.paragraphs:\n    print\\(p.text\\)\nprint\\('=== TABLES ==='\\)\nfor table in doc.tables:\n    for row in table.rows:\n        cells = [cell.text for cell in row.cells]\n        print\\(' | '.join\\(cells\\)\\)\n    print\\('---'\\)\n\" 2>&1)",
+      "Bash(find /c/Users/tomas/Desktop/landing/node_modules/next/dist/docs -type f -name *.md)",
+      "Bash(npx next:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s http://127.0.0.1:3111)",
+      "Bash(cat .next/static/css/*.css)",
+      "Bash(find C:/Users/tomas/Desktop/landing/.next -name *.css)",
+      "Bash(git --version)"
+    ]
+  }
+}
