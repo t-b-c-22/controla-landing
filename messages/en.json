@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Controlá - Your hotel on autopilot",
+    "description": "Controlá digitizes your hotel's infrastructure. We leverage what you already have and fill in the gaps. HVAC, operations, incident prevention, and access control on autopilot.",
+    "ogTitle": "Controlá - Your hotel on autopilot",
+    "ogDescription": "We automate your hotel operations by leveraging the infrastructure you already have."
+  },
+  "nav": {
+    "solutions": "Solutions",
+    "howItWorks": "How it works",
+    "cases": "Case studies",
+    "faq": "FAQ",
+    "about": "About us",
+    "blog": "Blog",
+    "cta": "Let's talk"
+  },
+  "hero": {
+    "badge": "For hotels and aparthotels",
+    "titleStart": "Put your hotel on",
+    "titleAccent": "autopilot",
+    "subtitle": "We leverage the infrastructure you already have and fill in the gaps so your room operations run themselves.",
+    "cta": "Book a call",
+    "note": "15 minutes. No commitment."
+  },
+  "proof": {
+    "text": "Already running in hotels and accommodations in"
+  },
+  "problems": {
+    "title": "What happens when you don't know what's going on in your rooms",
+    "subtitle": "Most hotels find out about problems when it's already too late.",
+    "card1Title": "HVAC running in empty rooms",
+    "card1Text": "Empty rooms with air conditioning or heating running for hours. Money going straight out the window.",
+    "card2Title": "Housekeeping in the dark",
+    "card2Text": "The cleaning team doesn't know when the guest left. They knock, wait, waste time. Or worse: the room goes uncleaned.",
+    "card3Title": "Incidents discovered too late",
+    "card3Text": "Water leaks, broken water heaters, faulty AC units. You find out when the guest complains, not when the problem starts."
+  },
+  "solutions": {
+    "label": "Solutions",
+    "title": "Everything you need, in one place",
+    "subtitle": "Each solution integrates with the systems you already have. No starting from scratch.",
+    "learnMore": "Learn more",
+    "clima": {
+      "title": "HVAC management",
+      "description": "Climate control adapts automatically to the real occupancy of each room. No manual intervention needed.",
+      "f1": "Automatic shutdown in empty rooms",
+      "f2": "Temperature adjustment by occupancy",
+      "f3": "Compatible with existing thermostats",
+      "f4": "Support for centralized systems",
+      "f5": "AC and heating control",
+      "f6": "Water heater management"
+    },
+    "ops": {
+      "title": "Room operations",
+      "description": "The hotel knows in real time what's happening in each room and acts automatically.",
+      "f1": "Checkout button (3,000+ uses)",
+      "f2": "Automatic housekeeping alerts",
+      "f3": "Real-time occupancy detection",
+      "f4": "Direct connection with your PMS",
+      "f5": "80% guest adoption rate",
+      "f6": "Centralized dashboard"
+    },
+    "prevention": {
+      "title": "Incident prevention",
+      "description": "Detect problems before they escalate. Fewer guest complaints, fewer costly repairs.",
+      "f1": "Water leak sensors",
+      "f2": "Abnormal consumption alerts",
+      "f3": "Smoke detection",
+      "f4": "Post-checkout window control",
+      "f5": "Door monitoring",
+      "f6": "Light bulb status"
+    },
+    "access": {
+      "title": "Access control",
+      "description": "Dynamic access codes generated automatically for each guest. No physical keys.",
+      "f1": "Codes linked to the reservation",
+      "f2": "Smart locks",
+      "f3": "Autonomous check-in 24/7",
+      "f4": "Powered by RemoteLock",
+      "f5": "Access history",
+      "f6": "PMS integration"
+    }
+  },
+  "how": {
+    "label": "How it works",
+    "title": "From your current hotel to autopilot in 3 steps",
+    "step1Title": "We analyze your infrastructure",
+    "step1Text": "We review what technology your hotel has: thermostats, centralized HVAC, cameras, locks. We identify what can be leveraged and what needs to be added.",
+    "step2Title": "We connect and configure",
+    "step2Text": "We integrate everything with your PMS and our platform. We set up automations tailored to your hotel's actual operations.",
+    "step3Title": "Your hotel runs itself",
+    "step3Text": "Rooms are managed automatically. Climate control regulates itself, housekeeping gets the alerts, and you see everything from a single dashboard."
+  },
+  "cases": {
+    "label": "Case studies",
+    "title": "Hotels already running on autopilot",
+    "subtitle": "Every implementation is different. Here are some real examples.",
+    "tag": "HVAC + Checkout",
+    "caseTitle": "Boutique hotel in Granada",
+    "caseText": "HVAC automation and checkout button integrated with PMS for housekeeping management.",
+    "stat1Value": "3,000+",
+    "stat1Label": "Checkouts processed",
+    "stat2Value": "80%",
+    "stat2Label": "Guest adoption",
+    "placeholder1": "Case study in preparation.\nReal energy savings data available soon.",
+    "placeholder2": "Case study in preparation.\nContact us if you want to be a success story."
+  },
+  "ctaBanner": {
+    "title": "Less waste. Fewer surprises. Less manual work.",
+    "subtitle": "Every hotel is different. That's why we adapt to what you already have and build from there.",
+    "cta": "I want to see it in 15 minutes"
+  },
+  "faq": {
+    "label": "Frequently asked questions",
+    "title": "What everyone asks us",
+    "q1": "Do I need to buy new devices?",
+    "a1": "It depends on what you already have. If your hotel has smart thermostats, centralized HVAC systems, or connected locks, we leverage them. If something is missing, we recommend what to buy or provide it directly. The goal is to minimize initial investment.",
+    "q2": "How long does implementation take?",
+    "a2": "It depends on the hotel size and existing infrastructure. For hotels that already have smart devices, connection can happen in days. If new hardware needs to be installed, the process can take 1 to 3 weeks.",
+    "q3": "Which PMS are compatible?",
+    "a3": "We work with the most widely used PMS in the hotel industry. If you use a specific PMS, contact us and we'll confirm compatibility. PMS integration is what allows automations to respond to check-ins, checkouts, and reservation changes in real time.",
+    "q4": "Does it require construction work?",
+    "a4": "In most cases, no. The devices we use are wireless and install without modifying existing infrastructure. If the hotel already has centralized systems, integration is done via software.",
+    "q5": "How much does it cost?",
+    "a5": "The model is a monthly subscription per device or room. No large upfront investments. The exact price depends on which solutions you need and your existing infrastructure. We'll detail it in the 15-minute call.",
+    "q6": "What happens if something fails?",
+    "a6": "We continuously monitor all connected devices. If a sensor stops working or loses connection, we detect it automatically and notify you. Additionally, automations are designed with fallbacks so the hotel keeps operating normally."
+  },
+  "blog": {
+    "label": "Resources",
+    "title": "Articles and reports",
+    "subtitle": "Content about operational efficiency, hotel technology, and automation.",
+    "soon": "Coming soon",
+    "tag1": "Energy efficiency",
+    "title1": "How much does your hotel lose on HVAC in empty rooms?",
+    "text1": "An analysis of the real impact of energy waste in hotels with 20 to 100 rooms.",
+    "tag2": "Operations",
+    "title2": "The checkout button: how a simple gesture changes hotel operations",
+    "text2": "Real adoption data and the impact on housekeeping coordination.",
+    "tag3": "Technology",
+    "title3": "How to digitize your hotel without starting from scratch",
+    "text3": "A practical guide to leveraging existing infrastructure and adding automation layers.",
+    "backToBlog": "Back to blog",
+    "backToHome": "Back to home",
+    "ctaTitle": "Want to see how it works for your hotel?",
+    "ctaButton": "Book a call"
+  },
+  "founders": {
+    "label": "Team",
+    "title": "Who's behind Controlá",
+    "tomas": {
+      "role": "CEO & Co-founder",
+      "bio": "Computer engineer with 7+ years of experience in IoT. Worked in Israel, Germany, and Spain developing connectivity and building automation solutions."
+    },
+    "ezequiel": {
+      "role": "Co-founder",
+      "bio": "Founder of Lodging Apartments. 20 years managing tourist accommodations, with 150+ properties under his management. Knows operational problems firsthand."
+    }
+  },
+  "contact": {
+    "title": "Let's talk about your hotel",
+    "subtitle": "Tell us a bit about your operations and we'll show you what autopilot would look like for your specific case.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "hotel": "Hotel",
+    "hotelPlaceholder": "Hotel name",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+34 ...",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Briefly tell us what you're interested in or what problems your hotel has...",
+    "submit": "Book a call",
+    "note": "We'll contact you within 24 hours."
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "cases": "Case studies",
+    "resources": "Resources",
+    "about": "About us",
+    "copyright": "© 2026 Controlá. Barcelona, Spain. All rights reserved."
+  }
+}

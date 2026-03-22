@@ -14,7 +14,22 @@
       "Bash(curl -s http://127.0.0.1:3111)",
       "Bash(cat .next/static/css/*.css)",
       "Bash(find C:/Users/tomas/Desktop/landing/.next -name *.css)",
-      "Bash(git --version)"
+      "Bash(git --version)",
+      "Bash(find C:/Users/tomas/Desktop/landing/node_modules/next/dist/docs -type f -name *script*)",
+      "Bash(xargs grep:*)",
+      "Bash(npm install:*)",
+      "Bash(cd:*)",
+      "Bash(mkdir -p \"app/[locale]\")",
+      "Bash(mv app/components \"app/[locale]/components\")",
+      "Bash(mv app/globals.css \"app/[locale]/globals.css\")",
+      "Bash(mv app/favicon.ico \"app/[locale]/favicon.ico\")",
+      "Bash(rm middleware.ts)",
+      "Bash(rm -rf .next)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Bash(/c/Python314/python -c \":*)",
+      "Bash(done)",
+      "Bash(/c/Python314/python -c \"\nimport json, os\n\nadditions = {\n    'es': {'backToBlog': 'Volver al blog', 'backToHome': 'Volver al inicio', 'ctaTitle': '¿Querés ver cómo funciona en tu hotel?', 'ctaButton': 'Agendar una llamada'},\n    'en': {'backToBlog': 'Back to blog', 'backToHome': 'Back to home', 'ctaTitle': 'Want to see how it works for your hotel?', 'ctaButton': 'Book a call'},\n    'ca': {'backToBlog': 'Tornar al blog', 'backToHome': 'Tornar a l\\\\'inici', 'ctaTitle': 'Vols veure com funciona al teu hotel?', 'ctaButton': 'Agenda una trucada'},\n    'fr': {'backToBlog': 'Retour au blog', 'backToHome': 'Retour à l\\\\'accueil', 'ctaTitle': 'Vous voulez voir comment ça marche pour votre hôtel ?', 'ctaButton': 'Réserver un appel'},\n    'de': {'backToBlog': 'Zurück zum Blog', 'backToHome': 'Zurück zur Startseite', 'ctaTitle': 'Möchten Sie sehen, wie es für Ihr Hotel funktioniert?', 'ctaButton': 'Gespräch vereinbaren'},\n    'it': {'backToBlog': 'Torna al blog', 'backToHome': 'Torna alla home', 'ctaTitle': 'Vuoi vedere come funziona per il tuo hotel?', 'ctaButton': 'Prenota una chiamata'},\n    'pt': {'backToBlog': 'Voltar ao blog', 'backToHome': 'Voltar ao início', 'ctaTitle': 'Quer ver como funciona no seu hotel?', 'ctaButton': 'Agendar uma chamada'},\n}\n\nfor locale, keys in additions.items\\(\\):\n    path = f'messages/{locale}.json'\n    with open\\(path, 'r', encoding='utf-8'\\) as f:\n        data = json.load\\(f\\)\n    data['blog'].update\\(keys\\)\n    with open\\(path, 'w', encoding='utf-8'\\) as f:\n        json.dump\\(data, f, ensure_ascii=False, indent=2\\)\n    print\\(f'Updated {path}'\\)\n\" 2>&1)"
     ]
   }
 }

@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-azul: #4141e2;
+  --color-azul-hover: #3333c0;
+  --color-azul-light: rgba(65, 65, 226, 0.08);
+  --color-navy: #132342;
+  --color-navy-mid: #1a2f54;
+  --color-naranja: #e05e27;
+  --color-naranja-hover: #c84f1e;
+  --color-verde: #69ca90;
+  --color-gris: #e8edef;
+  --color-gris-dark: #8899a6;
+  --color-texto: #2d3748;
+  --color-texto-light: #64748b;
+  --font-sans: var(--font-albert-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light only;
+}
+
+body {
+  font-family: var(--font-albert-sans), -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  color: var(--color-texto);
+  line-height: 1.6;
+  background: #ffffff;
+}
+
+/* FAQ accordion animation */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+}
+
+.faq-answer.open {
+  max-height: 500px;
+}
+
+/* FAQ plus icon rotation */
+.faq-icon {
+  transition: transform 0.3s;
+}
+
+.faq-icon.open {
+  transform: rotate(45deg);
+}
+
+/* Mobile menu */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 400px;
+}
+
+/* Blog markdown prose */
+.prose-controla {
+  color: #2d3748;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.prose-controla h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #132342;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.prose-controla h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #132342;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.prose-controla p {
+  margin-bottom: 1.25rem;
+}
+
+.prose-controla strong {
+  font-weight: 700;
+  color: #132342;
+}
+
+.prose-controla ul,
+.prose-controla ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose-controla ul {
+  list-style-type: disc;
+}
+
+.prose-controla ol {
+  list-style-type: decimal;
+}
+
+.prose-controla li {
+  margin-bottom: 0.5rem;
+}
+
+.prose-controla a {
+  color: #4141e2;
+  text-decoration: underline;
+}
+
+.prose-controla a:hover {
+  color: #3333c0;
+}
+
+.prose-controla blockquote {
+  border-left: 4px solid #4141e2;
+  padding-left: 1.25rem;
+  margin: 1.5rem 0;
+  color: #64748b;
+  font-style: italic;
+}
+
+.prose-controla code {
+  background: #e8edef;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.prose-controla pre {
+  background: #132342;
+  color: #e8edef;
+  padding: 1.25rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+}
+
+.prose-controla pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.prose-controla hr {
+  border: none;
+  border-top: 1px solid #e8edef;
+  margin: 2rem 0;
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Controlá - El teu hotel en pilot automàtic",
+    "description": "Controlá digitalitza la infraestructura del teu hotel. Aprofitem el que ja tens i completem el que falta. Climatització, operativa, prevenció d'incidències i control d'accés en pilot automàtic.",
+    "ogTitle": "Controlá - El teu hotel en pilot automàtic",
+    "ogDescription": "Automatitzem les operacions del teu hotel aprofitant la infraestructura que ja tens."
+  },
+  "nav": {
+    "solutions": "Solucions",
+    "howItWorks": "Com funciona",
+    "cases": "Casos d'èxit",
+    "faq": "FAQ",
+    "about": "Nosaltres",
+    "blog": "Blog",
+    "cta": "Parlem"
+  },
+  "hero": {
+    "badge": "Per a hotels i aparthotels",
+    "titleStart": "Posem el teu hotel en",
+    "titleAccent": "pilot automàtic",
+    "subtitle": "Aprofitem la infraestructura que ja tens i completem el que falta perquè les operacions de les teves habitacions es gestionin soles.",
+    "cta": "Agenda una trucada",
+    "note": "15 minuts. Sense compromís."
+  },
+  "proof": {
+    "text": "Ja funcionant en hotels i allotjaments de"
+  },
+  "problems": {
+    "title": "Què passa quan no saps què està passant a les teves habitacions",
+    "subtitle": "La majoria dels hotels s'assabenten dels problemes quan ja és tard.",
+    "card1Title": "Climatització encesa sense ningú",
+    "card1Text": "Habitacions buides amb l'aire o la calefacció funcionant durant hores. Diners que se'n van pel sostre.",
+    "card2Title": "Housekeeping a cegues",
+    "card2Text": "L'equip de neteja no sap quan l'hoste se n'ha anat. Truquen a la porta, esperen, perden temps. O pitjor: l'habitació queda sense netejar.",
+    "card3Title": "Incidències que es descobreixen tard",
+    "card3Text": "Fuites d'aigua, termos que no funcionen, aires avariats. T'assabentes quan l'hoste es queixa, no quan el problema comença."
+  },
+  "solutions": {
+    "label": "Solucions",
+    "title": "Tot el que necessites, en un sol lloc",
+    "subtitle": "Cada solució s'integra amb els sistemes que ja tens. Sense començar de zero.",
+    "learnMore": "Saber-ne més",
+    "clima": {
+      "title": "Gestió de climatització",
+      "description": "La climatització s'adapta automàticament a l'ocupació real de cada habitació. Sense intervenir manualment.",
+      "f1": "Apagat automàtic en habitacions buides",
+      "f2": "Ajust de temperatura per ocupació",
+      "f3": "Compatible amb termòstats existents",
+      "f4": "Suport per a sistemes centralitzats",
+      "f5": "Control d'aires i calefacció",
+      "f6": "Gestió de termos d'aigua"
+    },
+    "ops": {
+      "title": "Operativa d'habitacions",
+      "description": "L'hotel sap en temps real què està passant a cada habitació i actua automàticament.",
+      "f1": "Botó de checkout (3.000+ usos)",
+      "f2": "Avís automàtic a housekeeping",
+      "f3": "Detecció d'ocupació en temps real",
+      "f4": "Connexió directa amb el teu PMS",
+      "f5": "80% d'adopció per hostes",
+      "f6": "Dashboard centralitzat"
+    },
+    "prevention": {
+      "title": "Prevenció d'incidències",
+      "description": "Detecta problemes abans que escalin. Menys queixes d'hostes, menys reparacions costoses.",
+      "f1": "Sensor de fuites d'aigua",
+      "f2": "Alertes de consum anormal",
+      "f3": "Detecció de fum",
+      "f4": "Control de finestres post-checkout",
+      "f5": "Monitorització de portes",
+      "f6": "Estat de bombetes"
+    },
+    "access": {
+      "title": "Control d'accés",
+      "description": "Codis d'accés dinàmics que es generen automàticament per a cada hoste. Sense claus físiques.",
+      "f1": "Codis vinculats a la reserva",
+      "f2": "Panys intel·ligents",
+      "f3": "Check-in autònom 24/7",
+      "f4": "Powered by RemoteLock",
+      "f5": "Historial d'accessos",
+      "f6": "Integració amb PMS"
+    }
+  },
+  "how": {
+    "label": "Com funciona",
+    "title": "Del teu hotel actual a pilot automàtic en 3 passos",
+    "step1Title": "Analitzem la teva infraestructura",
+    "step1Text": "Revisem quina tecnologia té el teu hotel: termòstats, climatització centralitzada, càmeres, panys. Identifiquem què es pot aprofitar i què cal completar.",
+    "step2Title": "Connectem i configurem",
+    "step2Text": "Integrem tot amb el teu PMS i la nostra plataforma. Configurem les automatitzacions adaptades a l'operativa real del teu hotel.",
+    "step3Title": "El teu hotel funciona sol",
+    "step3Text": "Les habitacions es gestionen automàticament. La climatització es regula sola, neteja rep els avisos, i tu ho veus tot des d'un únic panell."
+  },
+  "cases": {
+    "label": "Casos d'èxit",
+    "title": "Hotels que ja funcionen en pilot automàtic",
+    "subtitle": "Cada implementació és diferent. Aquests són alguns exemples reals.",
+    "tag": "Climatització + Checkout",
+    "caseTitle": "Hotel boutique a Granada",
+    "caseText": "Automatització de climatització i botó de checkout integrat amb PMS per a gestió de housekeeping.",
+    "stat1Value": "3.000+",
+    "stat1Label": "Checkouts processats",
+    "stat2Value": "80%",
+    "stat2Label": "Adopció hostes",
+    "placeholder1": "Cas d'estudi en preparació.\nDades d'estalvi energètic real disponibles properament.",
+    "placeholder2": "Cas d'estudi en preparació.\nContacta'ns si vols ser un cas d'èxit."
+  },
+  "ctaBanner": {
+    "title": "Menys malbaratament. Menys sorpreses. Menys treball manual.",
+    "subtitle": "Cada hotel és diferent. Per això ens adaptem al que ja tens i construïm des d'allà.",
+    "cta": "Vull veure-ho en 15 minuts"
+  },
+  "faq": {
+    "label": "Preguntes freqüents",
+    "title": "El que ens pregunten sempre",
+    "q1": "Necessito comprar dispositius nous?",
+    "a1": "Depèn del que ja tinguis. Si el teu hotel té termòstats intel·ligents, sistemes de climatització centralitzada o panys connectats, els aprofitem. Si falta alguna cosa, et recomanem què comprar o t'ho proporcionem directament. L'objectiu és minimitzar la inversió inicial.",
+    "q2": "Quant temps porta la implementació?",
+    "a2": "Depèn de la mida de l'hotel i de la infraestructura existent. En hotels que ja tenen dispositius intel·ligents, la connexió pot fer-se en dies. Si cal instal·lar hardware nou, el procés pot trigar entre 1 i 3 setmanes.",
+    "q3": "Quins PMS són compatibles?",
+    "a3": "Treballem amb els PMS més utilitzats al sector hoteler. Si fas servir un PMS específic, contacta'ns i et confirmem la compatibilitat. La integració amb el PMS és el que permet que les automatitzacions responguin a check-ins, checkouts i canvis de reserva en temps real.",
+    "q4": "Cal fer obres a l'hotel?",
+    "a4": "En la majoria dels casos, no. Els dispositius que utilitzem són sense fil i s'instal·len sense necessitat de modificar la infraestructura existent. Si l'hotel ja té sistemes centralitzats, la integració és per software.",
+    "q5": "Quant costa?",
+    "a5": "El model és per subscripció mensual per dispositiu o habitació. No hi ha grans inversions inicials. El preu exacte depèn de quines solucions necessites i de la infraestructura existent. T'ho detallem a la trucada de 15 minuts.",
+    "q6": "Què passa si alguna cosa falla?",
+    "a6": "Tenim monitorització contínua de tots els dispositius connectats. Si un sensor deixa de funcionar o perd connexió, ho detectem automàticament i t'avisem. A més, les automatitzacions estan dissenyades amb fallbacks perquè l'hotel segueixi operant normalment."
+  },
+  "blog": {
+    "label": "Recursos",
+    "title": "Articles i informes",
+    "subtitle": "Contingut sobre eficiència operativa, tecnologia hotelera i automatització.",
+    "soon": "Properament",
+    "tag1": "Eficiència energètica",
+    "title1": "Quant perd el teu hotel en climatització d'habitacions buides?",
+    "text1": "Una anàlisi de l'impacte real del malbaratament energètic en hotels de 20 a 100 habitacions.",
+    "tag2": "Operativa",
+    "title2": "El botó de checkout: com un gest simple canvia l'operativa d'un hotel",
+    "text2": "Dades reals d'adopció i l'impacte en la coordinació de housekeeping.",
+    "tag3": "Tecnologia",
+    "title3": "Com digitalitzar el teu hotel sense començar de zero",
+    "text3": "Guia pràctica per aprofitar la infraestructura existent i afegir capes d'automatització.",
+    "backToBlog": "Tornar al blog",
+    "backToHome": "Tornar a l'inici",
+    "ctaTitle": "Vols veure com funciona al teu hotel?",
+    "ctaButton": "Agenda una trucada"
+  },
+  "founders": {
+    "label": "Equip",
+    "title": "Qui hi ha darrere de Controlá",
+    "tomas": {
+      "role": "CEO i cofundador",
+      "bio": "Enginyer en computació amb més de 7 anys d'experiència en IoT. Va treballar a Israel, Alemanya i Espanya desenvolupant solucions de connectivitat i automatització per a edificis."
+    },
+    "ezequiel": {
+      "role": "Cofundador",
+      "bio": "Fundador de Lodging Apartments. 20 anys gestionant allotjaments turístics, amb més de 150 propietats sota la seva direcció. Coneix els problemes operatius de primera mà."
+    }
+  },
+  "contact": {
+    "title": "Parlem del teu hotel",
+    "subtitle": "Explica'ns una mica sobre la teva operativa i et mostrem com seria el pilot automàtic en el teu cas concret.",
+    "name": "Nom",
+    "namePlaceholder": "El teu nom",
+    "hotel": "Hotel",
+    "hotelPlaceholder": "Nom de l'hotel",
+    "email": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "phone": "Telèfon",
+    "phonePlaceholder": "+34 ...",
+    "message": "Missatge (opcional)",
+    "messagePlaceholder": "Explica'ns breument què t'interessa o quins problemes tens al teu hotel...",
+    "submit": "Agenda una trucada",
+    "note": "Et contactem en menys de 24 hores."
+  },
+  "footer": {
+    "solutions": "Solucions",
+    "cases": "Casos d'èxit",
+    "resources": "Recursos",
+    "about": "Nosaltres",
+    "copyright": "© 2026 Controlá. Barcelona, Espanya. Tots els drets reservats."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Controlá - Il tuo hotel in pilota automatico",
+    "description": "Controlá digitalizza l'infrastruttura del tuo hotel. Sfruttiamo quello che hai già e completiamo ciò che manca. Climatizzazione, operatività, prevenzione incidenti e controllo accessi in pilota automatico.",
+    "ogTitle": "Controlá - Il tuo hotel in pilota automatico",
+    "ogDescription": "Automatizziamo le operazioni del tuo hotel sfruttando l'infrastruttura che hai già."
+  },
+  "nav": {
+    "solutions": "Soluzioni",
+    "howItWorks": "Come funziona",
+    "cases": "Casi di successo",
+    "faq": "FAQ",
+    "about": "Chi siamo",
+    "blog": "Blog",
+    "cta": "Parliamone"
+  },
+  "hero": {
+    "badge": "Per hotel e aparthotel",
+    "titleStart": "Metti il tuo hotel in",
+    "titleAccent": "pilota automatico",
+    "subtitle": "Sfruttiamo l'infrastruttura che hai già e completiamo ciò che manca perché le operazioni delle tue camere si gestiscano da sole.",
+    "cta": "Prenota una chiamata",
+    "note": "15 minuti. Senza impegno."
+  },
+  "proof": {
+    "text": "Già operativo in hotel e alloggi di"
+  },
+  "problems": {
+    "title": "Cosa succede quando non sai cosa sta succedendo nelle tue camere",
+    "subtitle": "La maggior parte degli hotel scopre i problemi quando è già troppo tardi.",
+    "card1Title": "Climatizzazione accesa senza nessuno",
+    "card1Text": "Camere vuote con l'aria condizionata o il riscaldamento acceso per ore. Soldi che volano via.",
+    "card2Title": "Housekeeping alla cieca",
+    "card2Text": "Il team di pulizia non sa quando l'ospite è andato via. Bussano, aspettano, perdono tempo. O peggio: la camera resta sporca.",
+    "card3Title": "Incidenti scoperti troppo tardi",
+    "card3Text": "Perdite d'acqua, boiler guasti, condizionatori rotti. Lo scopri quando l'ospite si lamenta, non quando il problema inizia."
+  },
+  "solutions": {
+    "label": "Soluzioni",
+    "title": "Tutto ciò di cui hai bisogno, in un unico posto",
+    "subtitle": "Ogni soluzione si integra con i sistemi che hai già. Senza partire da zero.",
+    "learnMore": "Scopri di più",
+    "clima": {
+      "title": "Gestione climatizzazione",
+      "description": "La climatizzazione si adatta automaticamente all'occupazione reale di ogni camera. Senza interventi manuali.",
+      "f1": "Spegnimento automatico nelle camere vuote",
+      "f2": "Regolazione temperatura per occupazione",
+      "f3": "Compatibile con termostati esistenti",
+      "f4": "Supporto per sistemi centralizzati",
+      "f5": "Controllo aria condizionata e riscaldamento",
+      "f6": "Gestione boiler"
+    },
+    "ops": {
+      "title": "Operatività camere",
+      "description": "L'hotel sa in tempo reale cosa sta succedendo in ogni camera e agisce automaticamente.",
+      "f1": "Pulsante checkout (3.000+ utilizzi)",
+      "f2": "Avviso automatico all'housekeeping",
+      "f3": "Rilevamento occupazione in tempo reale",
+      "f4": "Connessione diretta con il tuo PMS",
+      "f5": "80% di adozione da parte degli ospiti",
+      "f6": "Dashboard centralizzata"
+    },
+    "prevention": {
+      "title": "Prevenzione incidenti",
+      "description": "Rileva i problemi prima che si aggravino. Meno reclami degli ospiti, meno riparazioni costose.",
+      "f1": "Sensore perdite d'acqua",
+      "f2": "Avvisi di consumo anomalo",
+      "f3": "Rilevamento fumo",
+      "f4": "Controllo finestre post-checkout",
+      "f5": "Monitoraggio porte",
+      "f6": "Stato lampadine"
+    },
+    "access": {
+      "title": "Controllo accessi",
+      "description": "Codici di accesso dinamici generati automaticamente per ogni ospite. Senza chiavi fisiche.",
+      "f1": "Codici collegati alla prenotazione",
+      "f2": "Serrature intelligenti",
+      "f3": "Check-in autonomo 24/7",
+      "f4": "Powered by RemoteLock",
+      "f5": "Cronologia accessi",
+      "f6": "Integrazione PMS"
+    }
+  },
+  "how": {
+    "label": "Come funziona",
+    "title": "Dal tuo hotel attuale al pilota automatico in 3 passi",
+    "step1Title": "Analizziamo la tua infrastruttura",
+    "step1Text": "Esaminiamo la tecnologia del tuo hotel: termostati, climatizzazione centralizzata, telecamere, serrature. Identifichiamo cosa si può sfruttare e cosa va completato.",
+    "step2Title": "Colleghiamo e configuriamo",
+    "step2Text": "Integriamo tutto con il tuo PMS e la nostra piattaforma. Configuriamo le automazioni adattate all'operatività reale del tuo hotel.",
+    "step3Title": "Il tuo hotel funziona da solo",
+    "step3Text": "Le camere si gestiscono automaticamente. La climatizzazione si regola da sola, le pulizie ricevono gli avvisi, e tu vedi tutto da un unico pannello."
+  },
+  "cases": {
+    "label": "Casi di successo",
+    "title": "Hotel che già funzionano in pilota automatico",
+    "subtitle": "Ogni implementazione è diversa. Ecco alcuni esempi reali.",
+    "tag": "Climatizzazione + Checkout",
+    "caseTitle": "Hotel boutique a Granada",
+    "caseText": "Automazione della climatizzazione e pulsante checkout integrato con PMS per la gestione dell'housekeeping.",
+    "stat1Value": "3.000+",
+    "stat1Label": "Checkout elaborati",
+    "stat2Value": "80%",
+    "stat2Label": "Adozione ospiti",
+    "placeholder1": "Caso di studio in preparazione.\nDati reali di risparmio energetico disponibili a breve.",
+    "placeholder2": "Caso di studio in preparazione.\nContattaci se vuoi diventare un caso di successo."
+  },
+  "ctaBanner": {
+    "title": "Meno sprechi. Meno sorprese. Meno lavoro manuale.",
+    "subtitle": "Ogni hotel è diverso. Per questo ci adattiamo a ciò che hai già e costruiamo da lì.",
+    "cta": "Voglio vederlo in 15 minuti"
+  },
+  "faq": {
+    "label": "Domande frequenti",
+    "title": "Quello che ci chiedono sempre",
+    "q1": "Devo comprare nuovi dispositivi?",
+    "a1": "Dipende da quello che hai già. Se il tuo hotel ha termostati intelligenti, sistemi di climatizzazione centralizzata o serrature connesse, li sfruttiamo. Se manca qualcosa, ti consigliamo cosa comprare o te lo forniamo direttamente. L'obiettivo è minimizzare l'investimento iniziale.",
+    "q2": "Quanto tempo richiede l'implementazione?",
+    "a2": "Dipende dalla dimensione dell'hotel e dall'infrastruttura esistente. Negli hotel che hanno già dispositivi intelligenti, la connessione può avvenire in pochi giorni. Se c'è bisogno di installare nuovo hardware, il processo può richiedere da 1 a 3 settimane.",
+    "q3": "Quali PMS sono compatibili?",
+    "a3": "Lavoriamo con i PMS più utilizzati nel settore alberghiero. Se usi un PMS specifico, contattaci e ti confermeremo la compatibilità. L'integrazione con il PMS è ciò che permette alle automazioni di rispondere a check-in, checkout e modifiche delle prenotazioni in tempo reale.",
+    "q4": "Servono lavori nell'hotel?",
+    "a4": "Nella maggior parte dei casi, no. I dispositivi che utilizziamo sono wireless e si installano senza modificare l'infrastruttura esistente. Se l'hotel ha già sistemi centralizzati, l'integrazione avviene via software.",
+    "q5": "Quanto costa?",
+    "a5": "Il modello è un abbonamento mensile per dispositivo o camera. Nessun grande investimento iniziale. Il prezzo esatto dipende dalle soluzioni di cui hai bisogno e dall'infrastruttura esistente. Te lo dettagliamo nella chiamata di 15 minuti.",
+    "q6": "Cosa succede se qualcosa si guasta?",
+    "a6": "Monitoriamo continuamente tutti i dispositivi connessi. Se un sensore smette di funzionare o perde la connessione, lo rileviamo automaticamente e ti avvisiamo. Inoltre, le automazioni sono progettate con fallback per garantire che l'hotel continui a funzionare normalmente."
+  },
+  "blog": {
+    "label": "Risorse",
+    "title": "Articoli e report",
+    "subtitle": "Contenuti sull'efficienza operativa, tecnologia alberghiera e automazione.",
+    "soon": "Prossimamente",
+    "tag1": "Efficienza energetica",
+    "title1": "Quanto perde il tuo hotel in climatizzazione di camere vuote?",
+    "text1": "Un'analisi dell'impatto reale dello spreco energetico in hotel da 20 a 100 camere.",
+    "tag2": "Operatività",
+    "title2": "Il pulsante checkout: come un gesto semplice cambia l'operatività di un hotel",
+    "text2": "Dati reali di adozione e l'impatto sul coordinamento dell'housekeeping.",
+    "tag3": "Tecnologia",
+    "title3": "Come digitalizzare il tuo hotel senza partire da zero",
+    "text3": "Guida pratica per sfruttare l'infrastruttura esistente e aggiungere livelli di automazione.",
+    "backToBlog": "Torna al blog",
+    "backToHome": "Torna alla home",
+    "ctaTitle": "Vuoi vedere come funziona per il tuo hotel?",
+    "ctaButton": "Prenota una chiamata"
+  },
+  "founders": {
+    "label": "Team",
+    "title": "Chi c'è dietro Controlá",
+    "tomas": {
+      "role": "CEO e cofondatore",
+      "bio": "Ingegnere informatico con oltre 7 anni di esperienza nell'IoT. Ha lavorato in Israele, Germania e Spagna sviluppando soluzioni di connettività e automazione per edifici."
+    },
+    "ezequiel": {
+      "role": "Cofondatore",
+      "bio": "Fondatore di Lodging Apartments. 20 anni di gestione di alloggi turistici, con oltre 150 proprietà sotto la sua direzione. Conosce i problemi operativi in prima persona."
+    }
+  },
+  "contact": {
+    "title": "Parliamo del tuo hotel",
+    "subtitle": "Raccontaci un po' della tua operatività e ti mostriamo come sarebbe il pilota automatico nel tuo caso specifico.",
+    "name": "Nome",
+    "namePlaceholder": "Il tuo nome",
+    "hotel": "Hotel",
+    "hotelPlaceholder": "Nome dell'hotel",
+    "email": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "phone": "Telefono",
+    "phonePlaceholder": "+39 ...",
+    "message": "Messaggio (opzionale)",
+    "messagePlaceholder": "Raccontaci brevemente cosa ti interessa o quali problemi ha il tuo hotel...",
+    "submit": "Prenota una chiamata",
+    "note": "Ti contattiamo entro 24 ore."
+  },
+  "footer": {
+    "solutions": "Soluzioni",
+    "cases": "Casi di successo",
+    "resources": "Risorse",
+    "about": "Chi siamo",
+    "copyright": "© 2026 Controlá. Barcellona, Spagna. Tutti i diritti riservati."
+  }
+}

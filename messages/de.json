@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Controlá - Ihr Hotel auf Autopilot",
+    "description": "Controlá digitalisiert die Infrastruktur Ihres Hotels. Wir nutzen, was Sie bereits haben, und ergänzen, was fehlt. Klimatisierung, Betrieb, Störungsprävention und Zutrittskontrolle auf Autopilot.",
+    "ogTitle": "Controlá - Ihr Hotel auf Autopilot",
+    "ogDescription": "Wir automatisieren den Hotelbetrieb, indem wir die vorhandene Infrastruktur nutzen."
+  },
+  "nav": {
+    "solutions": "Lösungen",
+    "howItWorks": "So funktioniert's",
+    "cases": "Erfolgsgeschichten",
+    "faq": "FAQ",
+    "about": "Über uns",
+    "blog": "Blog",
+    "cta": "Kontakt"
+  },
+  "hero": {
+    "badge": "Für Hotels und Aparthotels",
+    "titleStart": "Setzen Sie Ihr Hotel auf",
+    "titleAccent": "Autopilot",
+    "subtitle": "Wir nutzen die Infrastruktur, die Sie bereits haben, und ergänzen, was fehlt, damit sich Ihre Zimmeroperationen von selbst verwalten.",
+    "cta": "Gespräch vereinbaren",
+    "note": "15 Minuten. Unverbindlich."
+  },
+  "proof": {
+    "text": "Bereits im Einsatz in Hotels und Unterkünften in"
+  },
+  "problems": {
+    "title": "Was passiert, wenn Sie nicht wissen, was in Ihren Zimmern passiert",
+    "subtitle": "Die meisten Hotels erfahren von Problemen, wenn es bereits zu spät ist.",
+    "card1Title": "Klimaanlage läuft in leeren Zimmern",
+    "card1Text": "Leere Zimmer mit laufender Klimaanlage oder Heizung - stundenlang. Geld, das zum Fenster hinausfliegt.",
+    "card2Title": "Housekeeping im Blindflug",
+    "card2Text": "Das Reinigungsteam weiß nicht, wann der Gast gegangen ist. Sie klopfen, warten, verlieren Zeit. Oder schlimmer: Das Zimmer bleibt ungereinigt.",
+    "card3Title": "Störungen zu spät entdeckt",
+    "card3Text": "Wasserlecks, defekte Boiler, kaputte Klimaanlagen. Sie erfahren es, wenn der Gast sich beschwert, nicht wenn das Problem beginnt."
+  },
+  "solutions": {
+    "label": "Lösungen",
+    "title": "Alles, was Sie brauchen, an einem Ort",
+    "subtitle": "Jede Lösung integriert sich in die Systeme, die Sie bereits haben. Ohne bei Null anzufangen.",
+    "learnMore": "Mehr erfahren",
+    "clima": {
+      "title": "Klimamanagement",
+      "description": "Die Klimatisierung passt sich automatisch an die tatsächliche Belegung jedes Zimmers an. Ohne manuelles Eingreifen.",
+      "f1": "Automatische Abschaltung in leeren Zimmern",
+      "f2": "Temperaturanpassung nach Belegung",
+      "f3": "Kompatibel mit vorhandenen Thermostaten",
+      "f4": "Unterstützung für Zentralsysteme",
+      "f5": "Steuerung von Klimaanlage und Heizung",
+      "f6": "Boiler-Management"
+    },
+    "ops": {
+      "title": "Zimmerbetrieb",
+      "description": "Das Hotel weiß in Echtzeit, was in jedem Zimmer passiert, und handelt automatisch.",
+      "f1": "Checkout-Button (3.000+ Nutzungen)",
+      "f2": "Automatische Housekeeping-Benachrichtigung",
+      "f3": "Echtzeit-Belegungserkennung",
+      "f4": "Direkte Verbindung mit Ihrem PMS",
+      "f5": "80% Gästeakzeptanz",
+      "f6": "Zentrales Dashboard"
+    },
+    "prevention": {
+      "title": "Störungsprävention",
+      "description": "Erkennen Sie Probleme, bevor sie eskalieren. Weniger Gästebeschwerden, weniger kostspielige Reparaturen.",
+      "f1": "Wasserleck-Sensoren",
+      "f2": "Alarme bei abnormalem Verbrauch",
+      "f3": "Raucherkennung",
+      "f4": "Fensterkontrolle nach Checkout",
+      "f5": "Türüberwachung",
+      "f6": "Glühbirnenstatus"
+    },
+    "access": {
+      "title": "Zutrittskontrolle",
+      "description": "Dynamische Zugangscodes, die automatisch für jeden Gast generiert werden. Ohne physische Schlüssel.",
+      "f1": "An die Reservierung gebundene Codes",
+      "f2": "Intelligente Schlösser",
+      "f3": "Autonomer Check-in 24/7",
+      "f4": "Powered by RemoteLock",
+      "f5": "Zugangshistorie",
+      "f6": "PMS-Integration"
+    }
+  },
+  "how": {
+    "label": "So funktioniert's",
+    "title": "Von Ihrem aktuellen Hotel zum Autopilot in 3 Schritten",
+    "step1Title": "Wir analysieren Ihre Infrastruktur",
+    "step1Text": "Wir prüfen die Technologie Ihres Hotels: Thermostate, zentrale Klimatisierung, Kameras, Schlösser. Wir identifizieren, was genutzt werden kann und was ergänzt werden muss.",
+    "step2Title": "Wir verbinden und konfigurieren",
+    "step2Text": "Wir integrieren alles mit Ihrem PMS und unserer Plattform. Wir richten Automatisierungen ein, die auf den tatsächlichen Betrieb Ihres Hotels abgestimmt sind.",
+    "step3Title": "Ihr Hotel läuft von allein",
+    "step3Text": "Die Zimmer werden automatisch verwaltet. Die Klimatisierung reguliert sich selbst, das Reinigungsteam erhält die Benachrichtigungen, und Sie sehen alles auf einem einzigen Dashboard."
+  },
+  "cases": {
+    "label": "Erfolgsgeschichten",
+    "title": "Hotels, die bereits auf Autopilot laufen",
+    "subtitle": "Jede Implementierung ist anders. Hier sind einige echte Beispiele.",
+    "tag": "Klimatisierung + Checkout",
+    "caseTitle": "Boutique-Hotel in Granada",
+    "caseText": "Automatisierung der Klimatisierung und Checkout-Button integriert mit PMS für Housekeeping-Management.",
+    "stat1Value": "3.000+",
+    "stat1Label": "Verarbeitete Checkouts",
+    "stat2Value": "80%",
+    "stat2Label": "Gästeakzeptanz",
+    "placeholder1": "Fallstudie in Vorbereitung.\nEchte Energieeinsparungsdaten demnächst verfügbar.",
+    "placeholder2": "Fallstudie in Vorbereitung.\nKontaktieren Sie uns, wenn Sie eine Erfolgsgeschichte werden möchten."
+  },
+  "ctaBanner": {
+    "title": "Weniger Verschwendung. Weniger Überraschungen. Weniger manuelle Arbeit.",
+    "subtitle": "Jedes Hotel ist anders. Deshalb passen wir uns an das an, was Sie bereits haben, und bauen darauf auf.",
+    "cta": "Ich möchte es in 15 Minuten sehen"
+  },
+  "faq": {
+    "label": "Häufig gestellte Fragen",
+    "title": "Was uns immer gefragt wird",
+    "q1": "Muss ich neue Geräte kaufen?",
+    "a1": "Das hängt davon ab, was Sie bereits haben. Wenn Ihr Hotel über intelligente Thermostate, zentrale Klimasysteme oder vernetzte Schlösser verfügt, nutzen wir diese. Wenn etwas fehlt, empfehlen wir, was zu kaufen ist, oder stellen es direkt bereit. Ziel ist es, die Anfangsinvestition zu minimieren.",
+    "q2": "Wie lange dauert die Implementierung?",
+    "a2": "Das hängt von der Hotelgröße und der vorhandenen Infrastruktur ab. Bei Hotels, die bereits über intelligente Geräte verfügen, kann die Verbindung in Tagen erfolgen. Wenn neue Hardware installiert werden muss, kann der Prozess 1 bis 3 Wochen dauern.",
+    "q3": "Welche PMS sind kompatibel?",
+    "a3": "Wir arbeiten mit den am häufigsten verwendeten PMS im Hotelbereich. Wenn Sie ein bestimmtes PMS verwenden, kontaktieren Sie uns und wir bestätigen die Kompatibilität. Die PMS-Integration ermöglicht es den Automatisierungen, in Echtzeit auf Check-ins, Checkouts und Reservierungsänderungen zu reagieren.",
+    "q4": "Sind Bauarbeiten im Hotel erforderlich?",
+    "a4": "In den meisten Fällen nicht. Die von uns verwendeten Geräte sind kabellos und werden installiert, ohne die vorhandene Infrastruktur zu verändern. Wenn das Hotel bereits über Zentralsysteme verfügt, erfolgt die Integration per Software.",
+    "q5": "Was kostet es?",
+    "a5": "Das Modell ist ein monatliches Abonnement pro Gerät oder Zimmer. Keine großen Anfangsinvestitionen. Der genaue Preis hängt davon ab, welche Lösungen Sie benötigen und welche Infrastruktur bereits vorhanden ist. Wir erläutern es Ihnen im 15-Minuten-Gespräch.",
+    "q6": "Was passiert, wenn etwas ausfällt?",
+    "a6": "Wir überwachen kontinuierlich alle angeschlossenen Geräte. Wenn ein Sensor ausfällt oder die Verbindung verliert, erkennen wir dies automatisch und benachrichtigen Sie. Darüber hinaus sind die Automatisierungen mit Fallback-Lösungen ausgestattet, damit das Hotel normal weiterarbeitet."
+  },
+  "blog": {
+    "label": "Ressourcen",
+    "title": "Artikel und Berichte",
+    "subtitle": "Inhalte über operative Effizienz, Hoteltechnologie und Automatisierung.",
+    "soon": "Demnächst",
+    "tag1": "Energieeffizienz",
+    "title1": "Wie viel verliert Ihr Hotel durch Klimatisierung leerer Zimmer?",
+    "text1": "Eine Analyse der realen Auswirkungen von Energieverschwendung in Hotels mit 20 bis 100 Zimmern.",
+    "tag2": "Betrieb",
+    "title2": "Der Checkout-Button: Wie eine einfache Geste den Hotelbetrieb verändert",
+    "text2": "Echte Akzeptanzdaten und der Einfluss auf die Housekeeping-Koordination.",
+    "tag3": "Technologie",
+    "title3": "Wie Sie Ihr Hotel digitalisieren, ohne bei Null anzufangen",
+    "text3": "Praktischer Leitfaden zur Nutzung vorhandener Infrastruktur und Hinzufügen von Automatisierungsebenen.",
+    "backToBlog": "Zurück zum Blog",
+    "backToHome": "Zurück zur Startseite",
+    "ctaTitle": "Möchten Sie sehen, wie es für Ihr Hotel funktioniert?",
+    "ctaButton": "Gespräch vereinbaren"
+  },
+  "founders": {
+    "label": "Team",
+    "title": "Wer hinter Controlá steht",
+    "tomas": {
+      "role": "CEO & Mitgründer",
+      "bio": "Informatikingenieur mit über 7 Jahren Erfahrung im IoT-Bereich. Arbeitete in Israel, Deutschland und Spanien an Konnektivitäts- und Gebäudeautomatisierungslösungen."
+    },
+    "ezequiel": {
+      "role": "Mitgründer",
+      "bio": "Gründer von Lodging Apartments. 20 Jahre Erfahrung in der Verwaltung touristischer Unterkünfte mit über 150 Objekten. Kennt die operativen Probleme aus erster Hand."
+    }
+  },
+  "contact": {
+    "title": "Sprechen wir über Ihr Hotel",
+    "subtitle": "Erzählen Sie uns ein wenig über Ihren Betrieb und wir zeigen Ihnen, wie der Autopilot in Ihrem konkreten Fall aussehen würde.",
+    "name": "Name",
+    "namePlaceholder": "Ihr Name",
+    "hotel": "Hotel",
+    "hotelPlaceholder": "Hotelname",
+    "email": "E-Mail",
+    "emailPlaceholder": "sie@email.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+49 ...",
+    "message": "Nachricht (optional)",
+    "messagePlaceholder": "Beschreiben Sie kurz, was Sie interessiert oder welche Probleme Ihr Hotel hat...",
+    "submit": "Gespräch vereinbaren",
+    "note": "Wir melden uns innerhalb von 24 Stunden."
+  },
+  "footer": {
+    "solutions": "Lösungen",
+    "cases": "Erfolgsgeschichten",
+    "resources": "Ressourcen",
+    "about": "Über uns",
+    "copyright": "© 2026 Controlá. Barcelona, Spanien. Alle Rechte vorbehalten."
+  }
+}

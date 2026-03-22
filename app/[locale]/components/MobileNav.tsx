@@ -1,17 +1,22 @@
 "use client";
 
 import { useState } from "react";
-
-const navLinks = [
-  { href: "#soluciones", label: "Soluciones" },
-  { href: "#como-funciona", label: "Cómo funciona" },
-  { href: "#casos", label: "Casos de éxito" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#nosotros", label: "Nosotros" },
-];
+import { useTranslations, useLocale } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function MobileNav() {
+  const t = useTranslations("nav");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
+
+  const navLinks = [
+    { href: "#soluciones", label: t("solutions") },
+    { href: "#como-funciona", label: t("howItWorks") },
+    { href: "#casos", label: t("cases") },
+    { href: "#faq", label: t("faq") },
+    { href: "#nosotros", label: t("about") },
+    { href: `/${locale}/blog`, label: t("blog") },
+  ];
 
   return (
     <>
@@ -32,19 +37,25 @@ export default function MobileNav() {
             href="#contacto"
             className="bg-naranja text-white text-[0.9rem] font-semibold px-6 py-2.5 rounded-lg no-underline transition-all hover:bg-naranja-hover"
           >
-            Hablemos
+            {t("cta")}
           </a>
+        </li>
+        <li>
+          <LanguageSwitcher />
         </li>
       </ul>
 
-      {/* Mobile hamburger */}
-      <button
-        className="md:hidden bg-transparent border-none text-2xl cursor-pointer text-navy p-2"
-        onClick={() => setOpen(!open)}
-        aria-label="Menú"
-      >
-        {open ? "\u2715" : "\u2630"}
-      </button>
+      {/* Mobile: language switcher + hamburger */}
+      <div className="md:hidden flex items-center gap-2">
+        <LanguageSwitcher />
+        <button
+          className="bg-transparent border-none text-2xl cursor-pointer text-navy p-2"
+          onClick={() => setOpen(!open)}
+          aria-label="Menu"
+        >
+          {open ? "\u2715" : "\u2630"}
+        </button>
+      </div>
 
       {/* Mobile menu */}
       <div
@@ -66,7 +77,7 @@ export default function MobileNav() {
             onClick={() => setOpen(false)}
             className="bg-naranja text-white text-[0.9rem] font-semibold px-6 py-3 rounded-lg no-underline text-center mt-2 transition-all hover:bg-naranja-hover"
           >
-            Hablemos
+            {t("cta")}
           </a>
         </div>
       </div>
