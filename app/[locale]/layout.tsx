@@ -7,6 +7,7 @@ import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 import "./globals.css";
 
 const albertSans = Albert_Sans({
@@ -140,6 +141,7 @@ export default async function LocaleLayout({
           <Navbar />
           {children}
           <Footer />
+          <WhatsAppButton />
         </NextIntlClientProvider>
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){

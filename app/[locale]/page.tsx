@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import FAQ from "./components/FAQ";
+import ContactForm from "./components/ContactForm";
 
 /* ──────────────── SVG Icons ──────────────── */
 function SnowflakeIcon() {
@@ -262,36 +263,7 @@ function PageContent() {
         <div className="max-w-[600px] mx-auto text-center">
           <h2 className="text-[clamp(1.6rem,3vw,2.3rem)] font-bold mb-3">{t("contact.title")}</h2>
           <p className="text-white/60 mb-10 text-[1.05rem]">{t("contact.subtitle")}</p>
-          <form action="#" method="POST" className="flex flex-col gap-4 text-left">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label htmlFor="name" className="block text-[0.82rem] font-medium text-white/50 mb-1">{t("contact.name")}</label>
-                <input type="text" id="name" name="name" placeholder={t("contact.namePlaceholder")} required className="w-full py-3.5 px-4 bg-navy-mid border border-white/8 rounded-[10px] text-white text-[0.95rem] outline-none transition-colors focus:border-azul placeholder:text-white/25" style={{ fontFamily: "inherit" }} />
-              </div>
-              <div>
-                <label htmlFor="hotel" className="block text-[0.82rem] font-medium text-white/50 mb-1">{t("contact.hotel")}</label>
-                <input type="text" id="hotel" name="hotel" placeholder={t("contact.hotelPlaceholder")} className="w-full py-3.5 px-4 bg-navy-mid border border-white/8 rounded-[10px] text-white text-[0.95rem] outline-none transition-colors focus:border-azul placeholder:text-white/25" style={{ fontFamily: "inherit" }} />
-              </div>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label htmlFor="email" className="block text-[0.82rem] font-medium text-white/50 mb-1">{t("contact.email")}</label>
-                <input type="email" id="email" name="email" placeholder={t("contact.emailPlaceholder")} required className="w-full py-3.5 px-4 bg-navy-mid border border-white/8 rounded-[10px] text-white text-[0.95rem] outline-none transition-colors focus:border-azul placeholder:text-white/25" style={{ fontFamily: "inherit" }} />
-              </div>
-              <div>
-                <label htmlFor="phone" className="block text-[0.82rem] font-medium text-white/50 mb-1">{t("contact.phone")}</label>
-                <input type="tel" id="phone" name="phone" placeholder={t("contact.phonePlaceholder")} className="w-full py-3.5 px-4 bg-navy-mid border border-white/8 rounded-[10px] text-white text-[0.95rem] outline-none transition-colors focus:border-azul placeholder:text-white/25" style={{ fontFamily: "inherit" }} />
-              </div>
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-[0.82rem] font-medium text-white/50 mb-1">{t("contact.message")}</label>
-              <textarea id="message" name="message" placeholder={t("contact.messagePlaceholder")} className="w-full py-3.5 px-4 bg-navy-mid border border-white/8 rounded-[10px] text-white text-[0.95rem] outline-none transition-colors focus:border-azul placeholder:text-white/25 resize-y min-h-[100px]" style={{ fontFamily: "inherit" }} />
-            </div>
-            <button type="submit" className="bg-naranja text-white text-[1.05rem] font-bold py-4 px-10 border-none rounded-xl cursor-pointer transition-all mt-2 hover:bg-naranja-hover hover:-translate-y-px" style={{ fontFamily: "inherit" }}>
-              {t("contact.submit")}
-            </button>
-            <p className="text-center text-[0.82rem] text-white/40 mt-3">{t("contact.note")}</p>
-          </form>
+          <ContactForm />
         </div>
       </section>
 

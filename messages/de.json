@@ -166,7 +166,7 @@
     "hotelPlaceholder": "Hotelname",
     "email": "E-Mail",
     "emailPlaceholder": "sie@email.com",
-    "phone": "Telefon",
+    "phone": "Telefon (optional)",
     "phonePlaceholder": "+49 ...",
     "message": "Nachricht (optional)",
     "messagePlaceholder": "Beschreiben Sie kurz, was Sie interessiert oder welche Probleme Ihr Hotel hat...",

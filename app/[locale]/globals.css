@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@keyframes fade-in {
+  from { opacity: 0; transform: translateX(10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@utility animate-fade-in {
+  animation: fade-in 0.3s ease-out both;
+}
+
 @theme inline {
   --color-azul: #4141e2;
   --color-azul-hover: #3333c0;
