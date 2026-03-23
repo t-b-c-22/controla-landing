@@ -18,12 +18,13 @@
     "badge": "For hotels and aparthotels",
     "titleStart": "Put your hotel on",
     "titleAccent": "autopilot",
-    "subtitle": "We leverage the infrastructure you already have and fill in the gaps so your room operations run themselves.",
+    "subtitle": "Less wasted energy. Fewer guest complaints. More time for what matters.",
     "cta": "Book a call",
-    "note": "15 minutes. No commitment."
+    "note": "15 minutes. No commitment.",
+    "caption": "Room sensors + your PMS. The hotel reacts on its own."
   },
   "proof": {
-    "text": "Already running in hotels and accommodations in"
+    "text": "They already trust us"
   },
   "problems": {
     "title": "What happens when you don't know what's going on in your rooms",

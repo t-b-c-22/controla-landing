@@ -58,6 +58,27 @@ body {
   transform: rotate(45deg);
 }
 
+/* Logo marquee */
+.logo-marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 30s linear infinite;
+}
+
+.logo-marquee:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 /* Mobile menu */
 .mobile-menu {
   max-height: 0;

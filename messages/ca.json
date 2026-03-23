@@ -18,12 +18,13 @@
     "badge": "Per a hotels i aparthotels",
     "titleStart": "Posem el teu hotel en",
     "titleAccent": "pilot automàtic",
-    "subtitle": "Aprofitem la infraestructura que ja tens i completem el que falta perquè les operacions de les teves habitacions es gestionin soles.",
+    "subtitle": "Menys energia malbaratada. Menys queixes d'hostes. Més temps per al que importa.",
     "cta": "Agenda una trucada",
-    "note": "15 minuts. Sense compromís."
+    "note": "15 minuts. Sense compromís.",
+    "caption": "Sensors a les habitacions + el teu PMS. L'hotel reacciona sol."
   },
   "proof": {
-    "text": "Ja funcionant en hotels i allotjaments de"
+    "text": "Ja confien en nosaltres"
   },
   "problems": {
     "title": "Què passa quan no saps què està passant a les teves habitacions",

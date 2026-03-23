@@ -18,12 +18,13 @@
     "badge": "Per hotel e aparthotel",
     "titleStart": "Metti il tuo hotel in",
     "titleAccent": "pilota automatico",
-    "subtitle": "Sfruttiamo l'infrastruttura che hai già e completiamo ciò che manca perché le operazioni delle tue camere si gestiscano da sole.",
+    "subtitle": "Meno energia sprecata. Meno reclami degli ospiti. Più tempo per ciò che conta.",
     "cta": "Prenota una chiamata",
-    "note": "15 minuti. Senza impegno."
+    "note": "15 minuti. Senza impegno.",
+    "caption": "Sensori nelle camere + il tuo PMS. L'hotel reagisce da solo."
   },
   "proof": {
-    "text": "Già operativo in hotel e alloggi di"
+    "text": "Si fidano già di noi"
   },
   "problems": {
     "title": "Cosa succede quando non sai cosa sta succedendo nelle tue camere",

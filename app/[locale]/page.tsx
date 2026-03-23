@@ -57,32 +57,59 @@ function PageContent() {
   return (
     <main>
       {/* HERO */}
-      <section className="pt-[140px] pb-[100px] px-6 bg-gradient-to-b from-white to-gris text-center max-md:pt-[120px] max-md:pb-[70px]">
-        <div className="max-w-[820px] mx-auto">
-          <div className="inline-block bg-azul-light text-azul text-[0.85rem] font-semibold px-[18px] py-1.5 rounded-full mb-7">
-            {t("hero.badge")}
+      <section className="pt-[140px] pb-[100px] px-6 bg-gradient-to-b from-white to-gris max-md:pt-[120px] max-md:pb-[70px]">
+        <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 items-center">
+          {/* Left column — text + CTA */}
+          <div>
+            <div className="inline-block bg-azul-light text-azul text-[0.85rem] font-semibold px-[18px] py-1.5 rounded-full mb-7">
+              {t("hero.badge")}
+            </div>
+            <h1 className="text-[clamp(2.6rem,5.5vw,4rem)] font-[800] leading-[1.08] tracking-[-2px] mb-6 text-navy">
+              {t("hero.titleStart")}{" "}<span className="text-azul">{t("hero.titleAccent")}</span>
+            </h1>
+            <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[540px] mb-10 leading-[1.7]">
+              {t("hero.subtitle")}
+            </p>
+            <a href="#contacto" className="inline-block bg-naranja text-white text-[1.1rem] font-bold py-4 px-11 rounded-xl no-underline transition-all shadow-[0_4px_16px_rgba(224,94,39,0.25)] hover:bg-naranja-hover hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,94,39,0.3)]">
+              {t("hero.cta")}
+            </a>
+            <p className="mt-3.5 text-[0.85rem] text-gris-dark">{t("hero.note")}</p>
           </div>
-          <h1 className="text-[clamp(2.4rem,5vw,3.6rem)] font-[800] leading-[1.12] tracking-[-1.5px] mb-6 text-navy">
-            {t("hero.titleStart")}{" "}<span className="text-azul">{t("hero.titleAccent")}</span>
-          </h1>
-          <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[620px] mx-auto mb-10 leading-[1.7]">
-            {t("hero.subtitle")}
-          </p>
-          <a href="#contacto" className="inline-block bg-naranja text-white text-[1.1rem] font-bold py-4 px-11 rounded-xl no-underline transition-all shadow-[0_4px_16px_rgba(224,94,39,0.25)] hover:bg-naranja-hover hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,94,39,0.3)]">
-            {t("hero.cta")}
-          </a>
-          <p className="mt-3.5 text-[0.85rem] text-gris-dark">{t("hero.note")}</p>
+
+          {/* Right column — image placeholder */}
+          <div className="flex justify-center lg:justify-end">
+            <div className="w-full max-w-[520px] aspect-[4/3] bg-gris rounded-2xl flex items-center justify-center border border-black/5">
+              <span className="text-gris-dark text-[0.95rem] font-medium select-none">Imagen / Video</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* SOCIAL PROOF */}
-      <section className="py-9 px-6 bg-white border-b border-gris">
-        <div className="max-w-[900px] mx-auto text-center">
-          <p className="text-[0.9rem] text-gris-dark font-medium mb-4 uppercase tracking-[0.5px]">{t("proof.text")}</p>
-          <div className="flex justify-center flex-wrap gap-2.5">
-            {["Barcelona", "Granada", "Asturias", "Bilbao"].map((city) => (
-              <span key={city} className="bg-gris text-texto px-5 py-2 rounded-full text-[0.88rem] font-medium">{city}</span>
-            ))}
+      {/* CLIENT LOGOS */}
+      <section className="py-12 bg-white border-b border-gris overflow-hidden">
+        <p className="text-[0.8rem] font-medium text-[#6b7280] uppercase tracking-[2px] mb-8 text-center">{t("proof.text")}</p>
+        <div className="logo-marquee">
+          <div className="logo-marquee-track">
+            {[...Array(2)].map((_, copy) =>
+              [
+                { src: "/logos_clientes/logocliente_outsite.png", alt: "Outsite" },
+                { src: "/logos_clientes/logocliente_lodging.png", alt: "Lodging" },
+                { src: "/logos_clientes/logocliente_aspasios.jpg", alt: "Aspasios" },
+                { src: "/logos_clientes/logocliente_urbanhosts.png", alt: "Urban Hosts" },
+                { src: "/logos_clientes/logocliente_noucentista.png", alt: "Hotel Noucentista" },
+                { src: "/logos_clientes/logocliente_canela.png", alt: "Canela Homes" },
+                { src: "/logos_clientes/logocliente_apolohomes.png", alt: "Apolo Homes" },
+                { src: "/logos_clientes/logocliente_gapri.png", alt: "Gapri" },
+              ].map((logo) => (
+                <div key={`${copy}-${logo.alt}`} className="h-[56px] w-[180px] flex-shrink-0 flex items-center justify-center mx-8 max-md:h-[40px] max-md:w-[130px] max-md:mx-5">
+                  <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    className="max-h-full max-w-full object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                  />
+                </div>
+              ))
+            )}
           </div>
         </div>
       </section>
