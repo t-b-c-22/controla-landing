@@ -87,8 +87,38 @@ function PostContent({
 }) {
   const t = useTranslations("blog");
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    author: {
+      "@type": "Organization",
+      name: "Controlá",
+      url: "https://controla.cloud",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Controlá",
+      url: "https://controla.cloud",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://controla.cloud/logo.svg",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://controla.cloud/${locale}/blog/${post.slug}`,
+    },
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <article className="pt-[148px] pb-[80px] px-6 bg-white max-md:pt-[118px] max-md:pb-[50px]">
         <div className="max-w-[720px] mx-auto">
           {/* Header */}

@@ -207,6 +207,23 @@ function PageContent() {
             <SectionTitle className="text-center mb-12">{t("faq.title")}</SectionTitle>
           </div>
           <FAQ />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                mainEntity: Array.from({ length: 6 }, (_, i) => ({
+                  "@type": "Question",
+                  name: t(`faq.q${i + 1}`),
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: t(`faq.a${i + 1}`),
+                  },
+                })),
+              }),
+            }}
+          />
         </div>
       </section>
 

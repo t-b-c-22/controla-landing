@@ -5,13 +5,13 @@ tag: "Tecnología"
 date: "2026-03-08"
 ---
 
-## No necesitás tirar todo y empezar de nuevo
+## No necesitas tirarlo todo y empezar de nuevo
 
 Muchos hoteleros creen que digitalizar su hotel implica una inversión enorme, obras, y meses de disrupción. La realidad es muy diferente.
 
 La mayoría de los hoteles ya tienen infraestructura tecnológica que se puede aprovechar. Termostatos, sistemas de climatización centralizada, cerraduras electrónicas, cámaras, PMS. El desafío no es comprar tecnología nueva, sino conectar lo que ya existe.
 
-### Paso 1: Auditar lo que ya tenés
+### Paso 1: Auditar lo que ya tienes
 
 Antes de comprar cualquier dispositivo nuevo, hay que entender qué tecnología tiene tu hotel:
 
@@ -22,7 +22,7 @@ Antes de comprar cualquier dispositivo nuevo, hay que entender qué tecnología 
 
 ### Paso 2: Identificar las capas de conexión
 
-Una vez que sabés qué tenés, podés agregar capas de conectividad sin reemplazar los sistemas existentes:
+Una vez que sabes qué tienes, puedes agregar capas de conectividad sin reemplazar los sistemas existentes:
 
 - **Termostatos existentes** se pueden complementar con sensores de ocupación
 - **Sistemas centralizados** se pueden controlar vía pasarelas de integración
@@ -40,7 +40,7 @@ No hay que digitalizar todo de golpe. Lo más efectivo es empezar por donde el i
 
 ### Paso 4: Medir y ajustar
 
-La digitalización no es un proyecto de una vez. Es un proceso continuo. Una vez que tenés datos, podés:
+La digitalización no es un proyecto de una vez. Es un proceso continuo. Una vez que tienes datos, puedes:
 
 - Identificar patrones de consumo energético
 - Optimizar horarios de housekeeping
@@ -49,4 +49,4 @@ La digitalización no es un proyecto de una vez. Es un proceso continuo. Una vez
 
 ### Conclusión
 
-Digitalizar un hotel no tiene por qué ser traumático ni caro. La clave es aprovechar lo que ya tenés, agregar capas de conectividad inteligente, y empezar por las áreas de mayor impacto. El resultado: un hotel que opera mejor, gasta menos, y ofrece una mejor experiencia al huésped.
+Digitalizar un hotel no tiene por qué ser traumático ni caro. La clave es aprovechar lo que ya tienes, agregar capas de conectividad inteligente, y empezar por las áreas de mayor impacto. El resultado: un hotel que opera mejor, gasta menos, y ofrece una mejor experiencia al huésped.

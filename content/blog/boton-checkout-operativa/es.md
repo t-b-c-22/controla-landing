@@ -9,7 +9,7 @@ date: "2026-03-15"
 
 En la mayoría de los hoteles, la coordinación entre el checkout del huésped y la llegada del equipo de limpieza es un proceso manual, lento y propenso a errores.
 
-El huésped se va. Recepción actualiza el PMS. Housekeeping consulta una lista. Alguien asigna la habitación. El equipo de limpieza va, toca la puerta por las dudas, y recién ahí empieza a trabajar.
+El huésped se va. Recepción actualiza el PMS. Housekeeping consulta una lista. Alguien asigna la habitación. El equipo de limpieza va, llama a la puerta por si acaso, y solo entonces empieza a trabajar.
 
 Este flujo tiene varios problemas:
 

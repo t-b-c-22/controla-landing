@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Controlá - Tu hotel en piloto automático",
-    "description": "Controlá digitaliza la infraestructura de tu hotel. Aprovechamos lo que ya tenés y completamos lo que falta. Climatización, operativa, prevención de incidencias y control de acceso en piloto automático.",
+    "description": "Controlá digitaliza la infraestructura de tu hotel. Aprovechamos lo que ya tienes y completamos lo que falta. Climatización, operativa, prevención de incidencias y control de acceso en piloto automático.",
     "ogTitle": "Controlá - Tu hotel en piloto automático",
-    "ogDescription": "Automatizamos las operaciones de tu hotel aprovechando la infraestructura que ya tenés."
+    "ogDescription": "Automatizamos las operaciones de tu hotel aprovechando la infraestructura que ya tienes."
   },
   "nav": {
     "solutions": "Soluciones",
@@ -18,7 +18,7 @@
     "badge": "Para hoteles y aparthoteles",
     "titleStart": "Ponemos tu hotel en",
     "titleAccent": "piloto automático",
-    "subtitle": "Aprovechamos la infraestructura que ya tenés y completamos lo que falta para que las operaciones de tus habitaciones se gestionen solas.",
+    "subtitle": "Aprovechamos la infraestructura que ya tienes y completamos lo que falta para que las operaciones de tus habitaciones se gestionen solas.",
     "cta": "Agendar una llamada",
     "note": "15 minutos. Sin compromiso."
   },
@@ -26,19 +26,19 @@
     "text": "Ya funcionando en hoteles y alojamientos de"
   },
   "problems": {
-    "title": "Lo que pasa cuando no sabés qué está pasando en tus habitaciones",
+    "title": "Lo que pasa cuando no sabes qué está pasando en tus habitaciones",
     "subtitle": "La mayoría de los hoteles se enteran de los problemas cuando ya es tarde.",
     "card1Title": "Climatización encendida sin nadie",
     "card1Text": "Habitaciones vacías con el aire o la calefacción funcionando durante horas. Dinero que se va por el techo.",
     "card2Title": "Housekeeping a ciegas",
     "card2Text": "El equipo de limpieza no sabe cuándo el huésped se fue. Tocan puertas, esperan, pierden tiempo. O peor: la habitación queda sin limpiar.",
     "card3Title": "Incidencias que se descubren tarde",
-    "card3Text": "Fugas de agua, termos que no funcionan, aires averiados. Te enterás cuando el huésped se queja, no cuando el problema empieza."
+    "card3Text": "Fugas de agua, termos que no funcionan, aires averiados. Te enteras cuando el huésped se queja, no cuando el problema empieza."
   },
   "solutions": {
     "label": "Soluciones",
-    "title": "Todo lo que necesitás, en un solo lugar",
-    "subtitle": "Cada solución se integra con los sistemas que ya tenés. Sin empezar de cero.",
+    "title": "Todo lo que necesitas, en un solo lugar",
+    "subtitle": "Cada solución se integra con los sistemas que ya tienes. Sin empezar de cero.",
     "learnMore": "Saber más",
     "clima": {
       "title": "Gestión de climatización",
@@ -62,7 +62,7 @@
     },
     "prevention": {
       "title": "Prevención de incidencias",
-      "description": "Detectá problemas antes de que escalen. Menos quejas de huéspedes, menos reparaciones costosas.",
+      "description": "Detecta problemas antes de que escalen. Menos quejas de huéspedes, menos reparaciones costosas.",
       "f1": "Sensor de fugas de agua",
       "f2": "Alertas de consumo anormal",
       "f3": "Detección de humo",
@@ -89,7 +89,7 @@
     "step2Title": "Conectamos y configuramos",
     "step2Text": "Integramos todo con tu PMS y nuestra plataforma. Configuramos las automatizaciones adaptadas a la operativa real de tu hotel.",
     "step3Title": "Tu hotel funciona solo",
-    "step3Text": "Las habitaciones se gestionan automáticamente. La climatización se regula sola, limpieza recibe los avisos, y vos lo ves todo desde un único panel."
+    "step3Text": "Las habitaciones se gestionan automáticamente. La climatización se regula sola, limpieza recibe los avisos, y tú lo ves todo desde un único panel."
   },
   "cases": {
     "label": "Casos de éxito",
@@ -103,11 +103,11 @@
     "stat2Value": "80%",
     "stat2Label": "Adopción huéspedes",
     "placeholder1": "Caso de estudio en preparación.\nDatos de ahorro energético real disponibles próximamente.",
-    "placeholder2": "Caso de estudio en preparación.\nContactanos si querés ser un caso de éxito."
+    "placeholder2": "Caso de estudio en preparación.\nContáctanos si quieres ser un caso de éxito."
   },
   "ctaBanner": {
     "title": "Menos desperdicio. Menos sorpresas. Menos trabajo manual.",
-    "subtitle": "Cada hotel es diferente. Por eso nos adaptamos a lo que ya tenés y construimos desde ahí.",
+    "subtitle": "Cada hotel es diferente. Por eso nos adaptamos a lo que ya tienes y construimos desde ahí.",
     "cta": "Quiero verlo en 15 minutos"
   },
   "faq": {
@@ -118,11 +118,11 @@
     "q2": "¿Cuánto tiempo lleva la implementación?",
     "a2": "Depende del tamaño del hotel y de la infraestructura existente. En hoteles que ya tienen dispositivos inteligentes, la conexión puede hacerse en días. Si hay que instalar hardware nuevo, el proceso puede tardar entre 1 y 3 semanas.",
     "q3": "¿Qué PMS son compatibles?",
-    "a3": "Trabajamos con los PMS más utilizados en el sector hotelero. Si usás un PMS específico, contactanos y te confirmamos la compatibilidad. La integración con el PMS es lo que permite que las automatizaciones respondan a check-ins, checkouts y cambios de reserva en tiempo real.",
+    "a3": "Trabajamos con los PMS más utilizados en el sector hotelero. Si usas un PMS específico, contáctanos y te confirmamos la compatibilidad. La integración con el PMS es lo que permite que las automatizaciones respondan a check-ins, checkouts y cambios de reserva en tiempo real.",
     "q4": "¿Hay que hacer obras en el hotel?",
     "a4": "En la mayoría de los casos, no. Los dispositivos que utilizamos son inalámbricos y se instalan sin necesidad de modificar la infraestructura existente. Si el hotel ya tiene sistemas centralizados, la integración es por software.",
     "q5": "¿Cuánto cuesta?",
-    "a5": "El modelo es por suscripción mensual por dispositivo o habitación. No hay grandes inversiones iniciales. El precio exacto depende de qué soluciones necesitás y de la infraestructura existente. Te lo detallamos en la llamada de 15 minutos.",
+    "a5": "El modelo es por suscripción mensual por dispositivo o habitación. No hay grandes inversiones iniciales. El precio exacto depende de qué soluciones necesitas y de la infraestructura existente. Te lo detallamos en la llamada de 15 minutos.",
     "q6": "¿Qué pasa si algo falla?",
     "a6": "Tenemos monitoreo continuo de todos los dispositivos conectados. Si un sensor deja de funcionar o pierde conexión, lo detectamos automáticamente y te avisamos. Además, las automatizaciones están diseñadas con fallbacks para que el hotel siga operando normalmente."
   },
@@ -142,7 +142,7 @@
     "text3": "Guía práctica para aprovechar la infraestructura existente y añadir capas de automatización.",
     "backToBlog": "Volver al blog",
     "backToHome": "Volver al inicio",
-    "ctaTitle": "¿Querés ver cómo funciona en tu hotel?",
+    "ctaTitle": "¿Quieres ver cómo funciona en tu hotel?",
     "ctaButton": "Agendar una llamada"
   },
   "founders": {
@@ -159,7 +159,7 @@
   },
   "contact": {
     "title": "Hablemos de tu hotel",
-    "subtitle": "Contanos un poco sobre tu operativa y te mostramos cómo sería el piloto automático en tu caso concreto.",
+    "subtitle": "Cuéntanos un poco sobre tu operativa y te mostramos cómo sería el piloto automático en tu caso concreto.",
     "name": "Nombre",
     "namePlaceholder": "Tu nombre",
     "hotel": "Hotel",
@@ -169,7 +169,7 @@
     "phone": "Teléfono (opcional)",
     "phonePlaceholder": "+34 ...",
     "message": "Mensaje (opcional)",
-    "messagePlaceholder": "Contanos brevemente qué te interesa o qué problemas tenés en tu hotel...",
+    "messagePlaceholder": "Cuéntanos brevemente qué te interesa o qué problemas tienes en tu hotel...",
     "submit": "Agendar llamada",
     "note": "Te contactamos en menos de 24 horas."
   },
