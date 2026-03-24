@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
+import ScrollToTop from "./components/ScrollToTop";
 import "./globals.css";
 
 const albertSans = Albert_Sans({
@@ -145,6 +146,7 @@ export default async function LocaleLayout({
           {children}
           <Footer />
           <WhatsAppButton />
+          <ScrollToTop />
         </NextIntlClientProvider>
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){
