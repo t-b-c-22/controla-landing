@@ -73,6 +73,9 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+    icons: {
+      icon: "/icon.png",
+    },
   };
 }
 
