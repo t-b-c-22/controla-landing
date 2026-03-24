@@ -180,5 +180,113 @@
     "resources": "Ressources",
     "about": "À propos",
     "copyright": "© 2026 Controlá. Barcelone, Espagne. Tous droits réservés."
+  },
+  "checkoutButton": {
+    "meta": {
+      "title": "Bouton de Checkout Intelligent | Controlá",
+      "description": "Bouton IoT qui notifie automatiquement votre équipe lorsque le client fait son checkout. +85% d'adoption. Installation en 15 minutes."
+    },
+    "hero": {
+      "badge": "Checkout intelligent",
+      "title": "Le checkout, en un seul geste.",
+      "subtitle": "Vos clients appuient sur un bouton en partant. Votre équipe reçoit la notification instantanément. Sans application, sans attente, sans complications.",
+      "cta": "Je veux l'essayer",
+      "secondaryCta": "Voir comment ça marche"
+    },
+    "problem": {
+      "label": "Le problème",
+      "title": "Les clients sont-ils déjà partis ?",
+      "text1": "Les hôtes et le personnel de ménage n'ont aucune information en temps réel sur le moment où les chambres se libèrent.",
+      "text2": "Des milliers de messages inutiles entre les équipes d'opérations et de ménage par manque d'information sur le départ des clients.",
+      "text3": "Des chambres qui pourraient être prêtes des heures plus tôt restent en attente parce que personne n'a confirmé le départ du client."
+    },
+    "solution": {
+      "label": "La solution",
+      "title": "Un bouton. Une notification. Zéro friction.",
+      "text": "Bouton intelligent connecté à internet que les clients pressent lors du checkout pour signaler qu'ils quittent la propriété.",
+      "text2": "Lorsque le bouton est pressé, l'équipe de ménage et d'opérations reçoit une notification immédiate pour commencer le nettoyage sans délai."
+    },
+    "howItWorks": {
+      "label": "Comment ça marche",
+      "title": "Extrêmement simple",
+      "step1Title": "Le client s'en va",
+      "step1Text": "Il appuie sur le bouton au moment du checkout. Le système envoie une notification indiquant que la chambre est libérée.",
+      "step2Title": "Le ménage intervient",
+      "step2Text": "Le personnel de ménage reçoit l'alerte et se rend directement à la chambre. Sans attente, sans frapper aux portes.",
+      "step3Title": "Chambre prête",
+      "step3Text": "Une fois terminé, le personnel appuie sur le bouton. L'équipe d'opérations sait que la chambre est prête pour le prochain client."
+    },
+    "stats": {
+      "stat1Value": "+85%",
+      "stat1Label": "des clients appuient sur le bouton",
+      "stat2Value": "1 sur 3",
+      "stat2Label": "chambres font le checkout avant 9h00",
+      "stat3Value": "<15 min",
+      "stat3Label": "pour installer le système complet"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "title": "Des alertes là où vous en avez besoin",
+      "text": "Notifications à toutes les personnes ou équipes que vous souhaitez, par le canal de votre choix.",
+      "who1": "Personnel de ménage",
+      "who2": "Équipe d'Opérations",
+      "who3": "Property Manager",
+      "who4": "Groupes WhatsApp",
+      "channel1": "WhatsApp",
+      "channel2": "Email",
+      "channel3": "Telegram",
+      "channel4": "PMS"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "title": "Tout en temps réel",
+      "text": "Tableau de bord conçu pour les responsables d'opérations qui affiche en temps réel :",
+      "f1": "Quelles chambres ont déjà fait le checkout (et à quelle heure)",
+      "f2": "Lesquelles sont encore occupées",
+      "f3": "Si le ménage est déjà passé (et quand)",
+      "f4": "Lesquelles sont déjà prêtes pour le prochain client"
+    },
+    "installation": {
+      "label": "Installation",
+      "title": "Opérationnel en 15 minutes",
+      "step1": "Collez le bouton de checkout sur la porte",
+      "step2": "Connectez notre centrale à votre routeur",
+      "step3": "C'est tout !",
+      "note": "Le kit comprend tout le nécessaire pour l'installation. Vous n'avez même pas besoin d'un tournevis. N'importe qui peut l'installer."
+    },
+    "pricing": {
+      "label": "Tarif",
+      "title": "Commencez à optimiser vos opérations",
+      "price": "99",
+      "currency": "€",
+      "perUnit": "par chambre",
+      "includes1": "Bouton de checkout",
+      "includes2": "Affiche personnalisée avec votre logo",
+      "includes3": "Centrale incluse",
+      "includes4": "Dashboard et notifications",
+      "cta": "Je veux l'essayer"
+    },
+    "faq": {
+      "label": "Questions fréquentes",
+      "title": "Tout ce que vous devez savoir",
+      "q1": "Combien de temps prend l'installation ?",
+      "a1": "Moins de 10 minutes ! Il suffit de coller l'affiche avec le bouton sur la porte et de connecter la centrale au routeur.",
+      "q2": "Faut-il des outils spéciaux ?",
+      "a2": "Non. Le kit comprend absolument tout le nécessaire pour l'installation. Vous n'avez même pas besoin d'un tournevis.",
+      "q3": "Faut-il des connaissances techniques ?",
+      "a3": "Si vous savez coller une affiche sur une porte et brancher un chargeur sur une prise, vous pouvez installer le bouton.",
+      "q4": "Comment fonctionnent les appareils ?",
+      "a4": "Les appareils fonctionnent avec des piles et envoient les données sans fil à la centrale connectée au routeur.",
+      "q5": "Quelle est la durée de vie des piles ?",
+      "a5": "Les piles des appareils durent entre 12 et 24 mois.",
+      "q6": "Avez-vous des remises pour les grandes quantités ?",
+      "a6": "Oui ! Si vous avez plus de 50 appartements, nous avons des remises exclusives pour vous.",
+      "q7": "Que se passe-t-il si le bouton est pressé un jour sans checkout ?",
+      "a7": "Nous nous connectons à votre calendrier de réservations pour que le bouton ne fonctionne que les jours de checkout. S'il est pressé un autre jour, aucun message ne sera envoyé."
+    },
+    "cta": {
+      "title": "Vous voulez voir comment ça marche dans votre hôtel ?",
+      "button": "Réserver un appel"
+    }
   }
 }

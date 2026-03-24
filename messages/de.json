@@ -180,5 +180,113 @@
     "resources": "Ressourcen",
     "about": "Über uns",
     "copyright": "© 2026 Controlá. Barcelona, Spanien. Alle Rechte vorbehalten."
+  },
+  "checkoutButton": {
+    "meta": {
+      "title": "Intelligenter Checkout-Button | Controlá",
+      "description": "IoT-Button, der Ihr Team automatisch benachrichtigt, wenn der Gast auscheckt. +85% Akzeptanz. Installation in 15 Minuten."
+    },
+    "hero": {
+      "badge": "Intelligenter Checkout",
+      "title": "Der Checkout, mit nur einem Tastendruck.",
+      "subtitle": "Ihre Gäste drücken beim Verlassen einen Knopf. Ihr Team erhält sofort die Benachrichtigung. Ohne Apps, ohne Wartezeit, ohne Komplikationen.",
+      "cta": "Ich will es testen",
+      "secondaryCta": "Sehen, wie es funktioniert"
+    },
+    "problem": {
+      "label": "Das Problem",
+      "title": "Sind die Gäste schon weg?",
+      "text1": "Gastgeber und Reinigungspersonal haben keine Echtzeitinformationen darüber, wann die Zimmer frei werden.",
+      "text2": "Tausende unnötige Nachrichten zwischen Betriebs- und Reinigungsteams wegen fehlender Informationen über die Abreise der Gäste.",
+      "text3": "Zimmer, die Stunden früher bereit sein könnten, bleiben unbearbeitet, weil niemand bestätigt hat, dass der Gast abgereist ist."
+    },
+    "solution": {
+      "label": "Die Lösung",
+      "title": "Ein Button. Eine Benachrichtigung. Null Reibung.",
+      "text": "Intelligenter, internetfähiger Button, den die Gäste beim Checkout drücken, um zu signalisieren, dass sie die Unterkunft verlassen.",
+      "text2": "Wenn der Button gedrückt wird, erhält das Reinigungs- und Betriebsteam sofort eine Benachrichtigung, um mit der Zimmerreinigung ohne Verzögerung zu beginnen."
+    },
+    "howItWorks": {
+      "label": "So funktioniert's",
+      "title": "Extrem einfach",
+      "step1Title": "Der Gast reist ab",
+      "step1Text": "Er drückt den Button beim Checkout. Das System sendet eine Benachrichtigung, dass das Zimmer frei ist.",
+      "step2Title": "Reinigung handelt",
+      "step2Text": "Das Reinigungspersonal erhält die Meldung und geht direkt zum Zimmer. Ohne Wartezeit, ohne an Türen zu klopfen.",
+      "step3Title": "Zimmer bereit",
+      "step3Text": "Nach Abschluss drückt das Personal den Button. Das Betriebsteam weiß, dass das Zimmer für den nächsten Gast bereit ist."
+    },
+    "stats": {
+      "stat1Value": "+85%",
+      "stat1Label": "der Gäste drücken den Button",
+      "stat2Value": "1 von 3",
+      "stat2Label": "Zimmern checken vor 9:00 Uhr aus",
+      "stat3Value": "<15 min",
+      "stat3Label": "für die komplette Installation"
+    },
+    "notifications": {
+      "label": "Benachrichtigungen",
+      "title": "Meldungen, wo Sie sie brauchen",
+      "text": "Benachrichtigungen an alle Personen oder Teams, die Sie möchten, über den Kanal Ihrer Wahl.",
+      "who1": "Reinigungspersonal",
+      "who2": "Betriebsteam",
+      "who3": "Property Manager",
+      "who4": "WhatsApp-Gruppen",
+      "channel1": "WhatsApp",
+      "channel2": "Email",
+      "channel3": "Telegram",
+      "channel4": "PMS"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "title": "Alles in Echtzeit",
+      "text": "Dashboard für Betriebsleiter, das in Echtzeit anzeigt:",
+      "f1": "Welche Zimmer bereits ausgecheckt haben (und um welche Uhrzeit)",
+      "f2": "Welche noch belegt sind",
+      "f3": "Ob die Reinigung bereits vor Ort war (und wann)",
+      "f4": "Welche bereits für den nächsten Gast bereit sind"
+    },
+    "installation": {
+      "label": "Installation",
+      "title": "In 15 Minuten einsatzbereit",
+      "step1": "Kleben Sie den Checkout-Button an die Tür",
+      "step2": "Verbinden Sie unsere Zentrale mit Ihrem Router",
+      "step3": "Das war's!",
+      "note": "Das Paket enthält alles, was für die Installation benötigt wird. Sie brauchen nicht einmal einen Schraubenzieher. Jeder kann es installieren."
+    },
+    "pricing": {
+      "label": "Preis",
+      "title": "Optimieren Sie Ihren Betrieb",
+      "price": "99",
+      "currency": "€",
+      "perUnit": "pro Zimmer",
+      "includes1": "Checkout-Button",
+      "includes2": "Personalisiertes Schild mit Ihrem Logo",
+      "includes3": "Zentrale inklusive",
+      "includes4": "Dashboard und Benachrichtigungen",
+      "cta": "Ich will es testen"
+    },
+    "faq": {
+      "label": "Häufig gestellte Fragen",
+      "title": "Alles, was Sie wissen müssen",
+      "q1": "Wie lange dauert die Installation?",
+      "a1": "Weniger als 10 Minuten! Sie müssen nur das Schild mit dem Button an die Tür kleben und die Zentrale mit dem Router verbinden.",
+      "q2": "Wird spezielles Werkzeug benötigt?",
+      "a2": "Nein. Das Paket enthält absolut alles, was für die Installation benötigt wird. Sie brauchen nicht einmal einen Schraubenzieher.",
+      "q3": "Brauche ich technische Kenntnisse?",
+      "a3": "Wenn Sie ein Schild an eine Tür kleben und ein Ladegerät an eine Steckdose anschließen können, können Sie den Button installieren.",
+      "q4": "Wie funktionieren die Geräte?",
+      "a4": "Die Geräte werden mit Batterien betrieben und senden die Daten drahtlos an die mit dem Router verbundene Zentrale.",
+      "q5": "Wie lange halten die Batterien?",
+      "a5": "Die Batterien der Geräte halten zwischen 12 und 24 Monaten.",
+      "q6": "Gibt es Mengenrabatte?",
+      "a6": "Ja! Wenn Sie mehr als 50 Apartments haben, bieten wir Ihnen exklusive Rabatte.",
+      "q7": "Was passiert, wenn der Button an einem Tag ohne Checkout gedrückt wird?",
+      "a7": "Wir verbinden uns mit Ihrem Reservierungskalender, damit der Button nur an Checkout-Tagen funktioniert. Wird er an einem anderen Tag gedrückt, wird keine Nachricht gesendet."
+    },
+    "cta": {
+      "title": "Möchten Sie sehen, wie es in Ihrem Hotel funktioniert?",
+      "button": "Gespräch vereinbaren"
+    }
   }
 }

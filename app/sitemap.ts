@@ -26,6 +26,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
+  // Product pages — checkout button
+  for (const locale of locales) {
+    entries.push({
+      url: `${baseUrl}/${locale}/checkout-button`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map((l) => [l, `${baseUrl}/${l}/checkout-button`])
+        ),
+      },
+    });
+  }
+
   // Blog listing pages — one per locale
   for (const locale of locales) {
     entries.push({

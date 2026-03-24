@@ -180,5 +180,113 @@
     "resources": "Recursos",
     "about": "Nosaltres",
     "copyright": "© 2026 Controlá. Barcelona, Espanya. Tots els drets reservats."
+  },
+  "checkoutButton": {
+    "meta": {
+      "title": "Botó de Checkout Intel·ligent | Controlá",
+      "description": "Botó IoT que notifica automàticament el teu equip quan l'hoste fa checkout. +85% d'adopció. Instal·lació en 15 minuts."
+    },
+    "hero": {
+      "badge": "Checkout intel·ligent",
+      "title": "El checkout, amb un sol toc.",
+      "subtitle": "Els teus hostes pressionen un botó en marxar. El teu equip rep la notificació a l'instant. Sense apps, sense esperes, sense complicacions.",
+      "cta": "Vull provar-ho",
+      "secondaryCta": "Veure com funciona"
+    },
+    "problem": {
+      "label": "El problema",
+      "title": "Ja han marxat els hostes?",
+      "text1": "Els amfitrions i el personal de neteja no tenen informació en temps real sobre quan es desocupen els pisos.",
+      "text2": "Milers de missatges innecessaris entre equips d'operacions i neteja per falta d'informació de la sortida dels clients.",
+      "text3": "Habitacions que podrien estar llestes hores abans queden esperant perquè ningú va confirmar que l'hoste havia marxat."
+    },
+    "solution": {
+      "label": "La solució",
+      "title": "Un botó. Una notificació. Zero friccions.",
+      "text": "Botó intel·ligent connectat a internet que els hostes pressionen en fer checkout per notificar que estan deixant la propietat.",
+      "text2": "Quan es pressiona el botó, l'equip de neteja i operacions rep una notificació immediata per començar a netejar el pis sense demores."
+    },
+    "howItWorks": {
+      "label": "Com funciona",
+      "title": "Extremadament senzill",
+      "step1Title": "L'hoste marxa",
+      "step1Text": "Pressiona el botó en el moment de fer el checkout. El sistema envia una notificació avisant que el pis està desocupat.",
+      "step2Title": "Neteja actua",
+      "step2Text": "El personal de neteja rep l'avís i va directament al pis. Sense esperes, sense trucar a la porta.",
+      "step3Title": "Pis llest",
+      "step3Text": "Quan acaba, el personal pressiona el botó. Operacions sap que el pis està llest per al proper hoste."
+    },
+    "stats": {
+      "stat1Value": "+85%",
+      "stat1Label": "dels hostes pressionen el botó",
+      "stat2Value": "1 de 3",
+      "stat2Label": "pisos fan checkout abans de les 9:00",
+      "stat3Value": "<15 min",
+      "stat3Label": "per instal·lar el sistema complet"
+    },
+    "notifications": {
+      "label": "Notificacions",
+      "title": "Avisos on els necessitis",
+      "text": "Notificacions a totes les persones o equips que vulguis, pel canal que prefereixis.",
+      "who1": "Personal de neteja",
+      "who2": "Equip d'Operacions",
+      "who3": "Property Manager",
+      "who4": "Grups de WhatsApp",
+      "channel1": "WhatsApp",
+      "channel2": "Email",
+      "channel3": "Telegram",
+      "channel4": "PMS"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "title": "Tot en temps real",
+      "text": "Panell dissenyat per a encarregats d'operacions que mostra en temps real:",
+      "f1": "Quins pisos ja han fet checkout (i a quina hora)",
+      "f2": "Quins segueixen ocupats",
+      "f3": "Si neteja ja hi ha entrat (i quan)",
+      "f4": "Quins ja estan llests per al proper hoste"
+    },
+    "installation": {
+      "label": "Instal·lació",
+      "title": "En marxa en 15 minuts",
+      "step1": "Enganxa el botó de checkout a la porta",
+      "step2": "Connecta la nostra centraleta al teu router",
+      "step3": "Això és tot!",
+      "note": "El paquet inclou tot el necessari per a la instal·lació. No necessites ni un tornavís. Pot instal·lar-ho qualsevol persona."
+    },
+    "pricing": {
+      "label": "Preu",
+      "title": "Comença a optimitzar la teva operativa",
+      "price": "99",
+      "currency": "€",
+      "perUnit": "per habitació",
+      "includes1": "Botó de checkout",
+      "includes2": "Cartell personalitzat amb el teu logo",
+      "includes3": "Centraleta inclosa",
+      "includes4": "Dashboard i notificacions",
+      "cta": "Vull provar-ho"
+    },
+    "faq": {
+      "label": "Preguntes freqüents",
+      "title": "Tot el que necessites saber",
+      "q1": "Quant triga la instal·lació?",
+      "a1": "Menys de 10 minuts! Només cal enganxar el cartell amb el botó a la porta i connectar la centraleta al router.",
+      "q2": "Es necessiten eines especials?",
+      "a2": "No. El paquet inclou absolutament tot el necessari per a la instal·lació. No necessites ni un tornavís.",
+      "q3": "He de tenir coneixements tècnics?",
+      "a3": "Si saps enganxar un cartell a la porta i connectar un carregador a un endoll, pots instal·lar el botó.",
+      "q4": "Com funcionen els dispositius?",
+      "a4": "Els dispositius funcionen amb piles i envien les dades de forma sense fil a la centraleta connectada al router.",
+      "q5": "Quant duren les piles?",
+      "a5": "Les piles dels dispositius duren entre 12 i 24 mesos.",
+      "q6": "Teniu descomptes per quantitat?",
+      "a6": "Sí! Si tens més de 50 apartaments, tenim descomptes exclusius per a tu.",
+      "q7": "Què passa si pressionen el botó un dia que no hi ha checkout?",
+      "a7": "Ens connectem amb el teu calendari de reserves perquè el botó només funcioni els dies de checkout. Si el pressionen qualsevol altre dia, no s'enviarà cap missatge."
+    },
+    "cta": {
+      "title": "Vols veure com funciona al teu hotel?",
+      "button": "Agenda una trucada"
+    }
   }
 }

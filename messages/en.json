@@ -180,5 +180,113 @@
     "resources": "Resources",
     "about": "About us",
     "copyright": "© 2026 Controlá. Barcelona, Spain. All rights reserved."
+  },
+  "checkoutButton": {
+    "meta": {
+      "title": "Smart Checkout Button | Controlá",
+      "description": "IoT button that automatically notifies your team when a guest checks out. +85% adoption rate. Installation in 15 minutes."
+    },
+    "hero": {
+      "badge": "Smart checkout",
+      "title": "Checkout with a single tap.",
+      "subtitle": "Your guests press a button when they leave. Your team gets notified instantly. No apps, no waiting, no hassle.",
+      "cta": "I want to try it",
+      "secondaryCta": "See how it works"
+    },
+    "problem": {
+      "label": "The problem",
+      "title": "Have the guests left yet?",
+      "text1": "Hosts and cleaning staff have no real-time information about when rooms are vacated.",
+      "text2": "Thousands of unnecessary messages between operations and cleaning teams due to lack of information about guest departures.",
+      "text3": "Rooms that could be ready hours earlier sit idle because no one confirmed the guest has left."
+    },
+    "solution": {
+      "label": "The solution",
+      "title": "One button. One notification. Zero friction.",
+      "text": "A smart internet-connected button that guests press when checking out to notify they are leaving the property.",
+      "text2": "When the button is pressed, the cleaning and operations team receives an immediate notification to start cleaning without delays."
+    },
+    "howItWorks": {
+      "label": "How it works",
+      "title": "Extremely simple",
+      "step1Title": "The guest leaves",
+      "step1Text": "They press the button when checking out. The system sends a notification that the room is vacant.",
+      "step2Title": "Cleaning acts",
+      "step2Text": "The cleaning staff receives the alert and goes directly to the room. No waiting, no knocking on doors.",
+      "step3Title": "Room ready",
+      "step3Text": "When finished, the staff presses the button. Operations knows the room is ready for the next guest."
+    },
+    "stats": {
+      "stat1Value": "+85%",
+      "stat1Label": "of guests press the button",
+      "stat2Value": "1 in 3",
+      "stat2Label": "rooms check out before 9:00 AM",
+      "stat3Value": "<15 min",
+      "stat3Label": "to install the complete system"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "title": "Alerts where you need them",
+      "text": "Notifications to any person or team you want, through the channel you prefer.",
+      "who1": "Cleaning staff",
+      "who2": "Operations team",
+      "who3": "Property Manager",
+      "who4": "WhatsApp groups",
+      "channel1": "WhatsApp",
+      "channel2": "Email",
+      "channel3": "Telegram",
+      "channel4": "PMS"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "title": "Everything in real time",
+      "text": "Panel designed for operations managers showing in real time:",
+      "f1": "Which rooms have checked out (and at what time)",
+      "f2": "Which are still occupied",
+      "f3": "Whether cleaning has started (and when)",
+      "f4": "Which are ready for the next guest"
+    },
+    "installation": {
+      "label": "Installation",
+      "title": "Up and running in 15 minutes",
+      "step1": "Stick the checkout button on the door",
+      "step2": "Connect our hub to your router",
+      "step3": "That's it!",
+      "note": "The package includes everything needed for installation. You don't even need a screwdriver. Anyone can install it."
+    },
+    "pricing": {
+      "label": "Pricing",
+      "title": "Start optimizing your operations",
+      "price": "99",
+      "currency": "€",
+      "perUnit": "per room",
+      "includes1": "Checkout button",
+      "includes2": "Custom sign with your logo",
+      "includes3": "Hub included",
+      "includes4": "Dashboard and notifications",
+      "cta": "I want to try it"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Everything you need to know",
+      "q1": "How long does installation take?",
+      "a1": "Less than 10 minutes! Just stick the sign with the button on the door and connect the hub to the router.",
+      "q2": "Are special tools needed?",
+      "a2": "No. The package includes absolutely everything needed for installation. You don't even need a screwdriver.",
+      "q3": "Do I need technical knowledge?",
+      "a3": "If you can stick a sign on a door and plug a charger into an outlet, you can install the button.",
+      "q4": "How do the devices work?",
+      "a4": "The devices run on batteries and send data wirelessly to the hub connected to the router.",
+      "q5": "How long do the batteries last?",
+      "a5": "Device batteries last between 12 and 24 months.",
+      "q6": "Do you offer volume discounts?",
+      "a6": "Yes! If you have more than 50 apartments, we have exclusive discounts for you.",
+      "q7": "What happens if they press the button on a non-checkout day?",
+      "a7": "We connect with your booking calendar so the button only works on checkout days. If pressed any other day, no message is sent."
+    },
+    "cta": {
+      "title": "Want to see how it works in your hotel?",
+      "button": "Book a call"
+    }
   }
 }

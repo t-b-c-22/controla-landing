@@ -180,5 +180,113 @@
     "resources": "Recursos",
     "about": "Nosotros",
     "copyright": "© 2026 Controlá. Barcelona, España. Todos los derechos reservados."
+  },
+  "checkoutButton": {
+    "meta": {
+      "title": "Botón de Checkout Inteligente | Controlá",
+      "description": "Botón IoT que notifica automáticamente a tu equipo cuando el huésped hace checkout. +85% de adopción. Instalación en 15 minutos."
+    },
+    "hero": {
+      "badge": "Checkout inteligente",
+      "title": "El checkout, con un solo toque.",
+      "subtitle": "Tus huéspedes presionan un botón al irse. Tu equipo recibe la notificación al instante. Sin apps, sin esperas, sin complicaciones.",
+      "cta": "Quiero probarlo",
+      "secondaryCta": "Ver cómo funciona"
+    },
+    "problem": {
+      "label": "El problema",
+      "title": "¿Ya se fueron los huéspedes?",
+      "text1": "Los anfitriones y el personal de limpieza no tienen información en tiempo real sobre cuándo se desocupan los pisos.",
+      "text2": "Miles de mensajes innecesarios entre equipos de operaciones y limpieza por falta de información de la salida de los clientes.",
+      "text3": "Habitaciones que podrían estar listas horas antes quedan esperando porque nadie confirmó que el huésped se fue."
+    },
+    "solution": {
+      "label": "La solución",
+      "title": "Un botón. Una notificación. Cero fricciones.",
+      "text": "Botón inteligente conectado a internet que los huéspedes presionan al hacer checkout para notificar que están dejando la propiedad.",
+      "text2": "Cuando se presiona el botón, el equipo de limpieza y operaciones recibe una notificación inmediata para comenzar a limpiar el piso sin demoras."
+    },
+    "howItWorks": {
+      "label": "Cómo funciona",
+      "title": "Extremadamente sencillo",
+      "step1Title": "El huésped se va",
+      "step1Text": "Presiona el botón al momento de hacer el checkout. El sistema envía una notificación avisando que el piso está desocupado.",
+      "step2Title": "Limpieza actúa",
+      "step2Text": "El personal de limpieza recibe el aviso y va directamente al piso. Sin esperas, sin tocar puertas.",
+      "step3Title": "Piso listo",
+      "step3Text": "Cuando termina, el personal presiona el botón. Operaciones sabe que el piso está listo para el próximo huésped."
+    },
+    "stats": {
+      "stat1Value": "+85%",
+      "stat1Label": "de los huéspedes presionan el botón",
+      "stat2Value": "1 de 3",
+      "stat2Label": "pisos hacen checkout antes de las 9:00",
+      "stat3Value": "<15 min",
+      "stat3Label": "para instalar el sistema completo"
+    },
+    "notifications": {
+      "label": "Notificaciones",
+      "title": "Avisos donde los necesites",
+      "text": "Notificaciones a todas las personas o equipos que quieras, por el canal que prefieras.",
+      "who1": "Personal de limpieza",
+      "who2": "Equipo de Operaciones",
+      "who3": "Property Manager",
+      "who4": "Grupos de WhatsApp",
+      "channel1": "WhatsApp",
+      "channel2": "Email",
+      "channel3": "Telegram",
+      "channel4": "PMS"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "title": "Todo en tiempo real",
+      "text": "Panel diseñado para encargados de operaciones que muestra en tiempo real:",
+      "f1": "Qué pisos ya hicieron checkout (y a qué hora)",
+      "f2": "Cuáles siguen ocupados",
+      "f3": "Si limpieza ya entró (y cuándo)",
+      "f4": "Cuáles ya están listos para el próximo huésped"
+    },
+    "installation": {
+      "label": "Instalación",
+      "title": "En marcha en 15 minutos",
+      "step1": "Pega el botón de checkout en la puerta",
+      "step2": "Conecta nuestra centralita a tu router",
+      "step3": "¡Eso es todo!",
+      "note": "El paquete incluye todo lo necesario para la instalación. No necesitas ni un destornillador. Puede instalarlo cualquier persona."
+    },
+    "pricing": {
+      "label": "Precio",
+      "title": "Empieza a optimizar tu operativa",
+      "price": "99",
+      "currency": "€",
+      "perUnit": "por habitación",
+      "includes1": "Botón de checkout",
+      "includes2": "Cartel personalizado con tu logo",
+      "includes3": "Centralita incluida",
+      "includes4": "Dashboard y notificaciones",
+      "cta": "Quiero probarlo"
+    },
+    "faq": {
+      "label": "Preguntas frecuentes",
+      "title": "Todo lo que necesitas saber",
+      "q1": "¿Cuánto demora la instalación?",
+      "a1": "¡Menos de 10 minutos! Solo hay que pegar el cartel con el botón en la puerta y conectar la centralita al router.",
+      "q2": "¿Se necesitan herramientas especiales?",
+      "a2": "No. El paquete incluye absolutamente todo lo necesario para la instalación. No necesitas ni un destornillador.",
+      "q3": "¿Debo tener conocimientos técnicos?",
+      "a3": "Si sabes pegar un cartel en la puerta y conectar un cargador a un enchufe, puedes instalar el botón.",
+      "q4": "¿Cómo funcionan los dispositivos?",
+      "a4": "Los dispositivos funcionan con pilas y envían los datos de forma inalámbrica a la centralita conectada al router.",
+      "q5": "¿Cuánto duran las pilas?",
+      "a5": "Las pilas de los dispositivos duran entre 12 y 24 meses.",
+      "q6": "¿Tienen descuentos por cantidad?",
+      "a6": "¡Sí! Si tienes más de 50 apartamentos, tenemos descuentos exclusivos para ti.",
+      "q7": "¿Qué pasa si presionan el botón un día que no hay checkout?",
+      "a7": "Nos conectamos con tu calendario de reserva para que el botón solo funcione los días de checkout. Si lo presionan cualquier otro día, no se enviará ningún mensaje."
+    },
+    "cta": {
+      "title": "¿Quieres ver cómo funciona en tu hotel?",
+      "button": "Agendar una llamada"
+    }
   }
 }

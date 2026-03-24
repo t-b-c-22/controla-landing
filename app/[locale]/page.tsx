@@ -48,10 +48,10 @@ function PageContent() {
   const locale = useLocale();
 
   const solutions = [
-    { key: "clima" as const, borderClass: "border-l-azul" },
-    { key: "ops" as const, borderClass: "border-l-verde" },
-    { key: "prevention" as const, borderClass: "border-l-naranja" },
-    { key: "access" as const, borderClass: "border-l-navy" },
+    { key: "clima" as const, borderClass: "border-l-azul", href: "#" },
+    { key: "ops" as const, borderClass: "border-l-verde", href: `/${locale}/checkout-button` },
+    { key: "prevention" as const, borderClass: "border-l-naranja", href: "#" },
+    { key: "access" as const, borderClass: "border-l-navy", href: "#" },
   ];
 
   return (
@@ -153,7 +153,7 @@ function PageContent() {
                     </li>
                   ))}
                 </ul>
-                <a href="#" className="inline-block mt-4 text-[0.88rem] text-azul no-underline font-semibold hover:underline">
+                <a href={sol.href} className="inline-block mt-4 text-[0.88rem] text-azul no-underline font-semibold hover:underline">
                   {t("solutions.learnMore")} &rarr;
                 </a>
               </div>
