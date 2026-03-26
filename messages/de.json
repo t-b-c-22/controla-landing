@@ -181,6 +181,116 @@
     "about": "Über uns",
     "copyright": "© 2026 Controlá. Barcelona, Spanien. Alle Rechte vorbehalten."
   },
+  "onePager": {
+    "meta": {
+      "title": "IoT-Lösungen für Hotels | Controlá",
+      "description": "Intelligente Klimatisierung, automatisierter Checkout, Lärmsensor, KI-Kameras, Warmwasserüberwachung und Echtzeit-Präsenz für Hotels und Aparthotels."
+    },
+    "hero": {
+      "badge": "IoT-Lösungen für Hotels",
+      "title": "Setzen Sie Ihr Hotel auf",
+      "titleAccent": "Autopilot.",
+      "subtitle": "Weniger Energieverschwendung. Weniger Gästebeschwerden. Mehr Zeit für das Wesentliche.",
+      "cta": "Gespräch vereinbaren",
+      "solutionsCount": "6 Lösungen in einer Plattform"
+    },
+    "interest": "Interessiert mich",
+    "interestSent": "Danke, wir melden uns",
+    "interestEmailPlaceholder": "Ihre E-Mail",
+    "interestSubmit": "Senden",
+    "progress": "Lösung {current} von {total}",
+    "clima": {
+      "label": "Klimatisierung",
+      "title": "Intelligente",
+      "titleAccent": "Energieeffizienz.",
+      "subtitle": "Algorithmus, der die Klimatisierung nach tatsächlicher Belegung regelt. Die Klimaanlage schaltet sich ab, wenn niemand da ist, und kühlt vor der Ankunft vor. Kompatibel mit Split-, VRF-, Fan-Coil-Systemen und vorhandenen Thermostaten.",
+      "f1": "Konfigurierbare maximale Temperaturgrenze",
+      "f2": "Automatischer Eco-Modus bei leerem Zimmer",
+      "f3": "Automatische Abschaltung bei Fensteröffnung",
+      "statValue": "Bis zu 35%",
+      "statLabel": "Energieeinsparung"
+    },
+    "ops": {
+      "label": "Betrieb",
+      "title": "Intelligenter",
+      "titleAccent": "Checkout-Button.",
+      "subtitle": "Gerät, das der Gast beim Verlassen drückt. Benachrichtigt das Housekeeping sofort, aktualisiert das PMS und löst Automatisierungen aus. Ohne auf die Rezeption angewiesen zu sein.",
+      "f1": "Sofortige Housekeeping-Benachrichtigung",
+      "f2": "Automatische PMS-Aktualisierung",
+      "f3": "80% Gästeakzeptanz",
+      "statValue": "3.000+",
+      "statLabel": "verarbeitete Checkouts"
+    },
+    "noise": {
+      "label": "Prävention",
+      "title": "Lärmsensor.",
+      "titleAccent": "Ohne Komplikationen.",
+      "subtitle": "Kontinuierliche Überwachung des Lärmpegels. Automatische Alarme bei Schwellenwertüberschreitung, um einzugreifen, bevor andere Gäste sich beschweren oder Nachbarn protestieren.",
+      "f1": "Kontinuierliche Überwachung 24/7",
+      "f2": "Automatische Schwellenwertalerme",
+      "f3": "Handeln Sie vor den Beschwerden",
+      "statValue": "24/7",
+      "statLabel": "kontinuierliche Überwachung"
+    },
+    "security": {
+      "label": "Sicherheit",
+      "title": "KI-Agent.",
+      "titleAccent": "Für Ihre Kameras.",
+      "subtitle": "Ein KI-Agent, der alle Ihre Kameras rund um die Uhr überwacht und automatisch Alarme und Benachrichtigungen erzeugt.",
+      "subtitleHighlight1": "Ihre Kameras zeichnen bereits auf, aber",
+      "subtitleHighlight2": "sie werden nur reaktiv genutzt",
+      "subtitleHighlight3": "Es ist Zeit,",
+      "subtitleHighlight4": "ihnen künstliche Intelligenz hinzuzufügen",
+      "d1": "Haustiererkennung",
+      "d1Badge": "Ideal für Hotels ohne Rezeption",
+      "d2": "Große Gruppen beim Eintreten",
+      "d2Badge": "Ideal für Hotels ohne Rezeption",
+      "d3": "Geschirr und Tabletts in Fluren",
+      "d3Badge": "",
+      "d4": "Warteschlangen an der Rezeption",
+      "d4Badge": "",
+      "statValue": "KI",
+      "statLabel": "automatisierte visuelle Analyse"
+    },
+    "maintenance": {
+      "label": "Wartung",
+      "title": "Überwachung von",
+      "titleAccent": "Warmwasser.",
+      "subtitle": "Hören Sie auf, täglich Stunden mit manuellen Kesselkontrollen zu verlieren. Sensoren messen Temperatur, Chlor und Druck in Echtzeit. Automatische Einhaltung der Wasserqualitätsvorschriften mit lückenloser Dokumentation.",
+      "f1": "Echtzeitmessung von Temperatur, Chlor und Druck",
+      "f2": "Automatische Einhaltung der Wasserqualitätsvorschriften",
+      "f3": "Aufzeichnungen automatisch für Inspektionen gespeichert",
+      "statValue": "Präventiv",
+      "statLabel": "Früherkennung von Ausfällen"
+    },
+    "occupancy": {
+      "label": "Belegung",
+      "title": "Präsenz in",
+      "titleAccent": "Echtzeit.",
+      "subtitle": "Sensoren, die melden, ob das Zimmer belegt oder frei ist. Grundlage aller Automatisierungen: Klimatisierung, Housekeeping, Sicherheit und Berichte.",
+      "f1": "Daten pro Zimmer in Echtzeit",
+      "f2": "Grundlage aller Automatisierungen",
+      "f3": "Integration mit Klimatisierung und Housekeeping",
+      "statValue": "10-15%",
+      "statLabel": "Zeitersparnis beim Housekeeping"
+    },
+    "how": {
+      "label": "So funktioniert's",
+      "title": "Von Ihrem aktuellen Hotel zum Autopilot",
+      "step1Title": "Wir analysieren Ihre Infrastruktur",
+      "step1Text": "Wir prüfen die Technologie Ihres Hotels und was genutzt werden kann.",
+      "step2Title": "Wir verbinden und konfigurieren",
+      "step2Text": "Wir integrieren alles mit Ihrem PMS. Wir richten Automatisierungen ein, die auf Ihren Betrieb abgestimmt sind.",
+      "step3Title": "Ihr Hotel läuft von allein",
+      "step3Text": "Klimatisierung, Housekeeping, Störungen: alles wird automatisch verwaltet."
+    },
+    "cta": {
+      "title": "Sprechen wir über Ihr Hotel?",
+      "subtitle": "15 Minuten, um Ihnen zu zeigen, wie es in Ihrem konkreten Fall aussehen würde.",
+      "button": "Gespräch vereinbaren",
+      "contact": "tomas@controla.cloud · +34 613 094 047"
+    }
+  },
   "checkoutButton": {
     "meta": {
       "title": "Intelligenter Checkout-Button | Controlá",

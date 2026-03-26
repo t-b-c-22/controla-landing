@@ -181,6 +181,116 @@
     "about": "Chi siamo",
     "copyright": "© 2026 Controlá. Barcellona, Spagna. Tutti i diritti riservati."
   },
+  "onePager": {
+    "meta": {
+      "title": "Soluzioni IoT per hotel | Controlá",
+      "description": "Climatizzazione intelligente, checkout automatizzato, sensore di rumore, telecamere con IA, monitoraggio acqua calda e presenza in tempo reale per hotel e aparthotel."
+    },
+    "hero": {
+      "badge": "Soluzioni IoT per hotel",
+      "title": "Metti il tuo hotel in",
+      "titleAccent": "pilota automatico.",
+      "subtitle": "Meno energia sprecata. Meno reclami degli ospiti. Più tempo per ciò che conta.",
+      "cta": "Prenota una chiamata",
+      "solutionsCount": "6 soluzioni in una piattaforma"
+    },
+    "interest": "Mi interessa",
+    "interestSent": "Grazie, ti contatteremo",
+    "interestEmailPlaceholder": "La tua email",
+    "interestSubmit": "Invia",
+    "progress": "Soluzione {current} di {total}",
+    "clima": {
+      "label": "Climatizzazione",
+      "title": "Efficienza energetica",
+      "titleAccent": "intelligente.",
+      "subtitle": "Algoritmo che regola la climatizzazione in base all'occupazione reale. L'aria si spegne quando non c'è nessuno e si pre-climatizza prima dell'arrivo. Compatibile con split, VRF, fan-coil e termostati esistenti.",
+      "f1": "Limite di temperatura massima configurabile",
+      "f2": "Modalità eco automatica quando la camera è vuota",
+      "f3": "Spegnimento automatico all'apertura della finestra",
+      "statValue": "Fino al 35%",
+      "statLabel": "di risparmio energetico"
+    },
+    "ops": {
+      "label": "Operatività",
+      "title": "Pulsante checkout",
+      "titleAccent": "intelligente.",
+      "subtitle": "Dispositivo che l'ospite preme quando se ne va. Notifica l'housekeeping all'istante, aggiorna il PMS e attiva le automazioni. Senza dipendere dalla reception.",
+      "f1": "Notifica istantanea all'housekeeping",
+      "f2": "Aggiornamento automatico del PMS",
+      "f3": "80% di adozione da parte degli ospiti",
+      "statValue": "3.000+",
+      "statLabel": "checkout elaborati"
+    },
+    "noise": {
+      "label": "Prevenzione",
+      "title": "Sensore di rumore.",
+      "titleAccent": "Senza complicazioni.",
+      "subtitle": "Monitoraggio continuo del livello di rumore. Avvisi automatici al superamento delle soglie, permettendo di agire prima che altri ospiti si lamentino o i vicini protestino.",
+      "f1": "Monitoraggio continuo 24/7",
+      "f2": "Avvisi automatici per soglia",
+      "f3": "Agisci prima dei reclami",
+      "statValue": "24/7",
+      "statLabel": "monitoraggio continuo"
+    },
+    "security": {
+      "label": "Sicurezza",
+      "title": "Agente IA.",
+      "titleAccent": "Per le tue telecamere.",
+      "subtitle": "Un agente IA che monitora tutte le tue telecamere 24/7 e genera avvisi e notifiche automaticamente.",
+      "subtitleHighlight1": "Le tue telecamere già registrano, ma",
+      "subtitleHighlight2": "vengono usate solo in modo reattivo",
+      "subtitleHighlight3": "È il momento di",
+      "subtitleHighlight4": "aggiungere l'intelligenza artificiale",
+      "d1": "Rilevamento animali domestici",
+      "d1Badge": "Ideale per hotel senza reception",
+      "d2": "Grandi gruppi in entrata",
+      "d2Badge": "Ideale per hotel senza reception",
+      "d3": "Piatti e vassoi nei corridoi",
+      "d3Badge": "",
+      "d4": "Code alla reception",
+      "d4Badge": "",
+      "statValue": "IA",
+      "statLabel": "analisi visiva automatizzata"
+    },
+    "maintenance": {
+      "label": "Manutenzione",
+      "title": "Monitoraggio dell'",
+      "titleAccent": "acqua calda.",
+      "subtitle": "Smetti di perdere ore ogni giorno controllando le caldaie manualmente. Sensori che misurano temperatura, cloro e pressione in tempo reale. Conformità automatica alle normative sulla qualità dell'acqua con tutto registrato.",
+      "f1": "Misurazione in tempo reale di temperatura, cloro e pressione",
+      "f2": "Conformità automatica alle normative sulla qualità dell'acqua",
+      "f3": "Registri salvati automaticamente per le ispezioni",
+      "statValue": "Preventivo",
+      "statLabel": "rilevamento precoce dei guasti"
+    },
+    "occupancy": {
+      "label": "Occupazione",
+      "title": "Presenza in",
+      "titleAccent": "tempo reale.",
+      "subtitle": "Sensori che informano se la camera è occupata o vuota. Base per tutte le automazioni: climatizzazione, housekeeping, sicurezza e report.",
+      "f1": "Dato per camera in tempo reale",
+      "f2": "Base per tutte le automazioni",
+      "f3": "Integrazione con climatizzazione e housekeeping",
+      "statValue": "10-15%",
+      "statLabel": "risparmio tempo housekeeping"
+    },
+    "how": {
+      "label": "Come funziona",
+      "title": "Dal tuo hotel attuale al pilota automatico",
+      "step1Title": "Analizziamo la tua infrastruttura",
+      "step1Text": "Esaminiamo la tecnologia del tuo hotel e cosa si può sfruttare.",
+      "step2Title": "Colleghiamo e configuriamo",
+      "step2Text": "Integriamo tutto con il tuo PMS. Configuriamo automazioni adattate alla tua operatività.",
+      "step3Title": "Il tuo hotel funziona da solo",
+      "step3Text": "Climatizzazione, housekeeping, incidenti: tutto viene gestito automaticamente."
+    },
+    "cta": {
+      "title": "Parliamo del tuo hotel?",
+      "subtitle": "15 minuti per mostrarti come sarebbe nel tuo caso specifico.",
+      "button": "Prenota una chiamata",
+      "contact": "tomas@controla.cloud · +34 613 094 047"
+    }
+  },
   "checkoutButton": {
     "meta": { "title": "Pulsante di Checkout Intelligente | Controlá", "description": "Pulsante IoT che notifica automaticamente il tuo team quando l'ospite fa il checkout. +85% di adozione. Installazione in 15 minuti." },
     "hero": { "badge": "Checkout intelligente", "title": "Il checkout, con un solo tocco.", "subtitle": "I tuoi ospiti premono un pulsante quando se ne vanno. Il tuo team riceve la notifica all'istante. Senza app, senza attese, senza complicazioni.", "cta": "Voglio provarlo", "secondaryCta": "Scopri come funziona" },

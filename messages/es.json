@@ -181,6 +181,116 @@
     "about": "Nosotros",
     "copyright": "© 2026 Controlá. Barcelona, España. Todos los derechos reservados."
   },
+  "onePager": {
+    "meta": {
+      "title": "Soluciones IoT para hoteles | Controlá",
+      "description": "Climatización inteligente, checkout automatizado, sensor de ruido, cámaras con IA, monitorización de agua y presencia en tiempo real para hoteles y aparthoteles."
+    },
+    "hero": {
+      "badge": "Soluciones IoT para hoteles",
+      "title": "Ponemos tu hotel en",
+      "titleAccent": "piloto automático.",
+      "subtitle": "Menos energía desperdiciada. Menos quejas de huéspedes. Más tiempo para lo que importa.",
+      "cta": "Agendar una llamada",
+      "solutionsCount": "6 soluciones en una plataforma"
+    },
+    "interest": "Me interesa",
+    "interestSent": "Gracias, te contactaremos",
+    "interestEmailPlaceholder": "Tu email",
+    "interestSubmit": "Enviar",
+    "progress": "Solución {current} de {total}",
+    "clima": {
+      "label": "Climatización",
+      "title": "Eficiencia energética",
+      "titleAccent": "inteligente.",
+      "subtitle": "Algoritmo que regula la climatización según ocupación real. El aire se apaga cuando no hay nadie y se pre-climatiza antes de la llegada. Compatible con split, VRF, fan-coil y termostatos existentes.",
+      "f1": "Limitación de temperatura máxima configurable",
+      "f2": "Modo eco automático cuando la habitación está vacía",
+      "f3": "Apagado automático al abrir ventana",
+      "statValue": "Hasta 35%",
+      "statLabel": "de ahorro energético"
+    },
+    "ops": {
+      "label": "Operativa",
+      "title": "Botón de checkout",
+      "titleAccent": "inteligente.",
+      "subtitle": "Dispositivo que el huésped presiona al irse. Notifica a housekeeping al instante, actualiza el PMS y activa automatizaciones. Sin depender de que recepción avise.",
+      "f1": "Notificación instantánea a housekeeping",
+      "f2": "Actualización automática del PMS",
+      "f3": "80% de adopción por huéspedes",
+      "statValue": "3.000+",
+      "statLabel": "checkouts procesados"
+    },
+    "noise": {
+      "label": "Prevención",
+      "title": "Sensor de ruido.",
+      "titleAccent": "Sin complicaciones.",
+      "subtitle": "Monitorización continua del nivel de ruido. Alertas automáticas cuando se superan umbrales, permitiendo actuar antes de que otros huéspedes se quejen o los vecinos reclamen.",
+      "f1": "Monitorización continua 24/7",
+      "f2": "Alertas automáticas por umbral",
+      "f3": "Actúa antes de las quejas",
+      "statValue": "24/7",
+      "statLabel": "monitorización continua"
+    },
+    "security": {
+      "label": "Seguridad",
+      "title": "Agente de IA.",
+      "titleAccent": "Para tus cámaras.",
+      "subtitle": "Un agente de IA que monitoriza todas tus cámaras 24/7 y genera alertas y notificaciones automáticamente.",
+      "subtitleHighlight1": "Tus cámaras ya graban, pero",
+      "subtitleHighlight2": "solo se usan de forma reactiva",
+      "subtitleHighlight3": "Es momento de",
+      "subtitleHighlight4": "agregarles inteligencia artificial",
+      "d1": "Detección de mascotas",
+      "d1Badge": "Ideal para hoteles sin recepción",
+      "d2": "Grupos grandes entrando",
+      "d2Badge": "Ideal para hoteles sin recepción",
+      "d3": "Platos y bandejas en pasillos",
+      "d3Badge": "",
+      "d4": "Filas en recepción",
+      "d4Badge": "",
+      "statValue": "IA",
+      "statLabel": "análisis visual automatizado"
+    },
+    "maintenance": {
+      "label": "Mantenimiento",
+      "title": "Monitorización de",
+      "titleAccent": "agua caliente.",
+      "subtitle": "Deja de perder horas cada día revisando calderas manualmente. Sensores que miden temperatura, cloro y presión en tiempo real. Cumple con la normativa de calidad de agua automáticamente y ten todo registrado.",
+      "f1": "Medición de temperatura, cloro y presión en tiempo real",
+      "f2": "Cumplimiento automático de normativa de calidad de agua",
+      "f3": "Registros guardados automáticamente para inspecciones",
+      "statValue": "Preventivo",
+      "statLabel": "detección temprana de fallos"
+    },
+    "occupancy": {
+      "label": "Ocupación",
+      "title": "Presencia en",
+      "titleAccent": "tiempo real.",
+      "subtitle": "Sensores que informan si la habitación está ocupada o vacía. Base para todas las automatizaciones: climatización, housekeeping, seguridad y reportes.",
+      "f1": "Dato por habitación en tiempo real",
+      "f2": "Base para todas las automatizaciones",
+      "f3": "Integración con climatización y housekeeping",
+      "statValue": "10-15%",
+      "statLabel": "ahorro en tiempo de housekeeping"
+    },
+    "how": {
+      "label": "Cómo funciona",
+      "title": "De tu hotel actual a piloto automático",
+      "step1Title": "Analizamos tu infraestructura",
+      "step1Text": "Revisamos qué tecnología tiene tu hotel y qué se puede aprovechar.",
+      "step2Title": "Conectamos y configuramos",
+      "step2Text": "Integramos todo con tu PMS. Configuramos automatizaciones adaptadas a tu operativa.",
+      "step3Title": "Tu hotel funciona solo",
+      "step3Text": "Climatización, housekeeping, incidencias: todo se gestiona automáticamente."
+    },
+    "cta": {
+      "title": "¿Hablamos de tu hotel?",
+      "subtitle": "15 minutos para mostrarte cómo sería en tu caso concreto.",
+      "button": "Agendar una llamada",
+      "contact": "tomas@controla.cloud · +34 613 094 047"
+    }
+  },
   "checkoutButton": {
     "meta": {
       "title": "Botón de Checkout Inteligente | Controlá",

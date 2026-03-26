@@ -181,6 +181,116 @@
     "about": "About us",
     "copyright": "© 2026 Controlá. Barcelona, Spain. All rights reserved."
   },
+  "onePager": {
+    "meta": {
+      "title": "IoT Solutions for Hotels | Controlá",
+      "description": "Smart HVAC, automated checkout, noise sensors, AI cameras, hot water monitoring, and real-time occupancy for hotels and aparthotels."
+    },
+    "hero": {
+      "badge": "IoT Solutions for Hotels",
+      "title": "Put your hotel on",
+      "titleAccent": "autopilot.",
+      "subtitle": "Less wasted energy. Fewer guest complaints. More time for what matters.",
+      "cta": "Book a call",
+      "solutionsCount": "6 solutions in one platform"
+    },
+    "interest": "I'm interested",
+    "interestSent": "Thanks, we'll reach out",
+    "interestEmailPlaceholder": "Your email",
+    "interestSubmit": "Send",
+    "progress": "Solution {current} of {total}",
+    "clima": {
+      "label": "HVAC",
+      "title": "Smart energy",
+      "titleAccent": "efficiency.",
+      "subtitle": "Algorithm that adjusts climate control based on real occupancy. AC shuts off when no one is there and pre-conditions before arrival. Compatible with split, VRF, fan-coil, and existing thermostats.",
+      "f1": "Configurable maximum temperature limit",
+      "f2": "Automatic eco mode when the room is empty",
+      "f3": "Automatic shutdown when window is opened",
+      "statValue": "Up to 35%",
+      "statLabel": "energy savings"
+    },
+    "ops": {
+      "label": "Operations",
+      "title": "Smart checkout",
+      "titleAccent": "button.",
+      "subtitle": "A device the guest presses when leaving. Notifies housekeeping instantly, updates the PMS, and triggers automations. No need to wait for front desk confirmation.",
+      "f1": "Instant housekeeping notification",
+      "f2": "Automatic PMS update",
+      "f3": "80% guest adoption rate",
+      "statValue": "3,000+",
+      "statLabel": "checkouts processed"
+    },
+    "noise": {
+      "label": "Prevention",
+      "title": "Noise monitoring.",
+      "titleAccent": "No hassle.",
+      "subtitle": "Continuous noise level monitoring. Automatic alerts when thresholds are exceeded, allowing action before other guests complain or neighbors file reports.",
+      "f1": "24/7 continuous monitoring",
+      "f2": "Automatic threshold alerts",
+      "f3": "Act before complaints arrive",
+      "statValue": "24/7",
+      "statLabel": "continuous monitoring"
+    },
+    "security": {
+      "label": "Security",
+      "title": "AI Agent.",
+      "titleAccent": "For your cameras.",
+      "subtitle": "An AI agent that monitors all your cameras 24/7 and generates alerts and notifications automatically.",
+      "subtitleHighlight1": "Your cameras already record, but",
+      "subtitleHighlight2": "they're only used reactively",
+      "subtitleHighlight3": "It's time to",
+      "subtitleHighlight4": "add artificial intelligence to them",
+      "d1": "Pet detection",
+      "d1Badge": "Ideal for hotels without reception",
+      "d2": "Large groups entering",
+      "d2Badge": "Ideal for hotels without reception",
+      "d3": "Dishes and trays in hallways",
+      "d3Badge": "",
+      "d4": "Queues at reception",
+      "d4Badge": "",
+      "statValue": "AI",
+      "statLabel": "automated visual analysis"
+    },
+    "maintenance": {
+      "label": "Maintenance",
+      "title": "Hot water",
+      "titleAccent": "monitoring.",
+      "subtitle": "Stop wasting hours every day checking boilers manually. Sensors that measure temperature, chlorine and pressure in real time. Comply with water quality regulations automatically and keep everything on record.",
+      "f1": "Real-time temperature, chlorine and pressure measurement",
+      "f2": "Automatic compliance with water quality regulations",
+      "f3": "Records saved automatically for inspections",
+      "statValue": "Preventive",
+      "statLabel": "early fault detection"
+    },
+    "occupancy": {
+      "label": "Occupancy",
+      "title": "Real-time",
+      "titleAccent": "presence.",
+      "subtitle": "Sensors that report whether the room is occupied or vacant. The foundation for all automations: HVAC, housekeeping, security, and reporting.",
+      "f1": "Per-room data in real time",
+      "f2": "Foundation for all automations",
+      "f3": "Integration with HVAC and housekeeping",
+      "statValue": "10-15%",
+      "statLabel": "housekeeping time savings"
+    },
+    "how": {
+      "label": "How it works",
+      "title": "From your current hotel to autopilot",
+      "step1Title": "We analyze your infrastructure",
+      "step1Text": "We review what technology your hotel has and what can be leveraged.",
+      "step2Title": "We connect and configure",
+      "step2Text": "We integrate everything with your PMS. We set up automations tailored to your operations.",
+      "step3Title": "Your hotel runs itself",
+      "step3Text": "HVAC, housekeeping, incidents: everything is managed automatically."
+    },
+    "cta": {
+      "title": "Let's talk about your hotel?",
+      "subtitle": "15 minutes to show you what it would look like for your specific case.",
+      "button": "Book a call",
+      "contact": "tomas@controla.cloud · +34 613 094 047"
+    }
+  },
   "checkoutButton": {
     "meta": {
       "title": "Smart Checkout Button | Controlá",

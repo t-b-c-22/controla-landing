@@ -181,6 +181,116 @@
     "about": "Nosaltres",
     "copyright": "© 2026 Controlá. Barcelona, Espanya. Tots els drets reservats."
   },
+  "onePager": {
+    "meta": {
+      "title": "Solucions IoT per a hotels | Controlá",
+      "description": "Climatització intel·ligent, checkout automatitzat, sensor de soroll, càmeres amb IA, monitorització d'aigua i presència en temps real per a hotels i aparthotels."
+    },
+    "hero": {
+      "badge": "Solucions IoT per a hotels",
+      "title": "Posem el teu hotel en",
+      "titleAccent": "pilot automàtic.",
+      "subtitle": "Menys energia malbaratada. Menys queixes d'hostes. Més temps per al que importa.",
+      "cta": "Agenda una trucada",
+      "solutionsCount": "6 solucions en una plataforma"
+    },
+    "interest": "M'interessa",
+    "interestSent": "Gràcies, et contactarem",
+    "interestEmailPlaceholder": "El teu email",
+    "interestSubmit": "Enviar",
+    "progress": "Solució {current} de {total}",
+    "clima": {
+      "label": "Climatització",
+      "title": "Eficiència energètica",
+      "titleAccent": "intel·ligent.",
+      "subtitle": "Algoritme que regula la climatització segons l'ocupació real. L'aire s'apaga quan no hi ha ningú i es pre-climatitza abans de l'arribada. Compatible amb split, VRF, fan-coil i termòstats existents.",
+      "f1": "Limitació de temperatura màxima configurable",
+      "f2": "Mode eco automàtic quan l'habitació està buida",
+      "f3": "Apagat automàtic en obrir finestra",
+      "statValue": "Fins al 35%",
+      "statLabel": "d'estalvi energètic"
+    },
+    "ops": {
+      "label": "Operativa",
+      "title": "Botó de checkout",
+      "titleAccent": "intel·ligent.",
+      "subtitle": "Dispositiu que l'hoste pressiona en marxar. Notifica a housekeeping a l'instant, actualitza el PMS i activa automatitzacions. Sense dependre que recepció avisi.",
+      "f1": "Notificació instantània a housekeeping",
+      "f2": "Actualització automàtica del PMS",
+      "f3": "80% d'adopció per hostes",
+      "statValue": "3.000+",
+      "statLabel": "checkouts processats"
+    },
+    "noise": {
+      "label": "Prevenció",
+      "title": "Sensor de soroll.",
+      "titleAccent": "Sense complicacions.",
+      "subtitle": "Monitorització contínua del nivell de soroll. Alertes automàtiques quan se superen els llindars, permetent actuar abans que altres hostes es queixin o els veïns reclamin.",
+      "f1": "Monitorització contínua 24/7",
+      "f2": "Alertes automàtiques per llindar",
+      "f3": "Actua abans de les queixes",
+      "statValue": "24/7",
+      "statLabel": "monitorització contínua"
+    },
+    "security": {
+      "label": "Seguretat",
+      "title": "Agent d'IA.",
+      "titleAccent": "Per a les teves càmeres.",
+      "subtitle": "Un agent d'IA que monitoritza totes les teves càmeres 24/7 i genera alertes i notificacions automàticament.",
+      "subtitleHighlight1": "Les teves càmeres ja graven, però",
+      "subtitleHighlight2": "només s'utilitzen de forma reactiva",
+      "subtitleHighlight3": "És moment d'",
+      "subtitleHighlight4": "afegir-los intel·ligència artificial",
+      "d1": "Detecció de mascotes",
+      "d1Badge": "Ideal per a hotels sense recepció",
+      "d2": "Grups grans entrant",
+      "d2Badge": "Ideal per a hotels sense recepció",
+      "d3": "Plats i safates als passadissos",
+      "d3Badge": "",
+      "d4": "Cues a recepció",
+      "d4Badge": "",
+      "statValue": "IA",
+      "statLabel": "anàlisi visual automatitzada"
+    },
+    "maintenance": {
+      "label": "Manteniment",
+      "title": "Monitorització d'",
+      "titleAccent": "aigua calenta.",
+      "subtitle": "Deixa de perdre hores cada dia revisant calderes manualment. Sensors que mesuren temperatura, clor i pressió en temps real. Compleix amb la normativa de qualitat d'aigua automàticament i tingues tot registrat.",
+      "f1": "Mesura de temperatura, clor i pressió en temps real",
+      "f2": "Compliment automàtic de normativa de qualitat d'aigua",
+      "f3": "Registres guardats automàticament per a inspeccions",
+      "statValue": "Preventiu",
+      "statLabel": "detecció primerenca de fallades"
+    },
+    "occupancy": {
+      "label": "Ocupació",
+      "title": "Presència en",
+      "titleAccent": "temps real.",
+      "subtitle": "Sensors que informen si l'habitació està ocupada o buida. Base per a totes les automatitzacions: climatització, housekeeping, seguretat i informes.",
+      "f1": "Dada per habitació en temps real",
+      "f2": "Base per a totes les automatitzacions",
+      "f3": "Integració amb climatització i housekeeping",
+      "statValue": "10-15%",
+      "statLabel": "estalvi en temps de housekeeping"
+    },
+    "how": {
+      "label": "Com funciona",
+      "title": "Del teu hotel actual a pilot automàtic",
+      "step1Title": "Analitzem la teva infraestructura",
+      "step1Text": "Revisem quina tecnologia té el teu hotel i què es pot aprofitar.",
+      "step2Title": "Connectem i configurem",
+      "step2Text": "Integrem tot amb el teu PMS. Configurem automatitzacions adaptades a la teva operativa.",
+      "step3Title": "El teu hotel funciona sol",
+      "step3Text": "Climatització, housekeeping, incidències: tot es gestiona automàticament."
+    },
+    "cta": {
+      "title": "Parlem del teu hotel?",
+      "subtitle": "15 minuts per mostrar-te com seria en el teu cas concret.",
+      "button": "Agenda una trucada",
+      "contact": "tomas@controla.cloud · +34 613 094 047"
+    }
+  },
   "checkoutButton": {
     "meta": {
       "title": "Botó de Checkout Intel·ligent | Controlá",
