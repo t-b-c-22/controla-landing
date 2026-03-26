@@ -76,10 +76,105 @@ function PageContent() {
             <p className="mt-3.5 text-[0.85rem] text-gris-dark">{t("hero.note")}</p>
           </div>
 
-          {/* Right column — image placeholder */}
+          {/* Right column — dashboard mockup */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-[520px] aspect-[4/3] bg-gris rounded-2xl flex items-center justify-center border border-black/5">
-              <span className="text-gris-dark text-[0.95rem] font-medium select-none">Imagen / Video</span>
+            <div className="w-full max-w-[540px] rounded-2xl shadow-[0_20px_60px_rgba(19,35,66,0.15)] overflow-hidden border border-black/5 bg-[#f7f8fa]">
+              {/* Top bar */}
+              <div className="bg-navy px-4 py-2.5 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <div className="w-[18px] h-[18px] rounded bg-azul flex items-center justify-center">
+                    <span className="text-white text-[0.55rem] font-bold">C</span>
+                  </div>
+                  <span className="text-white/90 text-[0.72rem] font-semibold">Controlá Dashboard</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-white/40 text-[0.65rem]">Hotel Boutique Granada</span>
+                  <div className="w-5 h-5 rounded-full bg-azul/30 flex items-center justify-center">
+                    <span className="text-white text-[0.55rem] font-bold">TK</span>
+                  </div>
+                </div>
+              </div>
+              {/* Dashboard content */}
+              <div className="p-4">
+                {/* Stats row */}
+                <div className="grid grid-cols-4 gap-2.5 mb-4">
+                  {[
+                    { value: "12", label: "Ocupadas", color: "text-azul", bg: "bg-azul/8" },
+                    { value: "6", label: "Libres", color: "text-verde", bg: "bg-verde/10" },
+                    { value: "3", label: "Limpieza", color: "text-naranja", bg: "bg-naranja/8" },
+                    { value: "22%", label: "Ahorro", color: "text-verde", bg: "bg-verde/10" },
+                  ].map((s) => (
+                    <div key={s.label} className={`${s.bg} rounded-xl p-2.5 text-center`}>
+                      <p className={`text-[1.1rem] font-[800] ${s.color} leading-none`}>{s.value}</p>
+                      <p className="text-[0.6rem] text-texto-light mt-0.5">{s.label}</p>
+                    </div>
+                  ))}
+                </div>
+                {/* Room grid */}
+                <div className="bg-white rounded-xl p-3 shadow-sm mb-3">
+                  <div className="flex items-center justify-between mb-2.5">
+                    <span className="text-navy text-[0.7rem] font-semibold">Habitaciones</span>
+                    <span className="text-texto-light text-[0.6rem]">Tiempo real</span>
+                  </div>
+                  <div className="grid grid-cols-7 gap-1.5">
+                    {[
+                      { id: "101", s: "o" }, { id: "102", s: "v" }, { id: "103", s: "o" }, { id: "104", s: "c" }, { id: "105", s: "o" }, { id: "106", s: "v" }, { id: "107", s: "o" },
+                      { id: "201", s: "v" }, { id: "202", s: "o" }, { id: "203", s: "o" }, { id: "204", s: "v" }, { id: "205", s: "o" }, { id: "206", s: "c" }, { id: "207", s: "v" },
+                      { id: "301", s: "o" }, { id: "302", s: "c" }, { id: "303", s: "o" }, { id: "304", s: "v" }, { id: "305", s: "o" }, { id: "306", s: "o" }, { id: "307", s: "v" },
+                    ].map((r) => {
+                      const bg = r.s === "o" ? "bg-azul/10" : r.s === "v" ? "bg-verde/10" : "bg-naranja/10";
+                      const dot = r.s === "o" ? "bg-azul" : r.s === "v" ? "bg-verde" : "bg-naranja";
+                      return (
+                        <div key={r.id} className={`${bg} rounded-lg p-1.5 text-center`}>
+                          <p className="text-[0.6rem] font-bold text-navy leading-none">{r.id}</p>
+                          <div className={`w-1.5 h-1.5 rounded-full ${dot} mx-auto mt-1`} />
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+                {/* Bottom cards */}
+                <div className="grid grid-cols-2 gap-2.5">
+                  {/* Recent activity */}
+                  <div className="bg-white rounded-xl p-3 shadow-sm">
+                    <span className="text-navy text-[0.7rem] font-semibold block mb-2">Actividad reciente</span>
+                    <div className="space-y-1.5">
+                      {[
+                        { icon: "🔔", text: "Checkout Hab. 204", time: "Hace 2 min", color: "text-naranja" },
+                        { icon: "❄️", text: "Clima OFF Hab. 102", time: "Hace 8 min", color: "text-azul" },
+                        { icon: "✅", text: "Limpieza lista 301", time: "Hace 15 min", color: "text-verde" },
+                      ].map((a) => (
+                        <div key={a.text} className="flex items-center gap-2">
+                          <span className="text-[0.6rem]">{a.icon}</span>
+                          <div className="flex-1 min-w-0">
+                            <p className={`text-[0.6rem] font-medium ${a.color} truncate`}>{a.text}</p>
+                          </div>
+                          <span className="text-[0.5rem] text-texto-light whitespace-nowrap">{a.time}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  {/* Energy chart mock */}
+                  <div className="bg-white rounded-xl p-3 shadow-sm">
+                    <span className="text-navy text-[0.7rem] font-semibold block mb-2">Energía hoy</span>
+                    <div className="flex items-end gap-[3px] h-[48px]">
+                      {[40, 55, 35, 60, 45, 30, 50, 38, 42, 28, 35, 25].map((h, i) => (
+                        <div key={i} className="flex-1 rounded-sm bg-azul/20 relative" style={{ height: `${h}%` }}>
+                          <div className="absolute bottom-0 left-0 right-0 rounded-sm bg-azul" style={{ height: `${h * 0.65}%` }} />
+                        </div>
+                      ))}
+                    </div>
+                    <div className="flex items-center justify-between mt-2">
+                      <span className="text-[0.55rem] text-texto-light">06:00</span>
+                      <div className="flex items-center gap-1">
+                        <span className="text-verde text-[0.65rem] font-bold">↓ 22%</span>
+                        <span className="text-[0.5rem] text-texto-light">vs. ayer</span>
+                      </div>
+                      <span className="text-[0.55rem] text-texto-light">18:00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
