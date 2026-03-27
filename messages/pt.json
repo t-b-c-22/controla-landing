@@ -23,6 +23,14 @@
     "note": "15 minutos. Sem compromisso.",
     "caption": "Sensores nos quartos + o seu PMS. O hotel reage sozinho."
   },
+  "heroCards": {
+    "checkout": { "title": "Checkout inteligente", "desc": "Notificação instantânea no checkout. Housekeeping atua no momento." },
+    "ai": { "title": "Câmaras com IA", "desc": "Deteção de animais, pratos, grupos e filas. Apenas uso reativo." },
+    "water": { "title": "Água quente", "desc": "Temperatura, cloro e pressão em tempo real. Conformidade automática." },
+    "energy": { "title": "Eficiência energética", "desc": "Desligamento automático, limite de temperatura e modo eco. Até 35% de poupança." },
+    "occupancy": { "title": "Ocupação em tempo real", "desc": "Saiba quais quartos estão vazios. Otimize housekeeping em 10-15%." },
+    "noise": { "title": "Sensor de ruído", "desc": "Monitorização 24/7. Alertas antes das queixas." }
+  },
   "proof": {
     "text": "Já confiam em nós"
   },

@@ -23,6 +23,14 @@
     "note": "15 minuti. Senza impegno.",
     "caption": "Sensori nelle camere + il tuo PMS. L'hotel reagisce da solo."
   },
+  "heroCards": {
+    "checkout": { "title": "Checkout intelligente", "desc": "Notifica istantanea al checkout. L'housekeeping agisce subito." },
+    "ai": { "title": "Telecamere con IA", "desc": "Rilevamento animali, piatti, gruppi e code. Solo uso reattivo." },
+    "water": { "title": "Acqua calda", "desc": "Temperatura, cloro e pressione in tempo reale. Conformità automatica." },
+    "energy": { "title": "Efficienza energetica", "desc": "Spegnimento automatico, limite di temperatura e modalità eco. Fino al 35% di risparmio." },
+    "occupancy": { "title": "Occupazione in tempo reale", "desc": "Sapere quali camere sono vuote. Ottimizzare l'housekeeping del 10-15%." },
+    "noise": { "title": "Sensore di rumore", "desc": "Monitoraggio 24/7. Avvisi prima dei reclami." }
+  },
   "proof": {
     "text": "Si fidano già di noi"
   },

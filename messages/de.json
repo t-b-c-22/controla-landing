@@ -23,6 +23,14 @@
     "note": "15 Minuten. Unverbindlich.",
     "caption": "Sensoren in den Zimmern + Ihr PMS. Das Hotel reagiert von selbst."
   },
+  "heroCards": {
+    "checkout": { "title": "Intelligenter Checkout", "desc": "Sofortige Benachrichtigung beim Checkout. Housekeeping handelt sofort." },
+    "ai": { "title": "KI-Kameras", "desc": "Haustier-, Geschirr-, Gruppen- und Warteschlangenerkennung. Nur reaktive Nutzung." },
+    "water": { "title": "Warmwasser", "desc": "Temperatur, Chlor und Druck in Echtzeit. Automatische Konformität." },
+    "energy": { "title": "Energieeffizienz", "desc": "Automatische Abschaltung, Temperaturgrenze und Eco-Modus. Bis zu 35% Einsparung." },
+    "occupancy": { "title": "Echtzeit-Belegung", "desc": "Wissen, welche Zimmer frei sind. Housekeeping um 10-15% optimieren." },
+    "noise": { "title": "Lärmsensor", "desc": "24/7-Überwachung. Alarme vor den Beschwerden." }
+  },
   "proof": {
     "text": "Sie vertrauen uns bereits"
   },

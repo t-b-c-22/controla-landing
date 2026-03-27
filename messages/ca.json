@@ -23,6 +23,14 @@
     "note": "15 minuts. Sense compromís.",
     "caption": "Sensors a les habitacions + el teu PMS. L'hotel reacciona sol."
   },
+  "heroCards": {
+    "checkout": { "title": "Checkout intel·ligent", "desc": "Notificació instantània en fer checkout. Housekeeping actua al moment." },
+    "ai": { "title": "Càmeres amb IA", "desc": "Detecció de mascotes, plats, grups i cues. Només ús reactiu." },
+    "water": { "title": "Aigua calenta", "desc": "Temperatura, clor i pressió en temps real. Compliment automàtic." },
+    "energy": { "title": "Eficiència energètica", "desc": "Apagat automàtic, límit de temperatura i mode eco. Fins al 35% d'estalvi." },
+    "occupancy": { "title": "Ocupació en temps real", "desc": "Sap quines habitacions estan buides. Optimitza housekeeping un 10-15%." },
+    "noise": { "title": "Sensor de soroll", "desc": "Monitorització 24/7. Alertes abans que arribin les queixes." }
+  },
   "proof": {
     "text": "Ja confien en nosaltres"
   },

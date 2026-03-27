@@ -57,17 +57,17 @@ function PageContent() {
   return (
     <main>
       {/* HERO */}
-      <section className="pt-[140px] pb-[100px] px-6 bg-gradient-to-b from-white to-gris max-md:pt-[120px] max-md:pb-[70px]">
-        <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 items-center">
-          {/* Left column — text + CTA */}
-          <div>
+      <section className="pt-[140px] pb-[60px] px-6 bg-gradient-to-b from-white to-gris max-md:pt-[120px] max-md:pb-[50px]">
+        <div className="max-w-[1200px] mx-auto">
+          {/* Text center */}
+          <div className="max-w-[700px] mx-auto text-center mb-14 max-md:mb-10">
             <div className="inline-block bg-azul-light text-azul text-[0.85rem] font-semibold px-[18px] py-1.5 rounded-full mb-7">
               {t("hero.badge")}
             </div>
             <h1 className="text-[clamp(2.6rem,5.5vw,4rem)] font-[800] leading-[1.08] tracking-[-2px] mb-6 text-navy">
               {t("hero.titleStart")}{" "}<span className="text-azul">{t("hero.titleAccent")}</span>
             </h1>
-            <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[540px] mb-10 leading-[1.7]">
+            <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[540px] mx-auto mb-10 leading-[1.7]">
               {t("hero.subtitle")}
             </p>
             <a href="#contacto" className="inline-block bg-naranja text-white text-[1.1rem] font-bold py-4 px-11 rounded-xl no-underline transition-all shadow-[0_4px_16px_rgba(224,94,39,0.25)] hover:bg-naranja-hover hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,94,39,0.3)]">
@@ -76,106 +76,46 @@ function PageContent() {
             <p className="mt-3.5 text-[0.85rem] text-gris-dark">{t("hero.note")}</p>
           </div>
 
-          {/* Right column — dashboard mockup */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-[540px] rounded-2xl shadow-[0_20px_60px_rgba(19,35,66,0.15)] overflow-hidden border border-black/5 bg-[#f7f8fa]">
-              {/* Top bar */}
-              <div className="bg-navy px-4 py-2.5 flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="w-[18px] h-[18px] rounded bg-azul flex items-center justify-center">
-                    <span className="text-white text-[0.55rem] font-bold">C</span>
-                  </div>
-                  <span className="text-white/90 text-[0.72rem] font-semibold">Controlá Dashboard</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-white/40 text-[0.65rem]">Hotel Boutique Granada</span>
-                  <div className="w-5 h-5 rounded-full bg-azul/30 flex items-center justify-center">
-                    <span className="text-white text-[0.55rem] font-bold">TK</span>
-                  </div>
-                </div>
-              </div>
-              {/* Dashboard content */}
-              <div className="p-4">
-                {/* Stats row */}
-                <div className="grid grid-cols-4 gap-2.5 mb-4">
-                  {[
-                    { value: "12", label: "Ocupadas", color: "text-azul", bg: "bg-azul/8" },
-                    { value: "6", label: "Libres", color: "text-verde", bg: "bg-verde/10" },
-                    { value: "3", label: "Limpieza", color: "text-naranja", bg: "bg-naranja/8" },
-                    { value: "22%", label: "Ahorro", color: "text-verde", bg: "bg-verde/10" },
-                  ].map((s) => (
-                    <div key={s.label} className={`${s.bg} rounded-xl p-2.5 text-center`}>
-                      <p className={`text-[1.1rem] font-[800] ${s.color} leading-none`}>{s.value}</p>
-                      <p className="text-[0.6rem] text-texto-light mt-0.5">{s.label}</p>
+          {/* Product cards grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { key: "checkout", color: "naranja", icon: "M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4", href: `/${locale}/checkout-button` },
+              { key: "ai", color: "navy", icon: "M15 10l4.553-2.276A1 1 0 0 1 21 8.618v6.764a1 1 0 0 1-1.447.894L15 14M5 18h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2z", href: `/${locale}/landing-page` },
+              { key: "water", color: "azul", icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z", href: `/${locale}/landing-page` },
+              { key: "energy", color: "verde", icon: "M13 2L3 14h9l-1 8 10-12h-9l1-8z", href: `/${locale}/landing-page` },
+              { key: "occupancy", color: "azul", icon: "M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75", href: `/${locale}/landing-page` },
+              { key: "noise", color: "naranja", icon: "M15.54 8.46a5 5 0 0 1 0 7.07M19.07 4.93a10 10 0 0 1 0 14.14M11 5L6 9H2v6h4l5 4V5z", href: `/${locale}/landing-page` },
+            ].map((card) => {
+              const colorMap: Record<string, { text: string; bg: string; border: string; stroke: string }> = {
+                naranja: { text: "text-naranja", bg: "bg-naranja/8", border: "border-l-naranja", stroke: "#e05e27" },
+                navy: { text: "text-navy", bg: "bg-navy/8", border: "border-l-navy", stroke: "#132342" },
+                azul: { text: "text-azul", bg: "bg-azul/8", border: "border-l-azul", stroke: "#4141e2" },
+                verde: { text: "text-verde", bg: "bg-verde/10", border: "border-l-verde", stroke: "#69ca90" },
+              };
+              const c = colorMap[card.color];
+              return (
+                <a
+                  key={card.key}
+                  href={card.href}
+                  className={`group relative bg-white rounded-xl p-5 border border-black/5 border-l-[3px] ${c.border} no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(19,35,66,0.12)]`}
+                >
+                  <div className="flex items-start gap-4">
+                    <div className={`w-10 h-10 rounded-xl ${c.bg} flex items-center justify-center shrink-0`}>
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={c.stroke} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                        <path d={card.icon} />
+                      </svg>
                     </div>
-                  ))}
-                </div>
-                {/* Room grid */}
-                <div className="bg-white rounded-xl p-3 shadow-sm mb-3">
-                  <div className="flex items-center justify-between mb-2.5">
-                    <span className="text-navy text-[0.7rem] font-semibold">Habitaciones</span>
-                    <span className="text-texto-light text-[0.6rem]">Tiempo real</span>
-                  </div>
-                  <div className="grid grid-cols-7 gap-1.5">
-                    {[
-                      { id: "101", s: "o" }, { id: "102", s: "v" }, { id: "103", s: "o" }, { id: "104", s: "c" }, { id: "105", s: "o" }, { id: "106", s: "v" }, { id: "107", s: "o" },
-                      { id: "201", s: "v" }, { id: "202", s: "o" }, { id: "203", s: "o" }, { id: "204", s: "v" }, { id: "205", s: "o" }, { id: "206", s: "c" }, { id: "207", s: "v" },
-                      { id: "301", s: "o" }, { id: "302", s: "c" }, { id: "303", s: "o" }, { id: "304", s: "v" }, { id: "305", s: "o" }, { id: "306", s: "o" }, { id: "307", s: "v" },
-                    ].map((r) => {
-                      const bg = r.s === "o" ? "bg-azul/10" : r.s === "v" ? "bg-verde/10" : "bg-naranja/10";
-                      const dot = r.s === "o" ? "bg-azul" : r.s === "v" ? "bg-verde" : "bg-naranja";
-                      return (
-                        <div key={r.id} className={`${bg} rounded-lg p-1.5 text-center`}>
-                          <p className="text-[0.6rem] font-bold text-navy leading-none">{r.id}</p>
-                          <div className={`w-1.5 h-1.5 rounded-full ${dot} mx-auto mt-1`} />
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-                {/* Bottom cards */}
-                <div className="grid grid-cols-2 gap-2.5">
-                  {/* Recent activity */}
-                  <div className="bg-white rounded-xl p-3 shadow-sm">
-                    <span className="text-navy text-[0.7rem] font-semibold block mb-2">Actividad reciente</span>
-                    <div className="space-y-1.5">
-                      {[
-                        { icon: "🔔", text: "Checkout Hab. 204", time: "Hace 2 min", color: "text-naranja" },
-                        { icon: "❄️", text: "Clima OFF Hab. 102", time: "Hace 8 min", color: "text-azul" },
-                        { icon: "✅", text: "Limpieza lista 301", time: "Hace 15 min", color: "text-verde" },
-                      ].map((a) => (
-                        <div key={a.text} className="flex items-center gap-2">
-                          <span className="text-[0.6rem]">{a.icon}</span>
-                          <div className="flex-1 min-w-0">
-                            <p className={`text-[0.6rem] font-medium ${a.color} truncate`}>{a.text}</p>
-                          </div>
-                          <span className="text-[0.5rem] text-texto-light whitespace-nowrap">{a.time}</span>
-                        </div>
-                      ))}
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-navy text-[0.95rem] font-bold mb-1 leading-tight">{t(`heroCards.${card.key}.title`)}</h3>
+                      <p className="text-texto-light text-[0.82rem] leading-[1.5]">{t(`heroCards.${card.key}.desc`)}</p>
                     </div>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8899a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 mt-1 opacity-0 -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                      <polyline points="9,18 15,12 9,6" />
+                    </svg>
                   </div>
-                  {/* Energy chart mock */}
-                  <div className="bg-white rounded-xl p-3 shadow-sm">
-                    <span className="text-navy text-[0.7rem] font-semibold block mb-2">Energía hoy</span>
-                    <div className="flex items-end gap-[3px] h-[48px]">
-                      {[40, 55, 35, 60, 45, 30, 50, 38, 42, 28, 35, 25].map((h, i) => (
-                        <div key={i} className="flex-1 rounded-sm bg-azul/20 relative" style={{ height: `${h}%` }}>
-                          <div className="absolute bottom-0 left-0 right-0 rounded-sm bg-azul" style={{ height: `${h * 0.65}%` }} />
-                        </div>
-                      ))}
-                    </div>
-                    <div className="flex items-center justify-between mt-2">
-                      <span className="text-[0.55rem] text-texto-light">06:00</span>
-                      <div className="flex items-center gap-1">
-                        <span className="text-verde text-[0.65rem] font-bold">↓ 22%</span>
-                        <span className="text-[0.5rem] text-texto-light">vs. ayer</span>
-                      </div>
-                      <span className="text-[0.55rem] text-texto-light">18:00</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>

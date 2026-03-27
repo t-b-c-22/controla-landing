@@ -23,6 +23,14 @@
     "note": "15 minutes. No commitment.",
     "caption": "Room sensors + your PMS. The hotel reacts on its own."
   },
+  "heroCards": {
+    "checkout": { "title": "Smart checkout", "desc": "Instant notification on checkout. Housekeeping acts immediately." },
+    "ai": { "title": "AI cameras", "desc": "Pet, dish, group, and queue detection. Reactive use only." },
+    "water": { "title": "Hot water", "desc": "Temperature, chlorine, and pressure in real time. Automatic compliance." },
+    "energy": { "title": "Energy efficiency", "desc": "Auto shutdown, temperature limits, and eco mode. Up to 35% savings." },
+    "occupancy": { "title": "Real-time occupancy", "desc": "Know which rooms are empty. Optimize housekeeping by 10-15%." },
+    "noise": { "title": "Noise sensor", "desc": "24/7 monitoring. Alerts before complaints arrive." }
+  },
   "proof": {
     "text": "They already trust us"
   },
