@@ -90,7 +90,36 @@ function PageContent() {
               {t("hero.titleStart")}{" "}<span className="text-azul">{t("hero.titleAccent")}</span>
             </h1>
             <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[540px] mb-10 leading-[1.7]">
-              {t("hero.subtitle")}
+              {(() => {
+                const sub = t("hero.subtitle");
+                const lastDot = sub.lastIndexOf(". ");
+                if (lastDot === -1) return sub;
+                const before = sub.slice(0, lastDot + 2);
+                const accent = sub.slice(lastDot + 2);
+                return (
+                  <>
+                    {before}
+                    <span className="relative inline-block text-naranja font-semibold">
+                      {accent}
+                      <svg
+                        className="absolute -bottom-1 left-0 w-full animated-underline"
+                        height="8"
+                        viewBox="0 0 300 8"
+                        preserveAspectRatio="none"
+                        fill="none"
+                      >
+                        <path
+                          d="M 0,5 Q 75,0 150,5 Q 225,8 300,4"
+                          stroke="#e05e27"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          className="animated-underline-path"
+                        />
+                      </svg>
+                    </span>
+                  </>
+                );
+              })()}
             </p>
             <a href="#contacto" className="inline-block bg-naranja text-white text-[1.1rem] font-bold py-4 px-11 rounded-xl no-underline transition-all shadow-[0_4px_16px_rgba(224,94,39,0.25)] hover:bg-naranja-hover hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,94,39,0.3)]">
               {t("hero.cta")}
