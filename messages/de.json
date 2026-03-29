@@ -20,7 +20,7 @@
     "titleAccent": "Autopilot",
     "subtitle": "Weniger Energieverschwendung. Weniger Gästebeschwerden. Mehr Zeit für das Wesentliche.",
     "cta": "Gespräch vereinbaren",
-    "note": "15 Minuten. Unverbindlich.",
+    "note": "30 Minuten. Unverbindlich.",
     "caption": "Sensoren in den Zimmern + Ihr PMS. Das Hotel reagiert von selbst."
   },
   "heroCards": {
@@ -117,7 +117,7 @@
   "ctaBanner": {
     "title": "Weniger Verschwendung. Weniger Überraschungen. Weniger manuelle Arbeit.",
     "subtitle": "Jedes Hotel ist anders. Deshalb passen wir uns an das an, was Sie bereits haben, und bauen darauf auf.",
-    "cta": "Ich möchte es in 15 Minuten sehen"
+    "cta": "Erzählen Sie uns von Ihrem Hotel"
   },
   "faq": {
     "label": "Häufig gestellte Fragen",
@@ -131,7 +131,7 @@
     "q4": "Sind Bauarbeiten im Hotel erforderlich?",
     "a4": "In den meisten Fällen nicht. Die von uns verwendeten Geräte sind kabellos und werden installiert, ohne die vorhandene Infrastruktur zu verändern. Wenn das Hotel bereits über Zentralsysteme verfügt, erfolgt die Integration per Software.",
     "q5": "Was kostet es?",
-    "a5": "Das Modell ist ein monatliches Abonnement pro Gerät oder Zimmer. Keine großen Anfangsinvestitionen. Der genaue Preis hängt davon ab, welche Lösungen Sie benötigen und welche Infrastruktur bereits vorhanden ist. Wir erläutern es Ihnen im 15-Minuten-Gespräch.",
+    "a5": "Das Modell ist ein monatliches Abonnement pro Gerät oder Zimmer. Keine großen Anfangsinvestitionen. Der genaue Preis hängt davon ab, welche Lösungen Sie benötigen und welche Infrastruktur bereits vorhanden ist. Wir erläutern es Ihnen im 30-Minuten-Gespräch.",
     "q6": "Was passiert, wenn etwas ausfällt?",
     "a6": "Wir überwachen kontinuierlich alle angeschlossenen Geräte. Wenn ein Sensor ausfällt oder die Verbindung verliert, erkennen wir dies automatisch und benachrichtigen Sie. Darüber hinaus sind die Automatisierungen mit Fallback-Lösungen ausgestattet, damit das Hotel normal weiterarbeitet."
   },
@@ -294,7 +294,7 @@
     },
     "cta": {
       "title": "Sprechen wir über Ihr Hotel?",
-      "subtitle": "15 Minuten, um Ihnen zu zeigen, wie es in Ihrem konkreten Fall aussehen würde.",
+      "subtitle": "30 Minuten, um Ihnen zu zeigen, wie es in Ihrem konkreten Fall aussehen würde.",
       "button": "Gespräch vereinbaren",
       "contact": "tomas@controla.cloud · +34 613 094 047"
     }

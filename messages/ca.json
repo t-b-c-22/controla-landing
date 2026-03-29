@@ -20,7 +20,7 @@
     "titleAccent": "pilot automàtic",
     "subtitle": "Menys energia malbaratada. Menys queixes d'hostes. Més temps per al que importa.",
     "cta": "Agenda una trucada",
-    "note": "15 minuts. Sense compromís.",
+    "note": "30 minuts. Sense compromís.",
     "caption": "Sensors a les habitacions + el teu PMS. L'hotel reacciona sol."
   },
   "heroCards": {
@@ -117,7 +117,7 @@
   "ctaBanner": {
     "title": "Menys malbaratament. Menys sorpreses. Menys treball manual.",
     "subtitle": "Cada hotel és diferent. Per això ens adaptem al que ja tens i construïm des d'allà.",
-    "cta": "Vull veure-ho en 15 minuts"
+    "cta": "Explica'ns sobre el teu hotel"
   },
   "faq": {
     "label": "Preguntes freqüents",
@@ -131,7 +131,7 @@
     "q4": "Cal fer obres a l'hotel?",
     "a4": "En la majoria dels casos, no. Els dispositius que utilitzem són sense fil i s'instal·len sense necessitat de modificar la infraestructura existent. Si l'hotel ja té sistemes centralitzats, la integració és per software.",
     "q5": "Quant costa?",
-    "a5": "El model és per subscripció mensual per dispositiu o habitació. No hi ha grans inversions inicials. El preu exacte depèn de quines solucions necessites i de la infraestructura existent. T'ho detallem a la trucada de 15 minuts.",
+    "a5": "El model és per subscripció mensual per dispositiu o habitació. No hi ha grans inversions inicials. El preu exacte depèn de quines solucions necessites i de la infraestructura existent. T'ho detallem a la trucada de 30 minuts.",
     "q6": "Què passa si alguna cosa falla?",
     "a6": "Tenim monitorització contínua de tots els dispositius connectats. Si un sensor deixa de funcionar o perd connexió, ho detectem automàticament i t'avisem. A més, les automatitzacions estan dissenyades amb fallbacks perquè l'hotel segueixi operant normalment."
   },
@@ -294,7 +294,7 @@
     },
     "cta": {
       "title": "Parlem del teu hotel?",
-      "subtitle": "15 minuts per mostrar-te com seria en el teu cas concret.",
+      "subtitle": "30 minuts per mostrar-te com seria en el teu cas concret.",
       "button": "Agenda una trucada",
       "contact": "tomas@controla.cloud · +34 613 094 047"
     }

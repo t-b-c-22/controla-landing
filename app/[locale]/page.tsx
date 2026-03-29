@@ -57,17 +57,17 @@ function PageContent() {
   return (
     <main>
       {/* HERO */}
-      <section className="pt-[140px] pb-[60px] px-6 bg-gradient-to-b from-white to-gris max-md:pt-[120px] max-md:pb-[50px]">
-        <div className="max-w-[1200px] mx-auto">
-          {/* Text center */}
-          <div className="max-w-[700px] mx-auto text-center mb-14 max-md:mb-10">
+      <section className="pt-[140px] pb-[100px] px-6 bg-gradient-to-b from-white to-gris max-md:pt-[120px] max-md:pb-[70px]">
+        <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-[50%_50%] gap-12 items-center">
+          {/* Left column — text + CTA */}
+          <div>
             <div className="inline-block bg-azul-light text-azul text-[0.85rem] font-semibold px-[18px] py-1.5 rounded-full mb-7">
               {t("hero.badge")}
             </div>
             <h1 className="text-[clamp(2.6rem,5.5vw,4rem)] font-[800] leading-[1.08] tracking-[-2px] mb-6 text-navy">
               {t("hero.titleStart")}{" "}<span className="text-azul">{t("hero.titleAccent")}</span>
             </h1>
-            <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[540px] mx-auto mb-10 leading-[1.7]">
+            <p className="text-[clamp(1.05rem,2vw,1.25rem)] text-texto-light max-w-[540px] mb-10 leading-[1.7]">
               {t("hero.subtitle")}
             </p>
             <a href="#contacto" className="inline-block bg-naranja text-white text-[1.1rem] font-bold py-4 px-11 rounded-xl no-underline transition-all shadow-[0_4px_16px_rgba(224,94,39,0.25)] hover:bg-naranja-hover hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(224,94,39,0.3)]">
@@ -76,8 +76,8 @@ function PageContent() {
             <p className="mt-3.5 text-[0.85rem] text-gris-dark">{t("hero.note")}</p>
           </div>
 
-          {/* Product cards grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Right column — Product cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { key: "checkout", color: "naranja", icon: "M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4", href: `/${locale}/checkout-button` },
               { key: "ai", color: "navy", icon: "M15 10l4.553-2.276A1 1 0 0 1 21 8.618v6.764a1 1 0 0 1-1.447.894L15 14M5 18h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2z", href: `/${locale}/landing-page` },
@@ -97,22 +97,20 @@ function PageContent() {
                 <a
                   key={card.key}
                   href={card.href}
-                  className={`group relative bg-white rounded-xl p-5 border border-black/5 border-l-[3px] ${c.border} no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(19,35,66,0.12)]`}
+                  className={`group relative bg-white rounded-xl px-4 py-3.5 border border-black/5 border-l-[3px] ${c.border} no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(19,35,66,0.12)]`}
                 >
-                  <div className="flex items-start gap-4">
-                    <div className={`w-10 h-10 rounded-xl ${c.bg} flex items-center justify-center shrink-0`}>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={c.stroke} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <div className="flex items-center gap-3">
+                    <div className={`w-9 h-9 rounded-lg ${c.bg} flex items-center justify-center shrink-0`}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={c.stroke} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                         <path d={card.icon} />
                       </svg>
                     </div>
-                    <div className="flex-1 min-w-0">
-                      <h3 className="text-navy text-[0.95rem] font-bold mb-1 leading-tight">{t(`heroCards.${card.key}.title`)}</h3>
-                      <p className="text-texto-light text-[0.82rem] leading-[1.5]">{t(`heroCards.${card.key}.desc`)}</p>
-                    </div>
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8899a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 mt-1 opacity-0 -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                    <h3 className="text-navy text-[0.9rem] font-bold leading-tight flex-1">{t(`heroCards.${card.key}.title`)}</h3>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8899a6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-0 -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                       <polyline points="9,18 15,12 9,6" />
                     </svg>
                   </div>
+                  <p className="text-texto-light text-[0.78rem] leading-[1.5] mt-0 max-h-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:max-h-[60px] group-hover:opacity-100 group-hover:mt-2.5 pl-12">{t(`heroCards.${card.key}.desc`)}</p>
                 </a>
               );
             })}

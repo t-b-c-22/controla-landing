@@ -47,7 +47,20 @@
       "Bash(curl -sL -o \"$TEMP/controla_icon.png\" \"https://controla.com.es/wp-content/uploads/2024/04/cropped-Controla_Logo_S_7-192x192.png\")",
       "Read(//c/Users/tomas/**)",
       "Read(//g//**)",
-      "Read(//h//**)"
+      "Read(//h//**)",
+      "Read(//g/Shared drives/Controlá/Controlá/Diseño/Controlá_BrandPack_2024/01_Elementos Básicos/Logo/Versión Principal/**)",
+      "Read(//g/Shared drives/Controlá/Controlá/Diseño/Controlá_BrandPack_2024/01_Elementos Básicos/**)",
+      "Bash(npx -y pdf-parse \"c:/Users/tomas/Desktop/Material marketing/Presentación botón check out.pdf\")",
+      "Bash(unzip -o \"stitch_landing_page_control_sensor_de_ruido.zip\" -d stitch_checkout)",
+      "Bash(npm list:*)",
+      "Bash(node -e \":*)",
+      "Bash(powershell.exe -Command \"Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.Clipboard]::ContainsText\\(\\)\")",
+      "Bash(npx -y pdf2pic --help)",
+      "Bash(npx -y playwright install chromium)",
+      "Bash(npx -y playwright-core -e \":*)",
+      "Bash(npm ls:*)",
+      "Bash(npx playwright:*)",
+      "Bash(unzip -o \"ilovepdf_pages-to-jpg \\(2\\).zip\" -d pdf_checkout_pages)"
     ]
   }
 }

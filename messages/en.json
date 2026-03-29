@@ -20,7 +20,7 @@
     "titleAccent": "autopilot",
     "subtitle": "Less wasted energy. Fewer guest complaints. More time for what matters.",
     "cta": "Book a call",
-    "note": "15 minutes. No commitment.",
+    "note": "30 minutes. No commitment.",
     "caption": "Room sensors + your PMS. The hotel reacts on its own."
   },
   "heroCards": {
@@ -117,7 +117,7 @@
   "ctaBanner": {
     "title": "Less waste. Fewer surprises. Less manual work.",
     "subtitle": "Every hotel is different. That's why we adapt to what you already have and build from there.",
-    "cta": "I want to see it in 15 minutes"
+    "cta": "Tell us about your hotel"
   },
   "faq": {
     "label": "Frequently asked questions",
@@ -131,7 +131,7 @@
     "q4": "Does it require construction work?",
     "a4": "In most cases, no. The devices we use are wireless and install without modifying existing infrastructure. If the hotel already has centralized systems, integration is done via software.",
     "q5": "How much does it cost?",
-    "a5": "The model is a monthly subscription per device or room. No large upfront investments. The exact price depends on which solutions you need and your existing infrastructure. We'll detail it in the 15-minute call.",
+    "a5": "The model is a monthly subscription per device or room. No large upfront investments. The exact price depends on which solutions you need and your existing infrastructure. We'll detail it in the 30-minute call.",
     "q6": "What happens if something fails?",
     "a6": "We continuously monitor all connected devices. If a sensor stops working or loses connection, we detect it automatically and notify you. Additionally, automations are designed with fallbacks so the hotel keeps operating normally."
   },
@@ -294,7 +294,7 @@
     },
     "cta": {
       "title": "Let's talk about your hotel?",
-      "subtitle": "15 minutes to show you what it would look like for your specific case.",
+      "subtitle": "30 minutes to show you what it would look like for your specific case.",
       "button": "Book a call",
       "contact": "tomas@controla.cloud · +34 613 094 047"
     }

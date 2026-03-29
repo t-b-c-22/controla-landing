@@ -20,7 +20,7 @@
     "titleAccent": "pilota automatico",
     "subtitle": "Meno energia sprecata. Meno reclami degli ospiti. Più tempo per ciò che conta.",
     "cta": "Prenota una chiamata",
-    "note": "15 minuti. Senza impegno.",
+    "note": "30 minuti. Senza impegno.",
     "caption": "Sensori nelle camere + il tuo PMS. L'hotel reagisce da solo."
   },
   "heroCards": {
@@ -117,7 +117,7 @@
   "ctaBanner": {
     "title": "Meno sprechi. Meno sorprese. Meno lavoro manuale.",
     "subtitle": "Ogni hotel è diverso. Per questo ci adattiamo a ciò che hai già e costruiamo da lì.",
-    "cta": "Voglio vederlo in 15 minuti"
+    "cta": "Raccontaci del tuo hotel"
   },
   "faq": {
     "label": "Domande frequenti",
@@ -131,7 +131,7 @@
     "q4": "Servono lavori nell'hotel?",
     "a4": "Nella maggior parte dei casi, no. I dispositivi che utilizziamo sono wireless e si installano senza modificare l'infrastruttura esistente. Se l'hotel ha già sistemi centralizzati, l'integrazione avviene via software.",
     "q5": "Quanto costa?",
-    "a5": "Il modello è un abbonamento mensile per dispositivo o camera. Nessun grande investimento iniziale. Il prezzo esatto dipende dalle soluzioni di cui hai bisogno e dall'infrastruttura esistente. Te lo dettagliamo nella chiamata di 15 minuti.",
+    "a5": "Il modello è un abbonamento mensile per dispositivo o camera. Nessun grande investimento iniziale. Il prezzo esatto dipende dalle soluzioni di cui hai bisogno e dall'infrastruttura esistente. Te lo dettagliamo nella chiamata di 30 minuti.",
     "q6": "Cosa succede se qualcosa si guasta?",
     "a6": "Monitoriamo continuamente tutti i dispositivi connessi. Se un sensore smette di funzionare o perde la connessione, lo rileviamo automaticamente e ti avvisiamo. Inoltre, le automazioni sono progettate con fallback per garantire che l'hotel continui a funzionare normalmente."
   },
@@ -294,7 +294,7 @@
     },
     "cta": {
       "title": "Parliamo del tuo hotel?",
-      "subtitle": "15 minuti per mostrarti come sarebbe nel tuo caso specifico.",
+      "subtitle": "30 minuti per mostrarti come sarebbe nel tuo caso specifico.",
       "button": "Prenota una chiamata",
       "contact": "tomas@controla.cloud · +34 613 094 047"
     }

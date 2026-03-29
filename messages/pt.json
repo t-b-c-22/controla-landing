@@ -20,7 +20,7 @@
     "titleAccent": "piloto automático",
     "subtitle": "Menos energia desperdiçada. Menos queixas de hóspedes. Mais tempo para o que importa.",
     "cta": "Agendar uma chamada",
-    "note": "15 minutos. Sem compromisso.",
+    "note": "30 minutos. Sem compromisso.",
     "caption": "Sensores nos quartos + o seu PMS. O hotel reage sozinho."
   },
   "heroCards": {
@@ -117,7 +117,7 @@
   "ctaBanner": {
     "title": "Menos desperdício. Menos surpresas. Menos trabalho manual.",
     "subtitle": "Cada hotel é diferente. Por isso adaptamo-nos ao que já tem e construímos a partir daí.",
-    "cta": "Quero ver em 15 minutos"
+    "cta": "Conte-nos sobre o seu hotel"
   },
   "faq": {
     "label": "Perguntas frequentes",
@@ -131,7 +131,7 @@
     "q4": "É necessário fazer obras no hotel?",
     "a4": "Na maioria dos casos, não. Os dispositivos que utilizamos são sem fios e instalam-se sem necessidade de modificar a infraestrutura existente. Se o hotel já tem sistemas centralizados, a integração é por software.",
     "q5": "Quanto custa?",
-    "a5": "O modelo é uma subscrição mensal por dispositivo ou quarto. Sem grandes investimentos iniciais. O preço exato depende das soluções de que precisa e da infraestrutura existente. Detalhamos na chamada de 15 minutos.",
+    "a5": "O modelo é uma subscrição mensal por dispositivo ou quarto. Sem grandes investimentos iniciais. O preço exato depende das soluções de que precisa e da infraestrutura existente. Detalhamos na chamada de 30 minutos.",
     "q6": "O que acontece se algo falhar?",
     "a6": "Temos monitorização contínua de todos os dispositivos conectados. Se um sensor deixar de funcionar ou perder a conexão, detetamos automaticamente e avisamo-lo. Além disso, as automatizações estão desenhadas com fallbacks para que o hotel continue a operar normalmente."
   },
@@ -294,7 +294,7 @@
     },
     "cta": {
       "title": "Falemos do seu hotel?",
-      "subtitle": "15 minutos para mostrar-lhe como seria no seu caso concreto.",
+      "subtitle": "30 minutos para mostrar-lhe como seria no seu caso concreto.",
       "button": "Agendar uma chamada",
       "contact": "tomas@controla.cloud · +34 613 094 047"
     }

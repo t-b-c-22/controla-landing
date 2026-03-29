@@ -20,7 +20,7 @@
     "titleAccent": "pilote automatique",
     "subtitle": "Moins d'énergie gaspillée. Moins de plaintes clients. Plus de temps pour l'essentiel.",
     "cta": "Réserver un appel",
-    "note": "15 minutes. Sans engagement.",
+    "note": "30 minutes. Sans engagement.",
     "caption": "Capteurs dans les chambres + votre PMS. L'hôtel réagit tout seul."
   },
   "heroCards": {
@@ -117,7 +117,7 @@
   "ctaBanner": {
     "title": "Moins de gaspillage. Moins de surprises. Moins de travail manuel.",
     "subtitle": "Chaque hôtel est différent. C'est pourquoi nous nous adaptons à ce que vous avez déjà et construisons à partir de là.",
-    "cta": "Je veux le voir en 15 minutes"
+    "cta": "Parlez-nous de votre hôtel"
   },
   "faq": {
     "label": "Questions fréquentes",
@@ -131,7 +131,7 @@
     "q4": "Faut-il faire des travaux dans l'hôtel ?",
     "a4": "Dans la plupart des cas, non. Les appareils que nous utilisons sont sans fil et s'installent sans modifier l'infrastructure existante. Si l'hôtel dispose déjà de systèmes centralisés, l'intégration se fait par logiciel.",
     "q5": "Combien ça coûte ?",
-    "a5": "Le modèle est un abonnement mensuel par appareil ou chambre. Pas de gros investissements initiaux. Le prix exact dépend des solutions dont vous avez besoin et de votre infrastructure existante. Nous vous le détaillons lors de l'appel de 15 minutes.",
+    "a5": "Le modèle est un abonnement mensuel par appareil ou chambre. Pas de gros investissements initiaux. Le prix exact dépend des solutions dont vous avez besoin et de votre infrastructure existante. Nous vous le détaillons lors de l'appel de 30 minutes.",
     "q6": "Que se passe-t-il si quelque chose tombe en panne ?",
     "a6": "Nous surveillons en continu tous les appareils connectés. Si un capteur cesse de fonctionner ou perd la connexion, nous le détectons automatiquement et vous en informons. De plus, les automatisations sont conçues avec des solutions de secours pour que l'hôtel continue de fonctionner normalement."
   },
@@ -294,7 +294,7 @@
     },
     "cta": {
       "title": "Parlons de votre hôtel ?",
-      "subtitle": "15 minutes pour vous montrer à quoi ça ressemblerait dans votre cas concret.",
+      "subtitle": "30 minutes pour vous montrer à quoi ça ressemblerait dans votre cas concret.",
       "button": "Réserver un appel",
       "contact": "tomas@controla.cloud · +34 613 094 047"
     }
