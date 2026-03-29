@@ -2,6 +2,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import FAQ from "./components/FAQ";
 import ContactForm from "./components/ContactForm";
+import SolutionsCarousel from "./components/SolutionsCarousel";
 
 /* ──────────────── SVG Icons ──────────────── */
 function SnowflakeIcon() {
@@ -47,12 +48,33 @@ function PageContent() {
   const t = useTranslations();
   const locale = useLocale();
 
-  const solutions = [
-    { key: "clima" as const, borderClass: "border-l-azul", href: "#" },
-    { key: "ops" as const, borderClass: "border-l-verde", href: `/${locale}/checkout-button` },
-    { key: "prevention" as const, borderClass: "border-l-naranja", href: "#" },
-    { key: "access" as const, borderClass: "border-l-navy", href: "#" },
-  ];
+  const tOne = useTranslations("onePager");
+
+  const carouselSolutions = [
+    { key: "ops", accentColor: "naranja" },
+    { key: "security", accentColor: "navy" },
+    { key: "maintenance", accentColor: "azul" },
+    { key: "clima", accentColor: "azul" },
+    { key: "occupancy", accentColor: "naranja" },
+    { key: "noise", accentColor: "verde" },
+  ].map((s) => ({
+    ...s,
+    label: tOne(`${s.key}.label`),
+    title: tOne(`${s.key}.title`),
+    titleAccent: tOne(`${s.key}.titleAccent`),
+    subtitle: tOne(`${s.key}.subtitle`),
+    features: [1, 2, 3, 4]
+      .filter((n) => {
+        const fKey = s.key === "security" ? `${s.key}.d${n}` : `${s.key}.f${n}`;
+        return tOne.has(fKey);
+      })
+      .map((n) => {
+        const fKey = s.key === "security" ? `${s.key}.d${n}` : `${s.key}.f${n}`;
+        return tOne(fKey);
+      }),
+    statValue: tOne(`${s.key}.statValue`),
+    statLabel: tOne(`${s.key}.statLabel`),
+  }));
 
   return (
     <main>
@@ -169,31 +191,12 @@ function PageContent() {
       </section>
 
       {/* SOLUTIONS */}
-      <section id="soluciones" className="py-[100px] px-6 bg-white max-md:py-[70px]">
-        <div className="max-w-[1100px] mx-auto">
-          <SectionLabel>{t("solutions.label")}</SectionLabel>
-          <SectionTitle>{t("solutions.title")}</SectionTitle>
-          <p className="text-texto-light text-[1.05rem] mb-14 max-w-[600px]">{t("solutions.subtitle")}</p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {solutions.map((sol) => (
-              <div key={sol.key} className={`bg-white border border-gris rounded-2xl p-9 transition-all relative overflow-hidden border-l-4 ${sol.borderClass} hover:border-l-4 hover:border-transparent hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] hover:-translate-y-0.5`}>
-                <h3 className="text-[1.2rem] font-bold text-navy mb-2.5">{t(`solutions.${sol.key}.title`)}</h3>
-                <p className="text-[0.92rem] text-texto-light leading-[1.65] mb-5">{t(`solutions.${sol.key}.description`)}</p>
-                <ul className="list-none p-0 grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5">
-                  {(["f1", "f2", "f3", "f4", "f5", "f6"] as const).map((f) => (
-                    <li key={f} className="text-[0.84rem] text-texto py-1 pl-[22px] relative before:content-['✓'] before:absolute before:left-0 before:text-verde before:font-bold before:text-[0.85rem]">
-                      {t(`solutions.${sol.key}.${f}`)}
-                    </li>
-                  ))}
-                </ul>
-                <a href={sol.href} className="inline-block mt-4 text-[0.88rem] text-azul no-underline font-semibold hover:underline">
-                  {t("solutions.learnMore")} &rarr;
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <SolutionsCarousel
+        solutions={carouselSolutions}
+        sectionLabel={t("solutions.label")}
+        sectionTitle={t("solutions.title")}
+        sectionSubtitle={t("solutions.subtitle")}
+      />
 
       {/* HOW IT WORKS */}
       <section id="como-funciona" className="py-[100px] px-6 bg-gris max-md:py-[70px]">
