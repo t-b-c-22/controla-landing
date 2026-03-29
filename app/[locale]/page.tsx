@@ -99,7 +99,7 @@ function PageContent() {
                 return (
                   <>
                     {before}
-                    <span className="relative inline-block text-naranja font-semibold">
+                    <span className="relative inline-block text-verde font-semibold">
                       {accent}
                       <svg
                         className="absolute -bottom-1 left-0 w-full animated-underline"
@@ -110,7 +110,7 @@ function PageContent() {
                       >
                         <path
                           d="M 0,5 Q 75,0 150,5 Q 225,8 300,4"
-                          stroke="#e05e27"
+                          stroke="#69ca90"
                           strokeWidth="2.5"
                           strokeLinecap="round"
                           className="animated-underline-path"
