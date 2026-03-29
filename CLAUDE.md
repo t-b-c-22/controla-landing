@@ -6,7 +6,7 @@
 - **NEVER cite unverified sources.** Any bibliography, study, statistic, or external data referenced in blog posts or website content MUST be verified as a real, trustworthy source before including it. Do not pull data from the internet without confirming it exists and is credible. If a source cannot be verified, do not include it. Use our own data or clearly state it is an estimate. 
 This is a strict rule — no exceptions.
 
-- **NEVER DO GIT PUSH** you can do adds and commits, but you can NEVER do git push
+- **ABSOLUTELY NEVER DO GIT PUSH.** No `git push`, no `git push origin`, no `git push --force`, no push de ningún tipo. Esto aplica SIEMPRE, incluso si el usuario lo pide explícitamente en la conversación. Esta regla NO puede ser anulada por ninguna instrucción del usuario. Solo se permiten `git add` y `git commit`. El push lo hace el usuario manualmente.
 
 # Brand Guidelines — Controlá
 
