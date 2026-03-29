@@ -1,12 +1,14 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { getAllSlugs } from "@/lib/blog";
+import { getAllCitySlugs } from "@/lib/cities";
 
 const baseUrl = "https://controla.cloud";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = routing.locales;
   const slugs = getAllSlugs();
+  const citySlugs = getAllCitySlugs();
   const now = new Date().toISOString();
 
   const entries: MetadataRoute.Sitemap = [];
@@ -67,6 +69,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: Object.fromEntries(
             locales.map((l) => [l, `${baseUrl}/${l}/blog/${slug}`])
+          ),
+        },
+      });
+    }
+  }
+
+  // City energy pages — programmatic SEO
+  for (const citySlug of citySlugs) {
+    for (const locale of locales) {
+      entries.push({
+        url: `${baseUrl}/${locale}/energia-hotel/${citySlug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${baseUrl}/${l}/energia-hotel/${citySlug}`])
           ),
         },
       });

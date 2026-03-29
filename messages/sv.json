@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "title": "Controlá - Ditt hotell på autopilot",
+    "description": "Controlá digitaliserar ditt hotells infrastruktur. Vi utnyttjar det du redan har och kompletterar det som saknas. Klimatstyrning, drift, incidentförebyggande och passerkontroll på autopilot.",
+    "ogTitle": "Controlá - Ditt hotell på autopilot",
+    "ogDescription": "Vi automatiserar ditt hotells drift genom att utnyttja den infrastruktur du redan har."
+  },
+  "nav": {
+    "solutions": "Lösningar",
+    "howItWorks": "Hur det fungerar",
+    "cases": "Framgångshistorier",
+    "faq": "FAQ",
+    "about": "Om oss",
+    "blog": "Blogg",
+    "cta": "Prata med oss"
+  },
+  "hero": {
+    "badge": "För hotell och aparthotell",
+    "titleStart": "Vi sätter ditt hotell på",
+    "titleAccent": "autopilot",
+    "subtitle": "Mindre energislöseri. Färre gästklagomål. Mer tid för det som verkligen spelar roll.",
+    "cta": "Boka ett samtal",
+    "note": "30 minuter. Helt förutsättningslöst.",
+    "caption": "Sensorer i rummen + ditt PMS. Hotellet reagerar på egen hand."
+  },
+  "heroCards": {
+    "checkout": { "title": "Smart checkout", "desc": "Omedelbar notifikation vid checkout. Housekeeping agerar direkt." },
+    "ai": { "title": "Kameror med AI", "desc": "Detekterar husdjur, tallrikar, grupper och köer. Enbart reaktiv användning." },
+    "water": { "title": "Varmvatten", "desc": "Temperatur, klor och tryck i realtid. Automatisk regelefterlevnad." },
+    "energy": { "title": "Energieffektivitet", "desc": "Automatisk avstängning, temperaturgräns och ekoläge. Upp till 35% besparing." },
+    "occupancy": { "title": "Beläggning i realtid", "desc": "Vet vilka rum som är tomma. Optimerar housekeeping med 10-15%." },
+    "noise": { "title": "Ljudsensor", "desc": "Övervakning dygnet runt. Varningar innan klagomålen kommer." }
+  },
+  "proof": {
+    "text": "De litar redan på oss"
+  },
+  "problems": {
+    "title": "Vad som händer när du inte vet vad som pågår i dina rum",
+    "subtitle": "De flesta hotell upptäcker problemen när det redan är för sent.",
+    "card1Title": "Klimatstyrning igång utan någon i rummet",
+    "card1Text": "Tomma rum där AC:n eller värmen kör i timmar. Pengar som flyger rakt ut genom taket.",
+    "card2Title": "Housekeeping i blindo",
+    "card2Text": "Städteamet vet inte när gästen har gått. De knackar på dörrar, väntar, slösar tid. Eller värre: rummet förblir ostädat.",
+    "card3Title": "Incidenter som upptäcks för sent",
+    "card3Text": "Vattenläckor, varmvattenberedare som inte fungerar, trasiga luftkonditioneringar. Du får veta det när gästen klagar, inte när problemet börjar."
+  },
+  "solutions": {
+    "label": "Lösningar",
+    "title": "Allt du behöver, på ett ställe",
+    "subtitle": "Varje lösning integreras med de system du redan har. Utan att börja om från noll.",
+    "learnMore": "Läs mer",
+    "clima": {
+      "title": "Klimatstyrning",
+      "description": "Klimatstyrningen anpassar sig automatiskt efter den faktiska beläggningen i varje rum. Utan manuella ingrepp.",
+      "f1": "Automatisk avstängning i tomma rum",
+      "f2": "Temperaturjustering baserat på beläggning",
+      "f3": "Kompatibel med befintliga termostater",
+      "f4": "Stöd för centraliserade system",
+      "f5": "Styrning av AC och värme",
+      "f6": "Hantering av varmvattenberedare"
+    },
+    "ops": {
+      "title": "Rumsdrift",
+      "description": "Hotellet vet i realtid vad som händer i varje rum och agerar automatiskt.",
+      "f1": "Checkout-knapp (3 000+ användningar)",
+      "f2": "Automatiskt meddelande till housekeeping",
+      "f3": "Beläggningsdetektering i realtid",
+      "f4": "Direktkoppling till ditt PMS",
+      "f5": "80% adoption bland gäster",
+      "f6": "Centraliserad Dashboard"
+    },
+    "prevention": {
+      "title": "Incidentförebyggande",
+      "description": "Upptäcker problem innan de eskalerar. Färre gästklagomål, färre kostsamma reparationer.",
+      "f1": "Vattenläckagesensor",
+      "f2": "Varningar vid onormal förbrukning",
+      "f3": "Rökdetektering",
+      "f4": "Fönsterkontroll efter checkout",
+      "f5": "Dörrövervakning",
+      "f6": "Lampstatus"
+    },
+    "access": {
+      "title": "Passerkontroll",
+      "description": "Dynamiska åtkomstkoder som genereras automatiskt för varje gäst. Inga fysiska nycklar.",
+      "f1": "Koder kopplade till bokningen",
+      "f2": "Smarta lås",
+      "f3": "Självständig incheckning dygnet runt",
+      "f4": "Powered by RemoteLock",
+      "f5": "Åtkomsthistorik",
+      "f6": "Integration med PMS"
+    }
+  },
+  "how": {
+    "label": "Hur det fungerar",
+    "title": "Från ditt nuvarande hotell till autopilot i 3 steg",
+    "step1Title": "Vi analyserar din infrastruktur",
+    "step1Text": "Vi granskar vilken teknik ditt hotell har: termostater, centraliserad klimatstyrning, kameror, lås. Vi identifierar vad som kan återanvändas och vad som behöver kompletteras.",
+    "step2Title": "Vi kopplar ihop och konfigurerar",
+    "step2Text": "Vi integrerar allt med ditt PMS och vår plattform. Vi konfigurerar automationer anpassade efter ditt hotells faktiska drift.",
+    "step3Title": "Ditt hotell sköter sig självt",
+    "step3Text": "Rummen hanteras automatiskt. Klimatstyrningen reglerar sig själv, städning får aviseringar, och du ser allt från en enda panel."
+  },
+  "cases": {
+    "label": "Framgångshistorier",
+    "title": "Hotell som redan kör på autopilot",
+    "subtitle": "Varje implementation är unik. Här är några verkliga exempel.",
+    "tag": "Klimatstyrning + Checkout",
+    "caseTitle": "Boutiquehotell i Granada",
+    "caseText": "Automatisering av klimatstyrning och checkout-knapp integrerad med PMS för hantering av housekeeping.",
+    "stat1Value": "3 000+",
+    "stat1Label": "Behandlade checkouts",
+    "stat2Value": "80%",
+    "stat2Label": "Adoption bland gäster",
+    "placeholder1": "Fallstudie under förberedelse.\nVerkliga energibesparingsdata tillgängliga inom kort.",
+    "placeholder2": "Fallstudie under förberedelse.\nKontakta oss om du vill bli en framgångshistoria."
+  },
+  "ctaBanner": {
+    "title": "Mindre slöseri. Färre överraskningar. Mindre manuellt arbete.",
+    "subtitle": "Varje hotell är unikt. Därför anpassar vi oss efter det du redan har och bygger vidare därifrån.",
+    "cta": "Berätta om ditt hotell"
+  },
+  "faq": {
+    "label": "Vanliga frågor",
+    "title": "Det vi alltid får frågor om",
+    "q1": "Behöver jag köpa nya enheter?",
+    "a1": "Det beror på vad du redan har. Om ditt hotell har smarta termostater, centraliserade klimatsystem eller uppkopplade lås så utnyttjar vi dem. Om något saknas rekommenderar vi vad du ska köpa eller tillhandahåller det direkt. Målet är att minimera den initiala investeringen.",
+    "q2": "Hur lång tid tar implementeringen?",
+    "a2": "Det beror på hotellets storlek och befintlig infrastruktur. På hotell som redan har smarta enheter kan uppkopplingen ske på några dagar. Om ny hårdvara behöver installeras kan processen ta mellan 1 och 3 veckor.",
+    "q3": "Vilka PMS är kompatibla?",
+    "a3": "Vi arbetar med de mest använda PMS inom hotellbranschen. Om du använder ett specifikt PMS, kontakta oss så bekräftar vi kompatibiliteten. Integrationen med PMS är det som gör att automationerna kan reagera på incheckningar, utcheckningar och bokningsändringar i realtid.",
+    "q4": "Krävs det byggnadsarbete på hotellet?",
+    "a4": "I de flesta fall, nej. Enheterna vi använder är trådlösa och installeras utan att befintlig infrastruktur behöver ändras. Om hotellet redan har centraliserade system sker integrationen via mjukvara.",
+    "q5": "Vad kostar det?",
+    "a5": "Modellen är en månatlig prenumeration per enhet eller rum. Inga stora initiala investeringar. Det exakta priset beror på vilka lösningar du behöver och befintlig infrastruktur. Vi går igenom detaljerna under 30-minuterssamtalet.",
+    "q6": "Vad händer om något går fel?",
+    "a6": "Vi övervakar alla anslutna enheter kontinuerligt. Om en sensor slutar fungera eller tappar anslutningen upptäcker vi det automatiskt och meddelar dig. Dessutom är automationerna designade med reservlösningar så att hotellet fortsätter fungera normalt."
+  },
+  "blog": {
+    "label": "Resurser",
+    "title": "Artiklar och rapporter",
+    "subtitle": "Innehåll om driftseffektivitet, hotellteknik och automatisering.",
+    "soon": "Kommer snart",
+    "tag1": "Energieffektivitet",
+    "title1": "Hur mycket förlorar ditt hotell på klimatstyrning av tomma rum?",
+    "text1": "En analys av den verkliga effekten av energislöseri på hotell med 20 till 100 rum.",
+    "tag2": "Drift",
+    "title2": "Checkout-knappen: hur en enkel gest förändrar ett hotells drift",
+    "text2": "Verkliga adoptionsdata och påverkan på samordningen av housekeeping.",
+    "tag3": "Teknik",
+    "title3": "Hur du digitaliserar ditt hotell utan att börja om från noll",
+    "text3": "Praktisk guide för att utnyttja befintlig infrastruktur och lägga till automationslager.",
+    "backToBlog": "Tillbaka till bloggen",
+    "backToHome": "Tillbaka till startsidan",
+    "ctaTitle": "Vill du se hur det fungerar på ditt hotell?",
+    "ctaButton": "Boka ett samtal"
+  },
+  "founders": {
+    "label": "Team",
+    "title": "Vilka som ligger bakom Controlá",
+    "tomas": {
+      "role": "VD och medgrundare",
+      "bio": "Civilingenjör inom datavetenskap med över 7 års erfarenhet av IoT. Har arbetat i Israel, Tyskland och Spanien med att utveckla uppkopplings- och automationslösningar för byggnader."
+    },
+    "ezequiel": {
+      "role": "Medgrundare",
+      "bio": "Grundare av Lodging Apartments. 20 års erfarenhet av att driva turistboenden, med över 150 fastigheter under sin ledning. Känner till de operativa problemen på nära håll."
+    }
+  },
+  "contact": {
+    "title": "Låt oss prata om ditt hotell",
+    "subtitle": "Berätta lite om din drift så visar vi hur autopiloten skulle se ut i just ditt fall.",
+    "name": "Namn",
+    "namePlaceholder": "Ditt namn",
+    "hotel": "Hotell",
+    "hotelPlaceholder": "Hotellets namn",
+    "email": "E-post",
+    "emailPlaceholder": "din@email.com",
+    "phone": "Telefon (valfritt)",
+    "phonePlaceholder": "+46 ...",
+    "message": "Meddelande (valfritt)",
+    "messagePlaceholder": "Berätta kort vad du är intresserad av eller vilka problem du har på ditt hotell...",
+    "submit": "Boka samtal",
+    "note": "Vi kontaktar dig inom 24 timmar."
+  },
+  "footer": {
+    "solutions": "Lösningar",
+    "cases": "Framgångshistorier",
+    "resources": "Resurser",
+    "about": "Om oss",
+    "copyright": "© 2026 Controlá. Barcelona, Spanien. Alla rättigheter förbehållna."
+  },
+  "onePager": {
+    "meta": {
+      "title": "IoT-lösningar för hotell | Controlá",
+      "description": "Smart klimatstyrning, automatiserad checkout, ljudsensor, kameror med AI, vattenövervakning och beläggning i realtid för hotell och aparthotell."
+    },
+    "hero": {
+      "badge": "IoT-lösningar för hotell",
+      "title": "Vi sätter ditt hotell på",
+      "titleAccent": "autopilot.",
+      "subtitle": "Mindre energislöseri. Färre gästklagomål. Mer tid för det som verkligen spelar roll.",
+      "cta": "Boka ett samtal",
+      "solutionsCount": "6 lösningar i en plattform"
+    },
+    "interest": "Jag är intresserad",
+    "interestSent": "Tack, vi kontaktar dig",
+    "interestEmailPlaceholder": "Din e-post",
+    "interestSubmit": "Skicka",
+    "progress": "Lösning {current} av {total}",
+    "clima": {
+      "label": "Klimatstyrning",
+      "title": "Smart",
+      "titleAccent": "energieffektivitet.",
+      "subtitle": "Algoritm som reglerar klimatstyrningen baserat på faktisk beläggning. Luftkonditioneringen stängs av när ingen är där och förklimatiserar innan ankomst. Kompatibel med split, VRF, fan-coil och befintliga termostater.",
+      "f1": "Konfigurerbar maximal temperaturgräns",
+      "f2": "Automatiskt ekoläge när rummet är tomt",
+      "f3": "Automatisk avstängning vid öppet fönster",
+      "statValue": "Upp till 35%",
+      "statLabel": "energibesparing"
+    },
+    "ops": {
+      "label": "Drift",
+      "title": "Smart",
+      "titleAccent": "checkout-knapp.",
+      "subtitle": "Enhet som gästen trycker på när de lämnar. Notifierar housekeeping omedelbart, uppdaterar PMS och aktiverar automationer. Utan att vara beroende av att receptionen meddelar.",
+      "f1": "Omedelbar notifikation till housekeeping",
+      "f2": "Automatisk uppdatering av PMS",
+      "f3": "80% adoption bland gäster",
+      "statValue": "3 000+",
+      "statLabel": "behandlade checkouts"
+    },
+    "noise": {
+      "label": "Förebyggande",
+      "title": "Ljudsensor.",
+      "titleAccent": "Utan krångel.",
+      "subtitle": "Kontinuerlig övervakning av ljudnivån. Automatiska varningar när tröskelvärden överskrids, så att du kan agera innan andra gäster klagar eller grannar reclamerar.",
+      "f1": "Kontinuerlig övervakning dygnet runt",
+      "f2": "Automatiska varningar vid tröskelvärde",
+      "f3": "Agera innan klagomålen kommer",
+      "statValue": "24/7",
+      "statLabel": "kontinuerlig övervakning"
+    },
+    "security": {
+      "label": "Säkerhet",
+      "title": "AI-agent.",
+      "titleAccent": "För dina kameror.",
+      "subtitle": "En AI-agent som övervakar alla dina kameror dygnet runt och genererar varningar och notifikationer automatiskt.",
+      "subtitleHighlight1": "Dina kameror spelar redan in, men",
+      "subtitleHighlight2": "de används bara reaktivt",
+      "subtitleHighlight3": "Det är dags att",
+      "subtitleHighlight4": "ge dem artificiell intelligens",
+      "d1": "Detektering av husdjur",
+      "d1Badge": "Perfekt för hotell utan reception",
+      "d2": "Stora grupper som går in",
+      "d2Badge": "Perfekt för hotell utan reception",
+      "d3": "Tallrikar och brickor i korridorer",
+      "d3Badge": "",
+      "d4": "Köer i receptionen",
+      "d4Badge": "",
+      "statValue": "AI",
+      "statLabel": "automatiserad visuell analys"
+    },
+    "maintenance": {
+      "label": "Underhåll",
+      "title": "Övervakning av",
+      "titleAccent": "varmvatten.",
+      "subtitle": "Sluta slösa timmar varje dag på att manuellt kontrollera pannor. Sensorer som mäter temperatur, klor och tryck i realtid. Uppfyll vattenkvalitetsnormer automatiskt och ha allt dokumenterat.",
+      "f1": "Mätning av temperatur, klor och tryck i realtid",
+      "f2": "Automatisk efterlevnad av vattenkvalitetsnormer",
+      "f3": "Register sparas automatiskt för inspektioner",
+      "statValue": "Förebyggande",
+      "statLabel": "tidig feldetektering"
+    },
+    "occupancy": {
+      "label": "Beläggning",
+      "title": "Närvaro i",
+      "titleAccent": "realtid.",
+      "subtitle": "Sensorer som visar om rummet är belagt eller tomt. Grunden för alla automationer: klimatstyrning, housekeeping, säkerhet och rapporter.",
+      "f1": "Data per rum i realtid",
+      "f2": "Grund för alla automationer",
+      "f3": "Integration med klimatstyrning och housekeeping",
+      "statValue": "10-15%",
+      "statLabel": "tidsbesparing för housekeeping"
+    },
+    "how": {
+      "label": "Hur det fungerar",
+      "title": "Från ditt nuvarande hotell till autopilot",
+      "step1Title": "Vi analyserar din infrastruktur",
+      "step1Text": "Vi granskar vilken teknik ditt hotell har och vad som kan återanvändas.",
+      "step2Title": "Vi kopplar ihop och konfigurerar",
+      "step2Text": "Vi integrerar allt med ditt PMS. Vi konfigurerar automationer anpassade efter din drift.",
+      "step3Title": "Ditt hotell sköter sig självt",
+      "step3Text": "Klimatstyrning, housekeeping, incidenter: allt hanteras automatiskt."
+    },
+    "cta": {
+      "title": "Ska vi prata om ditt hotell?",
+      "subtitle": "30 minuter för att visa dig hur det skulle se ut i just ditt fall.",
+      "button": "Boka ett samtal",
+      "contact": "tomas@controla.cloud · +34 613 094 047"
+    }
+  },
+  "checkoutButton": {
+    "meta": {
+      "title": "Smart Checkout-knapp | Controlá",
+      "description": "IoT-knapp som automatiskt notifierar ditt team när gästen checkar ut. +85% adoption. Installation på 15 minuter."
+    },
+    "hero": {
+      "badge": "Smart checkout",
+      "title": "Checkout, med ett enda tryck.",
+      "subtitle": "Dina gäster trycker på en knapp när de går. Ditt team får notifikationen direkt. Inga appar, ingen väntan, inget krångel.",
+      "cta": "Jag vill testa",
+      "secondaryCta": "Se hur det fungerar"
+    },
+    "problem": {
+      "label": "Problemet",
+      "title": "Har gästerna redan lämnat?",
+      "text1": "Värdar och städpersonal har ingen realtidsinformation om när lägenheterna blir lediga.",
+      "text2": "Tusentals onödiga meddelanden mellan drifts- och städteam på grund av bristande information om gästernas avfärd.",
+      "text3": "Rum som kunde vara klara timmar tidigare väntar för att ingen bekräftade att gästen har gått."
+    },
+    "solution": {
+      "label": "Lösningen",
+      "title": "En knapp. En notifikation. Noll friktion.",
+      "text": "Smart internetuppkopplad knapp som gästerna trycker på vid checkout för att meddela att de lämnar boendet.",
+      "text2": "När knappen trycks in får städ- och driftsteamet en omedelbar notifikation om att börja städa lägenheten utan dröjsmål."
+    },
+    "howItWorks": {
+      "label": "Hur det fungerar",
+      "title": "Extremt enkelt",
+      "step1Title": "Gästen lämnar",
+      "step1Text": "Trycker på knappen vid checkout. Systemet skickar en notifikation om att lägenheten är ledig.",
+      "step2Title": "Städning agerar",
+      "step2Text": "Städpersonalen får aviseringen och går direkt till lägenheten. Ingen väntan, ingen dörrklocka.",
+      "step3Title": "Lägenheten är klar",
+      "step3Text": "När städningen är klar trycker personalen på knappen. Driften vet att lägenheten är redo för nästa gäst."
+    },
+    "stats": {
+      "stat1Value": "+85%",
+      "stat1Label": "av gästerna trycker på knappen",
+      "stat2Value": "1 av 3",
+      "stat2Label": "lägenheter checkar ut före 9:00",
+      "stat3Value": "<15 min",
+      "stat3Label": "för att installera hela systemet"
+    },
+    "notifications": {
+      "label": "Notifikationer",
+      "title": "Aviseringar där du behöver dem",
+      "text": "Notifikationer till alla personer eller team du vill, via den kanal du föredrar.",
+      "who1": "Städpersonal",
+      "who2": "Driftsteam",
+      "who3": "Property Manager",
+      "who4": "WhatsApp-grupper",
+      "channel1": "WhatsApp",
+      "channel2": "E-post",
+      "channel3": "Telegram",
+      "channel4": "PMS"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "title": "Allt i realtid",
+      "text": "Panel designad för driftansvariga som visar i realtid:",
+      "f1": "Vilka lägenheter som har checkat ut (och vid vilken tid)",
+      "f2": "Vilka som fortfarande är belagda",
+      "f3": "Om städningen redan har börjat (och när)",
+      "f4": "Vilka som redan är redo för nästa gäst"
+    },
+    "installation": {
+      "label": "Installation",
+      "title": "Igång på 15 minuter",
+      "step1": "Fäst checkout-knappen på dörren",
+      "step2": "Anslut vår centralenhet till din router",
+      "step3": "Det är allt!",
+      "note": "Paketet inkluderar allt som behövs för installationen. Du behöver inte ens en skruvmejsel. Vem som helst kan installera det."
+    },
+    "pricing": {
+      "label": "Pris",
+      "title": "Börja optimera din drift",
+      "price": "99",
+      "currency": "€",
+      "perUnit": "per rum",
+      "includes1": "Checkout-knapp",
+      "includes2": "Anpassad skylt med din logotyp",
+      "includes3": "Centralenhet inkluderad",
+      "includes4": "Dashboard och notifikationer",
+      "cta": "Jag vill testa"
+    },
+    "faq": {
+      "label": "Vanliga frågor",
+      "title": "Allt du behöver veta",
+      "q1": "Hur lång tid tar installationen?",
+      "a1": "Mindre än 10 minuter! Du behöver bara fästa skylten med knappen på dörren och ansluta centralenheten till routern.",
+      "q2": "Behövs det specialverktyg?",
+      "a2": "Nej. Paketet inkluderar absolut allt som behövs för installationen. Du behöver inte ens en skruvmejsel.",
+      "q3": "Behöver jag teknisk kunskap?",
+      "a3": "Om du kan fästa en skylt på en dörr och koppla in en laddare i ett uttag kan du installera knappen.",
+      "q4": "Hur fungerar enheterna?",
+      "a4": "Enheterna drivs med batterier och skickar data trådlöst till centralenheten som är ansluten till routern.",
+      "q5": "Hur länge håller batterierna?",
+      "a5": "Enheternas batterier håller mellan 12 och 24 månader.",
+      "q6": "Har ni mängdrabatt?",
+      "a6": "Ja! Om du har fler än 50 lägenheter har vi exklusiva rabatter för dig.",
+      "q7": "Vad händer om de trycker på knappen en dag det inte är checkout?",
+      "a7": "Vi kopplar oss till din bokningskalender så att knappen bara fungerar på checkout-dagar. Om den trycks in en annan dag skickas inget meddelande."
+    },
+    "cta": {
+      "title": "Vill du se hur det fungerar på ditt hotell?",
+      "button": "Boka ett samtal"
+    }
+  },
+  "cityEnergy": {
+    "metaTitle": "Energibesparing på hotell i {city} | Controlá",
+    "metaDescription": "Upptäck hur mycket ditt hotell i {city} kan spara med intelligent klimatstyrningsautomatisering. Upp till {savings} energibesparing.",
+    "heroBadge": "Energieffektivitet på hotell · {city}",
+    "heroTitle": "Hur mycket förlorar ditt hotell i {city} på ineffektiv klimatstyrning?",
+    "heroSubtitle": "Hotell i {city} slösar upp till {waste} per år på klimatstyrning av tomma rum. Intelligent automatisering kan minska den kostnaden med {savings}.",
+    "heroCta": "Boka ett samtal",
+    "heroNote": "30 minuter. Helt förutsättningslöst.",
+    "contextLabel": "Hotellmarknaden i {city}",
+    "contextTitle": "Varför är energieffektivitet avgörande i {city}?",
+    "statHotels": "Hotell",
+    "statTourists": "Turister/år",
+    "statSummer": "Medeltemperatur sommar",
+    "statWinter": "Medeltemperatur vinter",
+    "problemLabel": "Problemet",
+    "problemTitle": "Ett hotell med 50 rum i {city} kan slösa {waste} per år på klimatstyrning",
+    "problem1Title": "Klimatstyrning i tomma rum",
+    "problem1Text": "Luftkonditioneringen eller värmen fortsätter köra timmar efter att gästen har lämnat. Det är den största osynliga kostnaden.",
+    "problem2Title": "Inga data om faktisk beläggning",
+    "problem2Text": "Utan sensorer vet hotellet inte vilka rum som är tomma. Klimatstyrningen körs likadant vid 20% som vid 90% beläggning.",
+    "problem3Title": "Utrustning utan fjärrstyrning",
+    "problem3Text": "Termostater som gästerna ställer på 16°C utan att någon kan begränsa. Öppna fönster med luftkonditioneringen på max.",
+    "solutionLabel": "Lösningen",
+    "solutionTitle": "Intelligent klimatstyrningsautomatisering för hotell i {city}",
+    "solutionSubtitle": "Controlá kopplar beläggningssensorer till ditt befintliga klimatsystem. När rummet är tomt agerar systemet på egen hand.",
+    "feat1Title": "Automatisk avstängning",
+    "feat1Text": "Luftkonditioneringen stängs av när rummet är tomt och startar igen innan gästen anländer.",
+    "feat2Title": "Temperaturbegränsning",
+    "feat2Text": "Ställ in ett temperaturintervall som gästerna inte kan överskrida. Utan att slösa energi.",
+    "feat3Title": "Automatiskt ekoläge",
+    "feat3Text": "När rummet har varit tomt i mer än X minuter växlar systemet automatiskt till ekoläge.",
+    "feat4Title": "Fönsterdetektion",
+    "feat4Text": "Om gästen öppnar fönstret stängs luftkonditioneringen av. Ingen energislöseri.",
+    "feat5Title": "Kompatibelt med ditt nuvarande system",
+    "feat5Text": "Fungerar med split, VRF, fan-coil och befintliga termostater. Du behöver inte byta ut något.",
+    "feat6Title": "Dashboard i realtid",
+    "feat6Text": "Se förbrukning per rum, temperaturer och ackumulerad besparing från en enda panel.",
+    "savingsTitle": "Beräknad besparing för ett hotell i {city}",
+    "savingsStat1": "Minskning av klimatstyrningsförbrukning",
+    "savingsStat2": "Beräknat årligt slöseri (50 rum)",
+    "savingsStat3": "Månader till avkastning på investering",
+    "savingsDisclaimer": "Uppskattningar baserade på Controlás egna data för hotell med 50 rum under liknande förhållanden.",
+    "howLabel": "Så fungerar det",
+    "howTitle": "Från ditt nuvarande hotell till autopilot i 3 steg",
+    "howStep1Title": "Vi analyserar din infrastruktur",
+    "howStep1Text": "Vi granskar vilken teknik ditt hotell i {city} har: termostater, centraliserad klimatstyrning, sensorer. Vi identifierar vad som kan återanvändas.",
+    "howStep2Title": "Vi kopplar ihop och konfigurerar",
+    "howStep2Text": "Vi integrerar allt med ditt PMS och vår plattform. Vi konfigurerar automatiseringar anpassade till din verksamhet.",
+    "howStep3Title": "Ditt hotell kör själv",
+    "howStep3Text": "Klimatstyrningen regleras automatiskt baserat på faktisk beläggning. Du ser allt från en enda panel.",
+    "faqLabel": "Vanliga frågor",
+    "faqTitle": "Frågor om energieffektivitet på hotell i {city}",
+    "faq1Q": "Hur mycket kan ett hotell i {city} spara med Controlá?",
+    "faq1A": "Beroende på storlek och befintlig infrastruktur kan hotell i {city} minska klimatstyrningsförbrukningen med {savings}. För ett hotell med 50 rum kan det innebära en besparing på {waste} per år.",
+    "faq2Q": "Behöver jag byta ut mitt klimatsystem?",
+    "faq2A": "Nej. Controlá är kompatibelt med de vanligaste systemen: split, VRF, fan-coil och befintliga termostater. Vi utnyttjar det du redan har.",
+    "faq3Q": "Hur lång tid tar implementeringen?",
+    "faq3A": "Mellan 1 och 3 veckor, beroende på hotellets storlek och befintlig infrastruktur. På hotell som redan har smarta enheter kan det gå på några dagar.",
+    "faq4Q": "Vad kostar det?",
+    "faq4A": "Modellen är en månadsprenumeration per rum. Inga stora initiala investeringar. Vi går igenom detaljerna under 30-minuterssamtalet.",
+    "ctaTitle": "Har du ett hotell i {city}?",
+    "ctaSubtitle": "Vi visar dig hur mycket du kan spara på klimatstyrning på 30 minuter. Helt förutsättningslöst.",
+    "ctaButton": "Boka ett samtal",
+    "otherCitiesTitle": "Energieffektivitet på hotell i andra städer"
+  }
+}

@@ -2,8 +2,11 @@
 
 # Project rules
 
-- **Always translate to ALL supported languages** when adding or modifying text content. The supported locales are: es, en, ca, fr, de, it, pt. Never leave translations only in Spanish — all message files and blog posts must be updated together. Translations must reflect the brand's tone: direct, confident, conversational, never corporate or robotic.
-- **NEVER cite unverified sources.** Any bibliography, study, statistic, or external data referenced in blog posts or website content MUST be verified as a real, trustworthy source before including it. Do not pull data from the internet without confirming it exists and is credible. If a source cannot be verified, do not include it. Use our own data or clearly state it is an estimate. This is a strict rule — no exceptions.
+- **Always translate to ALL supported languages** when adding or modifying text content. The supported locales are: es, en, ca, fr, de, it, pt, sv, nb, da, pl. Never leave translations only in Spanish — all message files and blog posts must be updated together. Translations must reflect the brand's tone: direct, confident, conversational, never corporate or robotic.
+- **NEVER cite unverified sources.** Any bibliography, study, statistic, or external data referenced in blog posts or website content MUST be verified as a real, trustworthy source before including it. Do not pull data from the internet without confirming it exists and is credible. If a source cannot be verified, do not include it. Use our own data or clearly state it is an estimate. 
+This is a strict rule — no exceptions.
+
+- **NEVER DO GIT PUSH** you can do adds and commits, but you can NEVER do git push
 
 # Brand Guidelines — Controlá
 

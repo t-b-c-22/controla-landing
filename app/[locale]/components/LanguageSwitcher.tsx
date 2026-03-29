@@ -12,6 +12,10 @@ const locales = [
   { code: "de", label: "DE", name: "Deutsch" },
   { code: "it", label: "IT", name: "Italiano" },
   { code: "pt", label: "PT", name: "Português" },
+  { code: "sv", label: "SV", name: "Svenska" },
+  { code: "nb", label: "NB", name: "Norsk" },
+  { code: "da", label: "DA", name: "Dansk" },
+  { code: "pl", label: "PL", name: "Polski" },
 ];
 
 export default function LanguageSwitcher() {
