@@ -298,12 +298,12 @@ function PageContent() {
           <p className="text-texto-light text-[1.05rem] mb-14 max-w-[600px]">{t("blog.subtitle")}</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {([
-              { n: 1 as const, slug: "cuanto-pierde-hotel-climatizacion" },
-              { n: 2 as const, slug: "boton-checkout-operativa" },
-              { n: 3 as const, slug: "digitalizar-hotel-sin-empezar-de-cero" },
-            ]).map(({ n, slug }) => (
+              { n: 1 as const, slug: "cuanto-pierde-hotel-climatizacion", gradient: "from-azul/10 to-verde/10", icon: <BlogIconEnergy /> },
+              { n: 2 as const, slug: "boton-checkout-operativa", gradient: "from-naranja/10 to-naranja/5", icon: <BlogIconCheckout /> },
+              { n: 3 as const, slug: "digitalizar-hotel-sin-empezar-de-cero", gradient: "from-navy/10 to-azul/10", icon: <BlogIconTech /> },
+            ]).map(({ n, slug, gradient, icon }) => (
               <a key={n} href={`/${locale}/blog/${slug}`} className="rounded-2xl overflow-hidden border border-gris transition-all hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 no-underline">
-                <div className="h-[180px] bg-gris flex items-center justify-center text-gris-dark text-[0.85rem] font-medium">{t("blog.soon")}</div>
+                <div className={`h-[180px] bg-gradient-to-br ${gradient} flex items-center justify-center`}>{icon}</div>
                 <div className="p-6">
                   <div className="text-[0.75rem] font-semibold text-naranja uppercase tracking-[0.5px] mb-2">{t(`blog.tag${n}`)}</div>
                   <h3 className="text-[1.05rem] font-bold text-navy mb-2 leading-[1.4]">{t(`blog.title${n}`)}</h3>
@@ -325,5 +325,33 @@ function PageContent() {
       </section>
 
     </main>
+  );
+}
+
+function BlogIconEnergy() {
+  return (
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#4141e2" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" className="opacity-40">
+      <line x1="12" y1="2" x2="12" y2="22" /><line x1="2" y1="12" x2="22" y2="12" />
+      <polyline points="8,2 12,6 16,2" /><polyline points="8,22 12,18 16,22" />
+      <polyline points="2,8 6,12 2,16" /><polyline points="22,8 18,12 22,16" />
+    </svg>
+  );
+}
+
+function BlogIconCheckout() {
+  return (
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#e05e27" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" className="opacity-40">
+      <rect x="3" y="3" width="18" height="18" rx="4" />
+      <polyline points="9,12 11,14 15,10" />
+    </svg>
+  );
+}
+
+function BlogIconTech() {
+  return (
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#132342" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" className="opacity-40">
+      <rect x="2" y="3" width="20" height="14" rx="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
+      <polyline points="7,10 10,7 13,10 17,6" />
+    </svg>
   );
 }
