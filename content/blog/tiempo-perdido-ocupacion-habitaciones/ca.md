@@ -1,88 +1,74 @@
 ---
-title: "Quant temps perd el teu hotel per no saber si hi ha hostes a l'habitació?"
-description: "Housekeeping perd entre un 10 i un 15% del seu temps buscant a quina habitació anar. Analitzem el problema, les dades i com resoldre'l amb sensors intel·ligents."
+title: "Quantes vegades al dia et preguntes si l'habitació està buida?"
+description: "La pregunta més repetida en l'operativa d'un hotel és si hi ha algú a l'habitació. Analitzem per què aquesta manca d'informació costa tant de temps i com resoldre-la."
 tag: "Operativa"
 date: "2026-03-29"
 ---
 
-Hi ha una pregunta que sembla simple però que amaga un dels majors problemes operatius d'un hotel: **hi ha algú a l'habitació?**
+Pensa en la teva última setmana de feina. Quantes vegades algú va preguntar — o et vas preguntar tu — si una habitació estava buida?
 
-No parlem de si l'habitació està reservada. Això ho diu el PMS. Parlem de si els hostes són físicament dins de l'habitació en aquest moment. Aquesta informació, que sembla trivial, és la que desencadena (o bloqueja) gairebé tota l'operativa de l'hotel.
+Housekeeping necessita saber-ho per entrar a netejar. Manteniment necessita saber-ho per arreglar alguna cosa sense molestar l'hoste. Recepció necessita saber-ho per oferir un early check-in. El supervisor necessita saber-ho per organitzar els torns.
 
-## El problema real: ningú sap qui és on
+**És la mateixa pregunta, repetida desenes de vegades al dia, per persones diferents, i gairebé mai té una resposta immediata.**
 
-Quan housekeeping comença el seu torn, rep una llista d'habitacions per netejar. Però aquesta llista no diu si l'hoste ja se n'ha anat, si encara dorm, o si ha sortit a esmorzar i tornarà en 20 minuts.
+## Què passa quan ningú ho sap
 
-El que passa llavors és previsible:
+L'habitació 305 té checkout avui. Són les 10:30. Se n'ha anat l'hoste?
 
-- La cambrera puja al pis, truca a la porta. No contesta ningú. Entro? Espero?
-- Truca a recepció. Recepció no ho sap. Truca a l'hoste. No contesta.
-- Se salta l'habitació, va a la següent. Després ha de tornar.
-- El supervisor passa **47 minuts per torn** només fent trucades de coordinació sobre l'estat de les habitacions, segons [Switch Hotel Solutions](https://switchhotelsolutions.com.au/housekeeping-efficiency-metrics-guide/).
+- Housekeeping puja, truca a la porta. No contesta ningú. Entro? Espero? I si és a la dutxa?
+- Truca a recepció. Recepció no ho sap. Truquen l'hoste. No contesta el telèfon.
+- La cambrera es salta la 305, neteja la 306, i després ha de tornar.
+- El supervisor, mentrestant, rep tres trucades més preguntant el mateix d'altres habitacions.
 
-Aquest cicle es repeteix desenes de vegades al dia. I no és un problema menor.
+Segons [Switch Hotel Solutions](https://switchhotelsolutions.com.au/housekeeping-efficiency-metrics-guide/), els supervisors de housekeeping poden arribar a dedicar fins a 47 minuts per torn només a trucades de coordinació sobre l'estat de les habitacions.
 
-![Housekeeping sense informació: habitació desordenada i cambrera esperant al passadís](/blog/housekeeping-sin-info.png)
+No és una dada sorprenent si ho penses. És que ningú té la informació, i per tant tothom pregunta.
 
-## Les dades: entre un 10 i un 15% del temps de housekeeping es perd
+## No és només housekeeping
 
-Segons dades de [Mews](https://www.mews.com/en/products/housekeeping-software) i la nostra pròpia experiència amb més de 50 projectes implementats, **l'equip de housekeeping perd entre un 10 i un 15% del seu temps** simplement intentant esbrinar a quina habitació pot entrar.
+El problema sembla de neteja, però afecta tot l'hotel:
 
-No és temps dedicat a netejar. No és temps productiu. És temps mort: caminant pels passadissos, trucant a les portes, fent trucades, esperant respostes.
+**Manteniment.** S'ha de canviar una bombeta a la 402. Hi ha algú? No ho sabem. Enviem el tècnic, truca a la porta, hi ha un hoste dormint. Tornada a l'ascensor. Una altra habitació perduda.
 
-Per a un hotel de 100 habitacions amb un equip de 8 persones a housekeeping, això pot representar **més d'1 hora diària de treball perdut per persona**. Multiplicat per un any, estem parlant de centenars d'hores i milers d'euros en salaris que no produeixen resultat.
+**Recepció.** Un hoste arriba a les 12:00 i pregunta si pot entrar ja. L'habitació té checkout a les 11, però ningú ha confirmat que se n'ha anat. "Disculpi, encara no està llesta." Podria haver estat llesta fa una hora.
 
-## El cost ocult va més enllà del temps
+**Operacions.** Quantes habitacions estan realment llestes ara mateix? Ningú ho sap amb certesa. El PMS diu una cosa, la realitat en diu una altra.
 
-El problema no acaba a housekeeping. La manca d'informació sobre l'ocupació real genera un efecte dominó:
+**El resultat:** cada equip perd temps, els hostes esperen més del necessari, i les decisions es prenen amb informació incompleta.
 
-**1. Recepció no pot oferir early check-in.** Si no saps quines habitacions estan realment buides (no només les que tenen checkout a les 11), no pots oferir a l'hoste que està esperant al vestíbul entrar abans. Cada early check-in que no ofereixes és un punt menys en satisfacció.
+## Per què continua passant?
 
-**2. Els turnover s'allarguen innecessàriament.** Segons [Prostay](https://www.prostay.com/blog/housekeeping-technology/), en molts mercats el temps entre checkout i check-in s'ha reduït un 30%. Amb menys marge, cada minut que housekeeping perd buscant habitacions buides té un impacte directe en l'operativa.
+Perquè la majoria d'hotels operen amb el PMS com a única font de veritat. I el PMS sap si una habitació està reservada, però **no sap si hi ha algú a dins**.
 
-**3. La comunicació entre equips col·lapsa.** Recepció truca a housekeeping. Housekeeping truca al supervisor. El supervisor truca a recepció. Plataformes de comunicació simples poden reduir les trucades telefòniques a housekeeping un 90% i estalviar als supervisors més de 45 minuts diaris, segons [Breakroom](https://www.breakroomapp.com/blog/itll-just-be-a-few-more-hours-welcome-to-your-least-favorite-hotel).
+És la diferència entre "aquesta habitació té checkout avui a les 11" i "aquesta habitació està buida des de les 8:45".
 
-**4. No hi ha dades per optimitzar.** Sense saber quan realment se'n van els hostes, no pots analitzar patrons, predir demanda de neteja ni assignar recursos de forma intel·ligent.
+La primera informació et diu el que hauria de passar. La segona et diu el que realment està passant. I aquesta segona informació és la que desbloqueja tot: la neteja, el manteniment, l'early check-in, l'assignació de recursos.
 
-## La solució: saber en temps real si l'habitació està ocupada
+## La solució és més simple del que sembla
 
-La tecnologia per resoldre això ja existeix i és sorprenentment simple: **sensors de presència** instal·lats a cada habitació que informen en temps real si hi ha algú dins o no.
+Un sensor de presència a cada habitació. Discret, sense càmeres, sense demanar res a l'hoste. Detecta si hi ha algú a dins i envia aquesta informació en temps real a un dashboard i, si vols, al mòbil de l'equip.
 
-No parlem de càmeres. No parlem de demanar a l'hoste que faci res. Parlem de sensors discrets que detecten presència humana i envien aquesta informació a un dashboard central i, si es vol, directament al mòbil de l'equip de housekeeping.
+### Què canvia:
 
-![Dashboard d'ocupació de Controlá mostrant l'estat de cada habitació en temps real](/blog/dashboard-ocupacion.svg)
+- **Housekeeping no truca a portes.** Mira el dashboard, veu quines habitacions estan buides, i hi va directe. Sense trucades, sense voltes.
+- **Manteniment sap quan entrar.** La 402 fa 2 hores que està buida. El tècnic hi va, arregla, surt. Sense molestar ningú.
+- **Recepció ofereix early check-in amb certesa.** "Sí, l'habitació està llesta des de les 10:15, pot pujar." Això millora l'experiència de l'hoste sense cap esforç extra.
+- **El supervisor gestiona en lloc de coordinar.** Veu tot l'hotel en una pantalla. S'han acabat les 47 trucades per torn.
 
-### Què canvia quan tens aquesta informació:
+## No és tecnologia del futur
 
-- **Housekeeping sap exactament a quina habitació anar.** No més trucar portes, no més trucades, no més voltes innecessàries pels passadissos.
-- **Recepció pot oferir early check-in amb confiança.** Si el sensor diu que l'habitació 305 porta buida des de les 8:30 i housekeeping ja l'ha netejat, pots oferir-la a les 12:00 sense dubtes.
-- **El supervisor gestiona des del dashboard.** Veu d'un cop d'ull quines habitacions estan buides, quines ocupades, i quines ja estan llestes. S'han acabat les 47 trucades per torn.
-- **Tens dades reals per optimitzar.** Saps que els dilluns el 60% dels hostes se'n van abans de les 9:00. Pots ajustar els torns de neteja en conseqüència.
+Això no requereix cap reforma, ni canviar el PMS, ni obres. Són sensors sense fils que s'instal·len en menys d'una hora per habitació i es connecten a una plataforma que ho mostra tot en temps real.
 
-## Cas real: Lodging Apartments, Barcelona
+A Controlá portem més de 50 projectes implementats amb aquest tipus de sensors. El que veiem sempre és el mateix: el primer dia que l'equip té visibilitat real sobre l'ocupació, la manera de treballar canvia. No perquè la tecnologia sigui espectacular, sinó perquè **per fi tenen la informació que sempre van necessitar i mai van tenir**.
 
-[Lodging Apartments](https://lodgingapartments.com/) és una de les empreses de gestió d'apartaments turístics més grans de Barcelona. Gestionen desenes de propietats a la ciutat.
+## La pregunta que importa
 
-Abans d'implementar sensors d'ocupació, el seu equip d'operacions depenia de trucades i missatges per coordinar les neteges. El resultat: retards, habitacions llestes tard, i un equip frustrat.
+No és "quant em costa això?" És: **quant t'està costant no tenir-ho?**
 
-Després d'instal·lar el nostre sistema de presència en temps real, **l'equip d'operacions estalvia aproximadament 30 minuts al dia** només en coordinació. Les cambreres van directes a les habitacions buides, recepció ofereix early check-in quan hi ha disponibilitat real, i els supervisors gestionen tot des del dashboard sense necessitat de fer trucades.
+Cada porta que es truca innecessàriament. Cada trucada de coordinació. Cada early check-in que no s'ofereix. Cada habitació que queda sense netejar a temps perquè ningú sabia que estava buida.
 
-Amb més de **3.000 checkouts processats** a través del nostre sistema, les dades confirmen que el checkout promig real passa molt abans de l'hora oficial de les 11:00. Això significa que hi ha hores de marge que els hotels estan desaprofitant per no tenir visibilitat.
-
-## La tecnologia darrere: com ho fem a Controlá
-
-El nostre sistema combina sensors de presència amb algorismes intel·ligents per determinar amb un **99,7% de certesa** si una habitació està ocupada o buida.
-
-El sistema s'integra amb el PMS de l'hotel i envia notificacions en temps real als equips. Quan un hoste se'n va, housekeeping rep una alerta instantània. No ha d'esperar que recepció se n'assabenti, ni que l'hoste avisi, ni que algú truqui a la porta.
-
-A més, tota la informació queda registrada: horaris reals de checkout, temps d'ocupació per habitació, patrons per dia de la setmana. Dades que permeten prendre decisions informades sobre dotació de personal, torns i priorització de neteja.
-
-## Conclusió: la dada més simple és la més valuosa
-
-No necessites intel·ligència artificial avançada ni una transformació digital completa per millorar dràsticament l'operativa del teu hotel. De vegades, la resposta a una pregunta simple — **hi ha algú a l'habitació?** — és el que marca la diferència entre un equip que perd hores donant voltes i un que treballa amb precisió.
-
-Els hotels que ja han adoptat aquesta tecnologia reporten [millores d'eficiència del 20-30%](https://www.prostay.com/blog/housekeeping-technology/) en les seves operacions de housekeeping. I el retorn d'inversió es mesura en setmanes, no en anys.
+Tot això es resol amb una resposta simple i en temps real: **hi ha algú a l'habitació?**
 
 ---
 
-*A Controlá implementem sensors d'ocupació en temps real per a hotels i apartaments turístics. Si vols veure com funcionaria en el teu cas, [explica'ns sobre el teu hotel](#contacto) i et mostrarem l'impacte en la teva operativa.*
+*A Controlá implementem sensors d'ocupació en temps real per a hotels i apartaments turístics. Si vols veure com funcionaria en el teu cas, [agenda una trucada amb nosaltres](#contacto). 15 minuts per mostrar-te l'impacte en la teva operativa.*

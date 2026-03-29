@@ -1,88 +1,74 @@
 ---
-title: "How much time does your hotel lose by not knowing if guests are in the room?"
-description: "Housekeeping loses 10-15% of their time figuring out which room to go to. We break down the problem, the data, and how smart sensors fix it."
+title: "How many times a day do you wonder if the room is empty?"
+description: "The most repeated question in hotel operations is whether there's someone in the room. We analyze why this lack of information costs so much time and how to solve it."
 tag: "Operations"
 date: "2026-03-29"
 ---
 
-There's a question that sounds simple but hides one of the biggest operational problems in hotels: **are there guests in the room right now?**
+Think about your last work week. How many times did someone ask — or did you ask yourself — whether a room was empty?
 
-We're not talking about whether the room is booked. The PMS tells you that. We're talking about whether guests are physically inside the room at this moment. That piece of information — seemingly trivial — is what triggers (or blocks) nearly every operational workflow in a hotel.
+Housekeeping needs to know to go in and clean. Maintenance needs to know to fix something without disturbing the guest. Reception needs to know to offer an early check-in. The supervisor needs to know to organize shifts.
 
-## The real problem: nobody knows who's where
+**It's the same question, repeated dozens of times a day, by different people, and it almost never has an immediate answer.**
 
-When housekeeping starts their shift, they get a list of rooms to clean. But that list doesn't say whether the guest already left, is still sleeping, or went out for breakfast and will be back in 20 minutes.
+## What happens when nobody knows
 
-What happens next is predictable:
+Room 305 has checkout today. It's 10:30 AM. Has the guest left?
 
-- The housekeeper goes upstairs, knocks on the door. No answer. Do I go in? Do I wait?
-- Calls reception. Reception doesn't know. Calls the guest. No answer.
-- Skips the room, moves to the next one. Has to come back later.
-- Supervisors spend **47 minutes per shift** just making coordination calls about room status, according to [Switch Hotel Solutions](https://switchhotelsolutions.com.au/housekeeping-efficiency-metrics-guide/).
+- Housekeeping goes up, knocks on the door. No answer. Do I go in? Do I wait? What if they're in the shower?
+- Calls reception. Reception doesn't know. They call the guest. No answer.
+- The housekeeper skips 305, cleans 306, and has to come back later.
+- The supervisor, meanwhile, gets three more calls asking the same thing about other rooms.
 
-This cycle repeats dozens of times a day. And it's not a minor issue.
+According to [Switch Hotel Solutions](https://switchhotelsolutions.com.au/housekeeping-efficiency-metrics-guide/), housekeeping supervisors can spend up to 47 minutes per shift just on coordination calls about room status.
 
-![Housekeeping without information: messy room and housekeeper waiting in the hallway](/blog/housekeeping-sin-info.png)
+It's not a surprising figure when you think about it. Nobody has the information, so everyone asks.
 
-## The data: 10-15% of housekeeping time is wasted
+## It's not just housekeeping
 
-According to [Mews](https://www.mews.com/en/products/housekeeping-software) and our own experience across 50+ implemented projects, **housekeeping teams lose 10-15% of their time** simply trying to figure out which room they can enter.
+The problem looks like a cleaning issue, but it affects the entire hotel:
 
-It's not time spent cleaning. It's not productive time. It's dead time: walking corridors, knocking on doors, making calls, waiting for answers.
+**Maintenance.** There's a light bulb to change in room 402. Is someone there? We don't know. We send the technician, they knock, a guest is sleeping. Back to the elevator. Another wasted trip.
 
-For a 100-room hotel with an 8-person housekeeping team, this can mean **over 1 hour of wasted work per person per day**. Multiply that by a year, and you're looking at hundreds of hours and thousands of euros in salaries that produce no result.
+**Reception.** A guest arrives at noon and asks if they can check in already. The room has an 11 AM checkout, but nobody confirmed the guest left. "Sorry, it's not ready yet." It could have been ready an hour ago.
 
-## The hidden cost goes beyond time
+**Operations.** How many rooms are actually ready right now? Nobody knows for sure. The PMS says one thing, reality says another.
 
-The problem doesn't end with housekeeping. The lack of real occupancy data creates a domino effect:
+**The result:** every team wastes time, guests wait longer than necessary, and decisions are made with incomplete information.
 
-**1. Reception can't offer early check-in.** If you don't know which rooms are actually empty (not just the ones with 11 AM checkout), you can't offer the guest waiting in the lobby an earlier room. Every early check-in you miss is a point off your satisfaction score.
+## Why does this keep happening?
 
-**2. Turnovers take longer than necessary.** According to [Prostay](https://www.prostay.com/blog/housekeeping-technology/), checkout-to-checkin windows have shrunk by 30% in many markets. With less margin, every minute housekeeping wastes searching for empty rooms has a direct operational impact.
+Because most hotels operate with the PMS as their only source of truth. And the PMS knows if a room is booked, but **it doesn't know if someone is physically inside**.
 
-**3. Team communication collapses.** Reception calls housekeeping. Housekeeping calls the supervisor. The supervisor calls reception. Simple communication platforms can reduce phone calls to housekeeping by 90% and save supervisors over 45 minutes daily, according to [Breakroom](https://www.breakroomapp.com/blog/itll-just-be-a-few-more-hours-welcome-to-your-least-favorite-hotel).
+It's the difference between "this room has checkout today at 11 AM" and "this room has been empty since 8:45 AM."
 
-**4. There's no data to optimize.** Without knowing when guests actually leave, you can't analyze patterns, predict cleaning demand, or allocate resources intelligently.
+The first piece of information tells you what should happen. The second tells you what's actually happening. And that second piece of information is what unlocks everything: cleaning, maintenance, early check-in, resource allocation.
 
-## The solution: know in real time if the room is occupied
+## The solution is simpler than it seems
 
-The technology to solve this already exists and is surprisingly simple: **presence sensors** installed in each room that report in real time whether someone is inside.
+A presence sensor in each room. Discreet, no cameras, nothing required from the guest. It detects whether someone is inside and sends that information in real time to a dashboard and, if you want, to the team's phones.
 
-We're not talking about cameras. We're not asking the guest to do anything. We're talking about discreet sensors that detect human presence and send that information to a central dashboard and, if desired, directly to the housekeeping team's phones.
+### What changes:
 
-![Controlá occupancy dashboard showing real-time room status](/blog/dashboard-ocupacion.svg)
+- **Housekeeping stops knocking on doors.** They check the dashboard, see which rooms are empty, and go straight there. No calls, no wasted trips.
+- **Maintenance knows when to enter.** Room 402 has been empty for 2 hours. The technician goes in, fixes the issue, leaves. Without bothering anyone.
+- **Reception offers early check-in with certainty.** "Yes, the room has been ready since 10:15, you can go up." That improves the guest experience with zero extra effort.
+- **The supervisor manages instead of coordinating.** They see the entire hotel on one screen. No more 47 calls per shift.
 
-### What changes when you have this information:
+## This isn't future technology
 
-- **Housekeeping knows exactly which room to go to.** No more knocking, no more calls, no more unnecessary trips through corridors.
-- **Reception can confidently offer early check-in.** If the sensor shows room 305 has been empty since 8:30 AM and housekeeping already cleaned it, you can offer it at noon without hesitation.
-- **Supervisors manage from the dashboard.** They see at a glance which rooms are empty, occupied, or ready. No more 47 calls per shift.
-- **You have real data to optimize.** You know that on Mondays, 60% of guests leave before 9 AM. You can adjust cleaning shifts accordingly.
+This doesn't require renovations, a PMS change, or construction work. These are wireless sensors that install in under an hour per room and connect to a platform that shows everything in real time.
 
-## Real case: Lodging Apartments, Barcelona
+At Controlá, we've implemented over 50 projects with this type of sensor. What we see every time is the same: the first day the team has real visibility into occupancy, the way they work changes. Not because the technology is spectacular, but because **they finally have the information they always needed and never had**.
 
-[Lodging Apartments](https://lodgingapartments.com/) is one of the largest vacation apartment management companies in Barcelona, managing dozens of properties across the city.
+## The question that matters
 
-Before implementing occupancy sensors, their operations team relied on calls and messages to coordinate cleaning. The result: delays, rooms ready late, and a frustrated team.
+It's not "how much does this cost?" It's: **how much is it costing you not to have it?**
 
-After installing our real-time presence system, **the operations team saves approximately 30 minutes per day** in coordination alone. Housekeepers go straight to empty rooms, reception offers early check-in when there's real availability, and supervisors manage everything from the dashboard without needing to make calls.
+Every door knocked on unnecessarily. Every coordination call. Every early check-in not offered. Every room left uncleaned on time because nobody knew it was empty.
 
-With over **3,000 checkouts processed** through our system, the data confirms that the real average checkout happens well before the official 11 AM time. That means there are hours of margin that hotels are wasting by not having visibility.
-
-## The technology behind it: how we do it at Controlá
-
-Our system combines presence sensors with smart algorithms to determine with **99.7% accuracy** whether a room is occupied or empty.
-
-The system integrates with the hotel's PMS and sends real-time notifications to teams. When a guest leaves, housekeeping receives an instant alert. No waiting for reception to find out, no waiting for the guest to notify, no knocking on doors.
-
-All information is recorded: actual checkout times, occupancy duration per room, patterns by day of the week. Data that enables informed decisions about staffing, shift scheduling, and cleaning prioritization.
-
-## Conclusion: the simplest data point is the most valuable
-
-You don't need advanced AI or a complete digital transformation to dramatically improve your hotel's operations. Sometimes, the answer to a simple question — **are there guests in the room?** — is what makes the difference between a team wasting hours wandering corridors and one that works with precision.
-
-Hotels that have adopted this technology report [20-30% efficiency improvements](https://www.prostay.com/blog/housekeeping-technology/) in their housekeeping operations. And the return on investment is measured in weeks, not years.
+All of that is solved with a simple, real-time answer: **is there someone in the room?**
 
 ---
 
-*At Controlá, we implement real-time occupancy sensors for hotels and vacation rentals. If you want to see how it would work for you, [tell us about your hotel](#contacto) and we'll show you the impact on your operations.*
+*At Controlá, we implement real-time occupancy sensors for hotels and vacation rentals. If you want to see how it would work for you, [book a call with us](#contacto). 15 minutes to show you the impact on your operations.*

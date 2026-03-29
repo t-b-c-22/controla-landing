@@ -1,88 +1,74 @@
 ---
-title: "Wie viel Zeit verliert Ihr Hotel, weil Sie nicht wissen, ob Gäste im Zimmer sind?"
-description: "Das Housekeeping verliert zwischen 10 und 15 % seiner Zeit damit, herauszufinden, welches Zimmer als nächstes dran ist. Wir analysieren das Problem, die Daten und wie intelligente Sensoren es lösen."
+title: "Wie oft am Tag fragen Sie sich, ob das Zimmer leer ist?"
+description: "Die am häufigsten gestellte Frage im Hotelbetrieb ist, ob sich jemand im Zimmer befindet. Wir analysieren, warum dieser Informationsmangel so viel Zeit kostet und wie man ihn löst."
 tag: "Betrieb"
 date: "2026-03-29"
 ---
 
-Es gibt eine Frage, die einfach klingt, aber eines der größten operativen Probleme eines Hotels verbirgt: **Ist jemand im Zimmer?**
+Denken Sie an Ihre letzte Arbeitswoche. Wie oft hat jemand gefragt — oder haben Sie sich selbst gefragt — ob ein Zimmer leer ist?
 
-Wir sprechen nicht davon, ob das Zimmer reserviert ist. Das sagt das PMS. Wir sprechen davon, ob sich die Gäste gerade physisch im Zimmer befinden. Diese Information, die trivial erscheint, ist es, die nahezu den gesamten Hotelbetrieb auslöst (oder blockiert).
+Housekeeping muss es wissen, um reinigen zu können. Die Haustechnik muss es wissen, um eine Reparatur durchzuführen, ohne den Gast zu stören. Die Rezeption muss es wissen, um einen Early Check-in anzubieten. Die Teamleitung muss es wissen, um die Schichten zu organisieren.
 
-## Das eigentliche Problem: Niemand weiß, wer wo ist
+**Es ist dieselbe Frage, dutzende Male am Tag wiederholt, von verschiedenen Personen, und fast nie gibt es eine sofortige Antwort.**
 
-Wenn das Housekeeping seine Schicht beginnt, erhält es eine Liste der zu reinigenden Zimmer. Aber diese Liste sagt nicht, ob der Gast bereits abgereist ist, noch schläft oder zum Frühstück gegangen ist und in 20 Minuten zurückkommt.
+## Was passiert, wenn niemand es weiß
 
-Was dann passiert, ist vorhersehbar:
+Zimmer 305 hat heute Checkout. Es ist 10:30 Uhr. Ist der Gast schon weg?
 
-- Die Zimmerkraft geht aufs Stockwerk, klopft an die Tür. Keine Antwort. Reingehen? Warten?
-- Sie ruft an der Rezeption an. Die Rezeption weiß es nicht. Man ruft den Gast an. Keine Antwort.
-- Sie überspringt das Zimmer, geht zum nächsten. Später muss sie zurückkommen.
-- Der Supervisor verbringt **47 Minuten pro Schicht** allein mit Koordinationsanrufen zum Zimmerstatus, laut [Switch Hotel Solutions](https://switchhotelsolutions.com.au/housekeeping-efficiency-metrics-guide/).
+- Housekeeping geht hoch, klopft an die Tür. Keine Antwort. Reingehen? Warten? Was, wenn der Gast unter der Dusche steht?
+- Anruf bei der Rezeption. Die Rezeption weiß es nicht. Man ruft den Gast an. Keine Antwort.
+- Die Zimmerkraft überspringt 305, reinigt 306 und muss dann zurückkommen.
+- Die Teamleitung erhält derweil drei weitere Anrufe mit derselben Frage zu anderen Zimmern.
 
-Dieser Kreislauf wiederholt sich dutzende Male am Tag. Und es ist kein kleines Problem.
+Laut [Switch Hotel Solutions](https://switchhotelsolutions.com.au/housekeeping-efficiency-metrics-guide/) können Housekeeping-Teamleitungen bis zu 47 Minuten pro Schicht allein für Koordinationsanrufe zum Zimmerstatus aufwenden.
 
-![Housekeeping ohne Information: unordentliches Zimmer und Zimmermädchen wartet im Flur](/blog/housekeeping-sin-info.png)
+Das ist keine überraschende Zahl, wenn man darüber nachdenkt. Niemand hat die Information, also fragt jeder.
 
-## Die Daten: Zwischen 10 und 15 % der Housekeeping-Zeit gehen verloren
+## Es betrifft nicht nur Housekeeping
 
-Laut Daten von [Mews](https://www.mews.com/en/products/housekeeping-software) und unserer eigenen Erfahrung mit über 50 umgesetzten Projekten **verliert das Housekeeping-Team zwischen 10 und 15 % seiner Zeit** allein damit, herauszufinden, in welches Zimmer es gehen kann.
+Das Problem scheint mit der Reinigung zusammenzuhängen, aber es betrifft das gesamte Hotel:
 
-Das ist keine Zeit, die für die Reinigung aufgewendet wird. Das ist keine produktive Zeit. Das ist Leerlauf: Durch Flure laufen, an Türen klopfen, Anrufe tätigen, auf Antworten warten.
+**Haustechnik.** In Zimmer 402 muss eine Glühbirne gewechselt werden. Ist jemand da? Wir wissen es nicht. Der Techniker geht hin, klopft an — ein Gast schläft. Zurück zum Aufzug. Wieder ein Zimmer verloren.
 
-Für ein Hotel mit 100 Zimmern und einem 8-köpfigen Housekeeping-Team kann das **mehr als 1 Stunde verlorene Arbeitszeit pro Person und Tag** bedeuten. Hochgerechnet auf ein Jahr sprechen wir von Hunderten von Stunden und Tausenden von Euro an Gehältern ohne Ergebnis.
+**Rezeption.** Ein Gast kommt um 12:00 Uhr und fragt, ob er schon einchecken kann. Das Zimmer hat Checkout um 11 Uhr, aber niemand hat bestätigt, dass der Gast ausgecheckt hat. „Entschuldigung, das Zimmer ist noch nicht fertig." Es hätte schon vor einer Stunde fertig sein können.
 
-## Die versteckten Kosten gehen über die Zeit hinaus
+**Betrieb.** Wie viele Zimmer sind gerade wirklich bereit? Niemand weiß es genau. Das PMS sagt das eine, die Realität das andere.
 
-Das Problem endet nicht beim Housekeeping. Der Mangel an Informationen über die tatsächliche Belegung erzeugt einen Dominoeffekt:
+**Das Ergebnis:** Jedes Team verliert Zeit, Gäste warten länger als nötig, und Entscheidungen werden auf Basis unvollständiger Informationen getroffen.
 
-**1. Die Rezeption kann keinen Early Check-in anbieten.** Wenn Sie nicht wissen, welche Zimmer tatsächlich leer sind (nicht nur die mit Checkout um 11 Uhr), können Sie dem Gast, der in der Lobby wartet, keinen früheren Zugang anbieten. Jeder nicht angebotene Early Check-in bedeutet einen Punkt weniger bei der Zufriedenheit.
+## Warum passiert das immer noch?
 
-**2. Die Turnovers dauern unnötig lange.** Laut [Prostay](https://www.prostay.com/blog/housekeeping-technology/) hat sich die Zeit zwischen Checkout und Check-in in vielen Märkten um 30 % verkürzt. Mit weniger Spielraum hat jede Minute, die das Housekeeping mit der Suche nach leeren Zimmern verliert, einen direkten Einfluss auf den Betrieb.
+Weil die meisten Hotels mit dem PMS als einziger Wahrheitsquelle arbeiten. Und das PMS weiß, ob ein Zimmer gebucht ist, aber **es weiß nicht, ob sich jemand darin befindet**.
 
-**3. Die Kommunikation zwischen den Teams bricht zusammen.** Die Rezeption ruft das Housekeeping an. Das Housekeeping ruft den Supervisor an. Der Supervisor ruft die Rezeption an. Einfache Kommunikationsplattformen können die Telefonanrufe beim Housekeeping um 90 % reduzieren und den Supervisoren mehr als 45 Minuten täglich einsparen, laut [Breakroom](https://www.breakroomapp.com/blog/itll-just-be-a-few-more-hours-welcome-to-your-least-favorite-hotel).
+Es ist der Unterschied zwischen „dieses Zimmer hat heute um 11 Uhr Checkout" und „dieses Zimmer ist seit 8:45 Uhr leer".
 
-**4. Es fehlen Daten zur Optimierung.** Ohne zu wissen, wann die Gäste tatsächlich abreisen, können Sie keine Muster analysieren, keinen Reinigungsbedarf vorhersagen und keine Ressourcen intelligent zuweisen.
+Die erste Information sagt Ihnen, was passieren sollte. Die zweite sagt Ihnen, was tatsächlich passiert. Und diese zweite Information ist es, die alles freischaltet: die Reinigung, die Wartung, den Early Check-in, die Ressourcenzuteilung.
 
-## Die Lösung: In Echtzeit wissen, ob das Zimmer belegt ist
+## Die Lösung ist einfacher als gedacht
 
-Die Technologie, um dieses Problem zu lösen, existiert bereits und ist erstaunlich einfach: **Präsenzsensoren**, die in jedem Zimmer installiert sind und in Echtzeit melden, ob sich jemand darin befindet oder nicht.
+Ein Präsenzsensor in jedem Zimmer. Unauffällig, ohne Kameras, ohne dem Gast irgendetwas abzuverlangen. Er erkennt, ob sich jemand im Zimmer befindet, und übermittelt diese Information in Echtzeit an ein Dashboard und, wenn gewünscht, an das Smartphone des Teams.
 
-Wir sprechen nicht von Kameras. Wir sprechen nicht davon, den Gast um irgendetwas zu bitten. Wir sprechen von diskreten Sensoren, die menschliche Anwesenheit erkennen und diese Information an ein zentrales Dashboard senden und, wenn gewünscht, direkt auf das Smartphone des Housekeeping-Teams.
+### Was sich ändert:
 
-![Controlá Belegungsdashboard zeigt den Echtzeit-Status jedes Zimmers](/blog/dashboard-ocupacion.svg)
+- **Housekeeping klopft nicht mehr an Türen.** Ein Blick ins Dashboard zeigt, welche Zimmer leer sind — und los geht's. Keine Anrufe, keine Umwege.
+- **Die Haustechnik weiß, wann sie eintreten kann.** Zimmer 402 ist seit 2 Stunden leer. Der Techniker geht hin, repariert, fertig. Ohne jemanden zu stören.
+- **Die Rezeption bietet Early Check-in mit Gewissheit an.** „Ja, das Zimmer ist seit 10:15 Uhr bereit, Sie können hochgehen." Das verbessert das Gästeerlebnis ohne zusätzlichen Aufwand.
+- **Die Teamleitung steuert, statt zu koordinieren.** Das gesamte Hotel auf einem Bildschirm. Schluss mit den 47 Anrufen pro Schicht.
 
-### Was sich ändert, wenn Sie diese Information haben:
+## Das ist keine Zukunftstechnologie
 
-- **Das Housekeeping weiß genau, in welches Zimmer es gehen soll.** Kein Türklopfen mehr, keine Anrufe mehr, keine unnötigen Gänge durch die Flure.
-- **Die Rezeption kann den Early Check-in mit Sicherheit anbieten.** Wenn der Sensor zeigt, dass Zimmer 305 seit 8:30 Uhr leer ist und das Housekeeping es bereits gereinigt hat, können Sie es um 12:00 Uhr bedenkenlos anbieten.
-- **Der Supervisor steuert alles vom Dashboard aus.** Auf einen Blick sieht er, welche Zimmer leer, welche belegt und welche bereits fertig sind. Schluss mit den 47 Anrufen pro Schicht.
-- **Sie haben echte Daten zur Optimierung.** Sie wissen, dass montags 60 % der Gäste vor 9:00 Uhr abreisen. Sie können die Reinigungsschichten entsprechend anpassen.
+Dafür braucht es keinen Umbau, keinen PMS-Wechsel, keine Bauarbeiten. Es sind kabellose Sensoren, die in weniger als einer Stunde pro Zimmer installiert werden und sich mit einer Plattform verbinden, die alles in Echtzeit anzeigt.
 
-## Praxisbeispiel: Lodging Apartments, Barcelona
+Bei Controlá haben wir über 50 Projekte mit dieser Art von Sensoren umgesetzt. Was wir immer wieder sehen, ist dasselbe: Am ersten Tag, an dem das Team echte Transparenz über die Belegung hat, verändert sich die Arbeitsweise. Nicht weil die Technologie spektakulär ist, sondern weil **das Team endlich die Information hat, die es immer gebraucht und nie gehabt hat**.
 
-[Lodging Apartments](https://lodgingapartments.com/) ist eines der größten Unternehmen für die Verwaltung von Ferienwohnungen in Barcelona. Sie verwalten Dutzende von Objekten in der Stadt.
+## Die Frage, die zählt
 
-Vor der Einführung von Belegungssensoren war ihr Betriebsteam auf Anrufe und Nachrichten angewiesen, um die Reinigungen zu koordinieren. Das Ergebnis: Verzögerungen, Zimmer, die zu spät fertig waren, und ein frustriertes Team.
+Es geht nicht um „Was kostet das?" Sondern: **Was kostet es Sie, es nicht zu haben?**
 
-Nach der Installation unseres Echtzeit-Präsenzsystems **spart das Betriebsteam etwa 30 Minuten pro Tag** allein bei der Koordination. Die Zimmerkräfte gehen direkt in die leeren Zimmer, die Rezeption bietet Early Check-in an, wenn tatsächlich Verfügbarkeit besteht, und die Supervisoren steuern alles über das Dashboard, ohne telefonieren zu müssen.
+Jede Tür, an die unnötig geklopft wird. Jeder Koordinationsanruf. Jeder Early Check-in, der nicht angeboten wird. Jedes Zimmer, das nicht rechtzeitig gereinigt wird, weil niemand wusste, dass es leer war.
 
-Mit über **3.000 verarbeiteten Checkouts** über unser System bestätigen die Daten, dass der tatsächliche durchschnittliche Checkout deutlich vor der offiziellen Zeit um 11:00 Uhr stattfindet. Das bedeutet, dass es Stunden an Spielraum gibt, die Hotels mangels Transparenz verschenken.
-
-## Die Technologie dahinter: So machen wir es bei Controlá
-
-Unser System kombiniert Präsenzsensoren mit intelligenten Algorithmen, um mit einer **Genauigkeit von 99,7 %** zu bestimmen, ob ein Zimmer belegt oder leer ist.
-
-Das System wird in das PMS des Hotels integriert und sendet Echtzeit-Benachrichtigungen an die Teams. Wenn ein Gast abreist, erhält das Housekeeping sofort eine Meldung. Es muss nicht warten, bis die Rezeption informiert ist, der Gast Bescheid gibt oder jemand an die Tür klopft.
-
-Darüber hinaus werden alle Informationen aufgezeichnet: tatsächliche Checkout-Zeiten, Belegungsdauer pro Zimmer, Muster nach Wochentag. Daten, die fundierte Entscheidungen über Personalausstattung, Schichtplanung und Reinigungspriorisierung ermöglichen.
-
-## Fazit: Das einfachste Datenstück ist das wertvollste
-
-Sie brauchen weder fortgeschrittene künstliche Intelligenz noch eine vollständige digitale Transformation, um den Betrieb Ihres Hotels drastisch zu verbessern. Manchmal ist die Antwort auf eine einfache Frage — **Ist jemand im Zimmer?** — das, was den Unterschied ausmacht zwischen einem Team, das stundenlang im Kreis läuft, und einem, das präzise arbeitet.
-
-Hotels, die diese Technologie bereits einsetzen, berichten von [Effizienzsteigerungen von 20–30 %](https://www.prostay.com/blog/housekeeping-technology/) in ihrem Housekeeping-Betrieb. Und der Return on Investment wird in Wochen gemessen, nicht in Jahren.
+All das löst sich mit einer einfachen Antwort in Echtzeit: **Ist jemand im Zimmer?**
 
 ---
 
-*Bei Controlá implementieren wir Echtzeit-Belegungssensoren für Hotels und Ferienunterkünfte. Wenn Sie sehen möchten, wie es bei Ihnen funktionieren würde, [erzählen Sie uns von Ihrem Hotel](#contacto) und wir zeigen Ihnen die Auswirkungen auf Ihren Betrieb.*
+*Bei Controlá implementieren wir Echtzeit-Belegungssensoren für Hotels und Ferienwohnungen. Wenn Sie sehen möchten, wie das bei Ihnen funktionieren würde, [vereinbaren Sie ein Gespräch mit uns](#contacto). 15 Minuten, um Ihnen die Auswirkung auf Ihren Betrieb zu zeigen.*
