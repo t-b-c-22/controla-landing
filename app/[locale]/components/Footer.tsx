@@ -15,7 +15,6 @@ export default function Footer() {
             { href: `/${locale}#soluciones`, label: t("solutions") },
             { href: `/${locale}#casos`, label: t("cases") },
             { href: `/${locale}#recursos`, label: t("resources") },
-            { href: `/${locale}#nosotros`, label: t("about") },
             { href: "mailto:info@controla.cloud", label: "info@controla.cloud" },
             { href: "https://www.linkedin.com/company/controla-iot/", label: "LinkedIn", external: true },
           ].map((link) => (

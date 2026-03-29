@@ -312,29 +312,6 @@ function PageContent() {
         </div>
       </section>
 
-      {/* FOUNDERS */}
-      <section id="nosotros" className="py-[100px] px-6 bg-gris max-md:py-[70px]">
-        <div className="max-w-[900px] mx-auto text-center">
-          <SectionLabel>{t("founders.label")}</SectionLabel>
-          <SectionTitle className="text-center">{t("founders.title")}</SectionTitle>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left mt-14">
-            {[
-              { name: "Tomás Kancyper", roleKey: "tomas", linkedin: "https://www.linkedin.com/in/tkancyper/" },
-              { name: "Ezequiel Vallejo", roleKey: "ezequiel", linkedin: "https://www.linkedin.com/in/ezequiel-vallejo/" },
-            ].map((f) => (
-              <div key={f.name} className="bg-white rounded-2xl p-9 border border-transparent">
-                <h3 className="text-[1.15rem] font-bold text-navy mb-0.5">{f.name}</h3>
-                <div className="text-[0.85rem] text-azul font-semibold mb-3.5">{t(`founders.${f.roleKey}.role`)}</div>
-                <p className="text-[0.9rem] text-texto-light leading-[1.65]">{t(`founders.${f.roleKey}.bio`)}</p>
-                <a href={f.linkedin} target="_blank" rel="noopener noreferrer" className="inline-block mt-3.5 text-[0.85rem] text-azul no-underline font-semibold hover:underline">
-                  LinkedIn &rarr;
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CONTACT */}
       <section id="contacto" className="py-[100px] px-6 bg-navy text-white max-md:py-[70px]">
         <div className="max-w-[600px] mx-auto text-center">

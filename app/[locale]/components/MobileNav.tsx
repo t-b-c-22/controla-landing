@@ -14,7 +14,6 @@ export default function MobileNav() {
     { href: `/${locale}/#como-funciona`, label: t("howItWorks") },
     { href: `/${locale}/#casos`, label: t("cases") },
     { href: `/${locale}/#faq`, label: t("faq") },
-    { href: `/${locale}/#nosotros`, label: t("about") },
     { href: `/${locale}/blog`, label: t("blog") },
   ];
 
