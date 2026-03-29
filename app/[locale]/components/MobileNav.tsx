@@ -10,11 +10,11 @@ export default function MobileNav() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { href: "#soluciones", label: t("solutions") },
-    { href: "#como-funciona", label: t("howItWorks") },
-    { href: "#casos", label: t("cases") },
-    { href: "#faq", label: t("faq") },
-    { href: "#nosotros", label: t("about") },
+    { href: `/${locale}/#soluciones`, label: t("solutions") },
+    { href: `/${locale}/#como-funciona`, label: t("howItWorks") },
+    { href: `/${locale}/#casos`, label: t("cases") },
+    { href: `/${locale}/#faq`, label: t("faq") },
+    { href: `/${locale}/#nosotros`, label: t("about") },
     { href: `/${locale}/blog`, label: t("blog") },
   ];
 
@@ -34,7 +34,7 @@ export default function MobileNav() {
         ))}
         <li>
           <a
-            href="#contacto"
+            href={`/${locale}/#contacto`}
             className="bg-naranja text-white text-[0.9rem] font-semibold px-6 py-2.5 rounded-lg no-underline transition-all hover:bg-naranja-hover"
           >
             {t("cta")}
@@ -73,7 +73,7 @@ export default function MobileNav() {
             </a>
           ))}
           <a
-            href="#contacto"
+            href={`/${locale}/#contacto`}
             onClick={() => setOpen(false)}
             className="bg-naranja text-white text-[0.9rem] font-semibold px-6 py-3 rounded-lg no-underline text-center mt-2 transition-all hover:bg-naranja-hover"
           >
