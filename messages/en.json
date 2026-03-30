@@ -471,5 +471,151 @@
     "ctaSubtitle": "We'll show you how much you can save on HVAC in 30 minutes. No strings attached.",
     "ctaButton": "Book a call",
     "otherCitiesTitle": "Hotel energy efficiency in other cities"
+  },
+  "proposal": {
+    "gate": {
+      "title": "Restricted access",
+      "subtitle": "Enter the code we provided to view the proposal.",
+      "placeholder": "Access code",
+      "button": "Enter",
+      "error": "Incorrect code. Please try again."
+    },
+    "hero": {
+      "badge": "Custom proposal — March 2026",
+      "title": "Smart automation for",
+      "titleAccent": "BCN Montjuic",
+      "subtitle": "Occupancy control, energy efficiency, noise monitoring, and smoke detection. All in one system.",
+      "presentedTo": "Presented to",
+      "presentedBy": "Presented by",
+      "date": "Date",
+      "dateValue": "March 2026",
+      "project": "Hotel in Málaga (12 units)",
+      "projectLabel": "Project"
+    },
+    "scope": {
+      "label": "Project scope",
+      "title": "All-inclusive, no surprises",
+      "subtitle": "We take care of everything: from hardware to go-live. You just enjoy the results.",
+      "hardwareTitle": "Hardware supply",
+      "hardwareText": "We provide all necessary devices: sensors, controllers, and connectivity gateway.",
+      "installationTitle": "Full installation",
+      "installationText": "We install all devices in strategic locations during guest turnover. No room blocking required.",
+      "configTitle": "Custom configuration",
+      "configText": "We configure each device according to the specific needs of your rooms.",
+      "calibrationTitle": "Testing & calibration",
+      "calibrationText": "We carry out a rigorous remote testing and calibration process to ensure optimal performance."
+    },
+    "checkout": {
+      "label": "Operations",
+      "title": "Smart checkout",
+      "titleAccent": "button",
+      "subtitle": "Guests press the button when leaving. Housekeeping and operations are notified instantly so the room is ready as soon as possible.",
+      "f1": "Instant notification to housekeeping team",
+      "f2": "Ability to offer early check-in to the next guest",
+      "f3": "Reduced downtime between guests",
+      "f4": "Integration with your channels (WhatsApp, email, Slack)",
+      "stat1Value": "+78%",
+      "stat1Label": "of guests press it",
+      "stat2Value": "9:14 AM",
+      "stat2Label": "average actual checkout time",
+      "stat3Value": "+15%",
+      "stat3Label": "operational optimization"
+    },
+    "occupancy": {
+      "label": "Visibility",
+      "title": "Real-time",
+      "titleAccent": "occupancy",
+      "subtitle": "Know at all times which rooms are empty and which are occupied. Optimize cleaning routes and eliminate downtime.",
+      "f1": "Automatic occupancy detection with 99.7% accuracy",
+      "f2": "Housekeeping route optimization",
+      "f3": "Centralized visibility of each room's status",
+      "stat1Value": "10-15%",
+      "stat1Label": "less time searching for free rooms",
+      "stat2Value": "99.7%",
+      "stat2Label": "detection accuracy"
+    },
+    "noiseSmoke": {
+      "label": "Prevention",
+      "title": "Noise and",
+      "titleAccent": "smoke monitoring",
+      "subtitle": "Detect problems before they escalate. Real-time alerts for excessive noise and smoke detection in rooms.",
+      "noiseTitle": "Noise sensor",
+      "nf1": "24/7 noise level monitoring",
+      "nf2": "Instant alerts when thresholds are exceeded",
+      "nf3": "Prevent complaints from neighbours and other guests",
+      "smokeTitle": "Smoke sensor",
+      "sf1": "Early smoke detection in rooms",
+      "sf2": "Immediate alerts to operations team",
+      "sf3": "Damage prevention and guest protection",
+      "stat1Value": "24/7",
+      "stat1Label": "continuous monitoring",
+      "stat2Value": "<30s",
+      "stat2Label": "alert time"
+    },
+    "energy": {
+      "label": "Energy efficiency",
+      "title": "Smart climate",
+      "titleAccent": "control",
+      "subtitle": "Automatic shutdown when rooms are empty. Temperature limits. Remote control. Savings from day one.",
+      "f1": "Automatic HVAC shutdown in empty rooms",
+      "f2": "Temperature limits to prevent extreme settings",
+      "f3": "Remote activation to welcome guests with ideal comfort",
+      "f4": "Extends HVAC equipment lifespan",
+      "stat1Value": "up to 35%",
+      "stat1Label": "energy savings",
+      "stat2Value": "19°C",
+      "stat2Label": "avg. temp guests set the A/C to",
+      "stat3Value": "0h",
+      "stat3Label": "of unnecessary HVAC usage"
+    },
+    "bigStat": {
+      "source": "Based on our own data",
+      "title": "Guests leave the HVAC running for over 320 hours per year while the room is empty",
+      "subtitle": "This wastes energy and money, and shortens the lifespan of HVAC equipment. Our system reduces those hours to zero."
+    },
+    "roadmap": {
+      "label": "Implementation",
+      "title": "Your smart room in under 3 hours",
+      "subtitle": "We handle the entire process. Installation can be done during guest turnover, without blocking rooms.",
+      "step1Title": "Installation",
+      "step1Text": "We place devices in strategic locations. Under 3 hours per room.",
+      "step2Title": "Configuration",
+      "step2Text": "We configure each device during installation. No additional time needed.",
+      "step3Title": "Testing & calibration",
+      "step3Text": "During the first week, we test and calibrate remotely to ensure optimal performance.",
+      "step4Title": "Go-live",
+      "step4Text": "The system starts running automatically. Alerts, automations, and real-time dashboard."
+    },
+    "pricing": {
+      "label": "Investment",
+      "title": "Transparent pricing, no surprises",
+      "oneTimeLabel": "One-time payment",
+      "oneTimePrice": "€5,900",
+      "oneTimeTax": "+ VAT",
+      "includes1": "All hardware included",
+      "includes2": "Full installation",
+      "includes3": "Configuration and calibration",
+      "includes4": "Real-time dashboard and alerts",
+      "monthlyLabel": "Monthly fee",
+      "monthlyPrice": "€5.90",
+      "monthlyUnit": "per room / month",
+      "monthly1": "Priority technical support",
+      "monthly2": "Faulty device replacement",
+      "monthly3": "Continuous updates and improvements"
+    },
+    "about": {
+      "label": "Who we are",
+      "title": "They already trust us",
+      "text": "At Controlá, we implement automation solutions built specifically for the hotel and vacation rental industry. With over 50 projects deployed, our solution delivers measurable and sustainable results from day one.",
+      "lodging": "Lodging Apartments",
+      "outsite": "OUTSITE",
+      "fridays": "Friday's Flats",
+      "canela": "Canela Homes",
+      "noucentista": "Hotel Noucentista"
+    },
+    "cta": {
+      "title": "Any questions?",
+      "subtitle": "You can reach us directly."
+    }
   }
 }

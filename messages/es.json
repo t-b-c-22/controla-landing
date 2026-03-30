@@ -21,7 +21,9 @@
     "subtitle": "Menos energía desperdiciada. Menos quejas de huéspedes. Más tiempo para lo que importa.",
     "cta": "Agendar una llamada",
     "note": "30 minutos. Sin compromiso.",
-    "caption": "Sensores en las habitaciones + tu PMS. El hotel reacciona solo."
+    "caption": "Sensores en las habitaciones + tu PMS. El hotel reacciona solo.",
+    "project": "Hotel en Málaga (12 unidades)",
+    "projectLabel": "Proyecto"
   },
   "heroCards": {
     "checkout": { "title": "Checkout inteligente", "desc": "Notificación instantánea al hacer checkout. Housekeeping actúa al momento." },
@@ -471,5 +473,151 @@
     "ctaSubtitle": "Te mostramos cuánto puedes ahorrar en climatización en 30 minutos. Sin compromiso.",
     "ctaButton": "Agendar una llamada",
     "otherCitiesTitle": "Eficiencia energética en hoteles de otras ciudades"
+  },
+  "proposal": {
+    "gate": {
+      "title": "Acceso restringido",
+      "subtitle": "Introduce el código que te proporcionamos para ver la propuesta.",
+      "placeholder": "Código de acceso",
+      "button": "Acceder",
+      "error": "Código incorrecto. Inténtalo de nuevo."
+    },
+    "hero": {
+      "badge": "Propuesta personalizada — Marzo 2026",
+      "title": "Automatización inteligente para",
+      "titleAccent": "BCN Montjuic",
+      "subtitle": "Control de ocupación, eficiencia energética, monitorización de ruido y detección de humo. Todo en un solo sistema.",
+      "presentedTo": "Presentado a",
+      "presentedBy": "Presentado por",
+      "date": "Fecha",
+      "dateValue": "Marzo 2026",
+      "project": "Hotel en Málaga (12 unidades)",
+      "projectLabel": "Proyecto"
+    },
+    "scope": {
+      "label": "Alcance del proyecto",
+      "title": "Todo incluido, sin sorpresas",
+      "subtitle": "Nos encargamos de todo: desde el hardware hasta la puesta en marcha. Ustedes solo tienen que disfrutar de los resultados.",
+      "hardwareTitle": "Provisión de hardware",
+      "hardwareText": "Suministramos todos los dispositivos necesarios: sensores, controladores y gateway de conexión.",
+      "installationTitle": "Instalación completa",
+      "installationText": "Instalamos todos los dispositivos en ubicaciones estratégicas durante el recambio de huéspedes. Sin bloquear habitaciones.",
+      "configTitle": "Configuración a medida",
+      "configText": "Configuramos cada dispositivo según las necesidades específicas de sus habitaciones.",
+      "calibrationTitle": "Testeo y calibración",
+      "calibrationText": "Realizamos un riguroso proceso de testeo y calibración remota para asegurar que todo funcione de forma óptima."
+    },
+    "checkout": {
+      "label": "Operaciones",
+      "title": "Botón de checkout",
+      "titleAccent": "inteligente",
+      "subtitle": "Los huéspedes presionan el botón al irse. Instantáneamente se notifica al equipo de limpieza y operaciones para que la habitación esté lista cuanto antes.",
+      "f1": "Notificación instantánea al equipo de limpieza",
+      "f2": "Posibilidad de ofrecer early check-in al siguiente huésped",
+      "f3": "Reducción del tiempo muerto entre huéspedes",
+      "f4": "Integración con sus canales (WhatsApp, email, Slack)",
+      "stat1Value": "+78%",
+      "stat1Label": "de huéspedes lo presionan",
+      "stat2Value": "9:14 AM",
+      "stat2Label": "hora promedio de checkout real",
+      "stat3Value": "+15%",
+      "stat3Label": "optimización operativa"
+    },
+    "occupancy": {
+      "label": "Visibilidad",
+      "title": "Ocupación en",
+      "titleAccent": "tiempo real",
+      "subtitle": "Conoce en todo momento qué habitaciones están vacías y cuáles ocupadas. Optimiza las rutas de limpieza y elimina los tiempos muertos.",
+      "f1": "Detección automática de ocupación con un 99,7% de precisión",
+      "f2": "Optimización de rutas de housekeeping",
+      "f3": "Visibilidad centralizada de estado de cada habitación",
+      "stat1Value": "10-15%",
+      "stat1Label": "menos tiempo en buscar habitación libre",
+      "stat2Value": "99,7%",
+      "stat2Label": "precisión de detección"
+    },
+    "noiseSmoke": {
+      "label": "Prevención",
+      "title": "Monitorización de ruido",
+      "titleAccent": "y humo",
+      "subtitle": "Detecta problemas antes de que escalen. Alertas en tiempo real para ruido excesivo y detección de humo en las habitaciones.",
+      "noiseTitle": "Sensor de ruido",
+      "nf1": "Monitorización 24/7 de niveles de ruido",
+      "nf2": "Alertas instantáneas cuando se superan los umbrales",
+      "nf3": "Evitar quejas de vecinos y otros huéspedes",
+      "smokeTitle": "Sensor de humo",
+      "sf1": "Detección temprana de humo en habitaciones",
+      "sf2": "Alertas inmediatas al equipo de operaciones",
+      "sf3": "Prevención de daños y protección de los huéspedes",
+      "stat1Value": "24/7",
+      "stat1Label": "monitorización continua",
+      "stat2Value": "<30s",
+      "stat2Label": "tiempo de alerta"
+    },
+    "energy": {
+      "label": "Eficiencia energética",
+      "title": "Control de climatización",
+      "titleAccent": "inteligente",
+      "subtitle": "Apagado automático cuando la habitación está vacía. Limitación de temperatura. Control remoto. Ahorro desde el primer día.",
+      "f1": "Apagado automático de la climatización en habitaciones vacías",
+      "f2": "Limitación de temperatura para evitar valores extremos",
+      "f3": "Encendido remoto para recibir huéspedes con el confort ideal",
+      "f4": "Prolonga la vida útil de los equipos de climatización",
+      "stat1Value": "hasta 35%",
+      "stat1Label": "de ahorro energético",
+      "stat2Value": "19°C",
+      "stat2Label": "temp. promedio a la que el huésped pone el aire",
+      "stat3Value": "0h",
+      "stat3Label": "de climatización innecesaria"
+    },
+    "bigStat": {
+      "source": "En base a datos propios",
+      "title": "Los huéspedes dejan la climatización encendida más de 320 horas al año con la habitación vacía",
+      "subtitle": "Eso no solo es un desperdicio de energía y dinero, sino que reduce la vida útil de los equipos de climatización. Con nuestro sistema, esas horas se reducen a 0."
+    },
+    "roadmap": {
+      "label": "Puesta en marcha",
+      "title": "Tu habitación inteligente en menos de 3 horas",
+      "subtitle": "Nos encargamos de todo el proceso. La instalación se puede hacer durante un recambio de huéspedes, sin bloquear habitaciones.",
+      "step1Title": "Instalación",
+      "step1Text": "Colocamos los dispositivos en ubicaciones estratégicas. Menos de 3 horas por habitación.",
+      "step2Title": "Configuración",
+      "step2Text": "Configuramos cada dispositivo durante la instalación. Sin tiempo adicional.",
+      "step3Title": "Testeo y calibración",
+      "step3Text": "Durante la primera semana, testeamos y calibramos de forma remota para asegurar un funcionamiento óptimo.",
+      "step4Title": "Puesta en marcha",
+      "step4Text": "El sistema comienza a funcionar de forma automática. Alertas, automatizaciones y dashboard en tiempo real."
+    },
+    "pricing": {
+      "label": "Inversión",
+      "title": "Precio transparente, sin sorpresas",
+      "oneTimeLabel": "Pago único",
+      "oneTimePrice": "€5.900",
+      "oneTimeTax": "+ IVA",
+      "includes1": "Todo el hardware incluido",
+      "includes2": "Instalación completa",
+      "includes3": "Configuración y calibración",
+      "includes4": "Dashboard y alertas en tiempo real",
+      "monthlyLabel": "Cuota mensual",
+      "monthlyPrice": "€5,90",
+      "monthlyUnit": "por habitación / mes",
+      "monthly1": "Soporte técnico prioritario",
+      "monthly2": "Reemplazo de dispositivos defectuosos",
+      "monthly3": "Actualizaciones y mejoras continuas"
+    },
+    "about": {
+      "label": "¿Quiénes somos?",
+      "title": "Ya confían en nosotros",
+      "text": "En Controlá implementamos soluciones de automatización creadas específicamente para el sector hotelero y vacacional. Con más de 50 proyectos implementados, nuestra solución garantiza resultados medibles y sostenibles desde el primer día.",
+      "lodging": "Lodging Apartments",
+      "outsite": "OUTSITE",
+      "fridays": "Friday's Flats",
+      "canela": "Canela Homes",
+      "noucentista": "Hotel Noucentista"
+    },
+    "cta": {
+      "title": "¿Tienes alguna duda?",
+      "subtitle": "Puedes comunicarte con nosotros directamente."
+    }
   }
 }

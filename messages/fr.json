@@ -471,5 +471,151 @@
     "ctaSubtitle": "On vous montre combien vous pouvez économiser en climatisation en 30 minutes. Sans engagement.",
     "ctaButton": "Réserver un appel",
     "otherCitiesTitle": "Efficacité énergétique dans les hôtels d'autres villes"
+  },
+  "proposal": {
+    "gate": {
+      "title": "Accès restreint",
+      "subtitle": "Entrez le code que nous vous avons fourni pour voir la proposition.",
+      "placeholder": "Code d'accès",
+      "button": "Accéder",
+      "error": "Code incorrect. Veuillez réessayer."
+    },
+    "hero": {
+      "badge": "Proposition personnalisée — Mars 2026",
+      "title": "Automatisation intelligente pour",
+      "titleAccent": "BCN Montjuic",
+      "subtitle": "Contrôle d'occupation, efficacité énergétique, surveillance du bruit et détection de fumée. Tout dans un seul système.",
+      "presentedTo": "Présenté à",
+      "presentedBy": "Présenté par",
+      "date": "Date",
+      "dateValue": "Mars 2026",
+      "project": "Hôtel à Málaga (12 unités)",
+      "projectLabel": "Projet"
+    },
+    "scope": {
+      "label": "Portée du projet",
+      "title": "Tout inclus, sans surprises",
+      "subtitle": "Nous nous occupons de tout : du matériel à la mise en service. Vous n'avez qu'à profiter des résultats.",
+      "hardwareTitle": "Fourniture du matériel",
+      "hardwareText": "Nous fournissons tous les dispositifs nécessaires : capteurs, contrôleurs et passerelle de connexion.",
+      "installationTitle": "Installation complète",
+      "installationText": "Nous installons tous les dispositifs dans des emplacements stratégiques lors du changement d'hôtes. Sans bloquer de chambres.",
+      "configTitle": "Configuration sur mesure",
+      "configText": "Nous configurons chaque dispositif selon les besoins spécifiques de vos chambres.",
+      "calibrationTitle": "Tests et calibration",
+      "calibrationText": "Nous effectuons un processus rigoureux de tests et de calibration à distance pour assurer un fonctionnement optimal."
+    },
+    "checkout": {
+      "label": "Opérations",
+      "title": "Bouton de checkout",
+      "titleAccent": "intelligent",
+      "subtitle": "Les hôtes appuient sur le bouton en partant. L'équipe de nettoyage et d'opérations est notifiée instantanément.",
+      "f1": "Notification instantanée à l'équipe de nettoyage",
+      "f2": "Possibilité d'offrir un early check-in à l'hôte suivant",
+      "f3": "Réduction du temps mort entre les hôtes",
+      "f4": "Intégration avec vos canaux (WhatsApp, email, Slack)",
+      "stat1Value": "+78%",
+      "stat1Label": "des hôtes l'utilisent",
+      "stat2Value": "9:14",
+      "stat2Label": "heure moyenne réelle de checkout",
+      "stat3Value": "+15%",
+      "stat3Label": "optimisation opérationnelle"
+    },
+    "occupancy": {
+      "label": "Visibilité",
+      "title": "Occupation en",
+      "titleAccent": "temps réel",
+      "subtitle": "Sachez à tout moment quelles chambres sont vides et lesquelles sont occupées. Optimisez les parcours de nettoyage.",
+      "f1": "Détection automatique d'occupation avec une précision de 99,7%",
+      "f2": "Optimisation des parcours de housekeeping",
+      "f3": "Visibilité centralisée de l'état de chaque chambre",
+      "stat1Value": "10-15%",
+      "stat1Label": "moins de temps à chercher une chambre libre",
+      "stat2Value": "99,7%",
+      "stat2Label": "précision de détection"
+    },
+    "noiseSmoke": {
+      "label": "Prévention",
+      "title": "Surveillance du bruit",
+      "titleAccent": "et de la fumée",
+      "subtitle": "Détectez les problèmes avant qu'ils ne s'aggravent. Alertes en temps réel pour le bruit excessif et la détection de fumée.",
+      "noiseTitle": "Capteur de bruit",
+      "nf1": "Surveillance 24/7 des niveaux de bruit",
+      "nf2": "Alertes instantanées lorsque les seuils sont dépassés",
+      "nf3": "Éviter les plaintes des voisins et autres hôtes",
+      "smokeTitle": "Capteur de fumée",
+      "sf1": "Détection précoce de fumée dans les chambres",
+      "sf2": "Alertes immédiates à l'équipe d'opérations",
+      "sf3": "Prévention des dommages et protection des hôtes",
+      "stat1Value": "24/7",
+      "stat1Label": "surveillance continue",
+      "stat2Value": "<30s",
+      "stat2Label": "temps d'alerte"
+    },
+    "energy": {
+      "label": "Efficacité énergétique",
+      "title": "Contrôle climatique",
+      "titleAccent": "intelligent",
+      "subtitle": "Arrêt automatique quand la chambre est vide. Limitation de température. Contrôle à distance. Économies dès le premier jour.",
+      "f1": "Arrêt automatique de la climatisation dans les chambres vides",
+      "f2": "Limitation de température pour éviter les valeurs extrêmes",
+      "f3": "Activation à distance pour accueillir les hôtes avec le confort idéal",
+      "f4": "Prolonge la durée de vie des équipements de climatisation",
+      "stat1Value": "jusqu'à 35%",
+      "stat1Label": "d'économie d'énergie",
+      "stat2Value": "19°C",
+      "stat2Label": "temp. moyenne à laquelle l'hôte règle la clim",
+      "stat3Value": "0h",
+      "stat3Label": "de climatisation inutile"
+    },
+    "bigStat": {
+      "source": "Basé sur nos propres données",
+      "title": "Les hôtes laissent la climatisation allumée plus de 320 heures par an avec la chambre vide",
+      "subtitle": "C'est un gaspillage d'énergie et d'argent qui réduit aussi la durée de vie des équipements. Notre système réduit ces heures à zéro."
+    },
+    "roadmap": {
+      "label": "Mise en service",
+      "title": "Votre chambre intelligente en moins de 3 heures",
+      "subtitle": "Nous gérons l'ensemble du processus. L'installation peut se faire lors d'un changement d'hôtes, sans bloquer de chambres.",
+      "step1Title": "Installation",
+      "step1Text": "Nous plaçons les dispositifs dans des emplacements stratégiques. Moins de 3 heures par chambre.",
+      "step2Title": "Configuration",
+      "step2Text": "Nous configurons chaque dispositif pendant l'installation. Sans temps supplémentaire.",
+      "step3Title": "Tests et calibration",
+      "step3Text": "Durant la première semaine, nous testons et calibrons à distance pour assurer un fonctionnement optimal.",
+      "step4Title": "Mise en service",
+      "step4Text": "Le système fonctionne automatiquement. Alertes, automatisations et tableau de bord en temps réel."
+    },
+    "pricing": {
+      "label": "Investissement",
+      "title": "Prix transparent, sans surprises",
+      "oneTimeLabel": "Paiement unique",
+      "oneTimePrice": "5 900 €",
+      "oneTimeTax": "+ TVA",
+      "includes1": "Tout le matériel inclus",
+      "includes2": "Installation complète",
+      "includes3": "Configuration et calibration",
+      "includes4": "Tableau de bord et alertes en temps réel",
+      "monthlyLabel": "Frais mensuels",
+      "monthlyPrice": "5,90 €",
+      "monthlyUnit": "par chambre / mois",
+      "monthly1": "Support technique prioritaire",
+      "monthly2": "Remplacement des dispositifs défectueux",
+      "monthly3": "Mises à jour et améliorations continues"
+    },
+    "about": {
+      "label": "Qui sommes-nous ?",
+      "title": "Ils nous font déjà confiance",
+      "text": "Chez Controlá, nous mettons en œuvre des solutions d'automatisation conçues spécifiquement pour le secteur hôtelier et de la location saisonnière. Avec plus de 50 projets déployés, notre solution garantit des résultats mesurables et durables dès le premier jour.",
+      "lodging": "Lodging Apartments",
+      "outsite": "OUTSITE",
+      "fridays": "Friday's Flats",
+      "canela": "Canela Homes",
+      "noucentista": "Hotel Noucentista"
+    },
+    "cta": {
+      "title": "Des questions ?",
+      "subtitle": "Vous pouvez nous contacter directement."
+    }
   }
 }

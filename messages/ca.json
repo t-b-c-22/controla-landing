@@ -471,5 +471,151 @@
     "ctaSubtitle": "Et mostrem quant pots estalviar en climatització en 30 minuts. Sense compromís.",
     "ctaButton": "Agenda una trucada",
     "otherCitiesTitle": "Eficiència energètica en hotels d'altres ciutats"
+  },
+  "proposal": {
+    "gate": {
+      "title": "Accés restringit",
+      "subtitle": "Introdueix el codi que et vam proporcionar per veure la proposta.",
+      "placeholder": "Codi d'accés",
+      "button": "Accedir",
+      "error": "Codi incorrecte. Torna-ho a provar."
+    },
+    "hero": {
+      "badge": "Proposta personalitzada — Març 2026",
+      "title": "Automatització intel·ligent per a",
+      "titleAccent": "BCN Montjuic",
+      "subtitle": "Control d'ocupació, eficiència energètica, monitorització de soroll i detecció de fum. Tot en un sol sistema.",
+      "presentedTo": "Presentat a",
+      "presentedBy": "Presentat per",
+      "date": "Data",
+      "dateValue": "Març 2026",
+      "project": "Hotel a Màlaga (12 unitats)",
+      "projectLabel": "Projecte"
+    },
+    "scope": {
+      "label": "Abast del projecte",
+      "title": "Tot inclòs, sense sorpreses",
+      "subtitle": "Ens encarreguem de tot: des del hardware fins a la posada en marxa. Vosaltres només heu de gaudir dels resultats.",
+      "hardwareTitle": "Provisió de hardware",
+      "hardwareText": "Subministrem tots els dispositius necessaris: sensors, controladors i gateway de connexió.",
+      "installationTitle": "Instal·lació completa",
+      "installationText": "Instal·lem tots els dispositius en ubicacions estratègiques durant el canvi d'hostes. Sense bloquejar habitacions.",
+      "configTitle": "Configuració a mida",
+      "configText": "Configurem cada dispositiu segons les necessitats específiques de les vostres habitacions.",
+      "calibrationTitle": "Testeig i calibratge",
+      "calibrationText": "Realitzem un rigorós procés de testeig i calibratge remot per assegurar un funcionament òptim."
+    },
+    "checkout": {
+      "label": "Operacions",
+      "title": "Botó de checkout",
+      "titleAccent": "intel·ligent",
+      "subtitle": "Els hostes premem el botó en marxar. L'equip de neteja i operacions rep una notificació instantània perquè l'habitació estigui llesta com més aviat millor.",
+      "f1": "Notificació instantània a l'equip de neteja",
+      "f2": "Possibilitat d'oferir early check-in al següent hoste",
+      "f3": "Reducció del temps mort entre hostes",
+      "f4": "Integració amb els vostres canals (WhatsApp, email, Slack)",
+      "stat1Value": "+78%",
+      "stat1Label": "dels hostes el premen",
+      "stat2Value": "9:14 AM",
+      "stat2Label": "hora mitjana real de checkout",
+      "stat3Value": "+15%",
+      "stat3Label": "optimització operativa"
+    },
+    "occupancy": {
+      "label": "Visibilitat",
+      "title": "Ocupació en",
+      "titleAccent": "temps real",
+      "subtitle": "Sabeu en tot moment quines habitacions estan buides i quines ocupades. Optimitzeu les rutes de neteja i elimineu els temps morts.",
+      "f1": "Detecció automàtica d'ocupació amb un 99,7% de precisió",
+      "f2": "Optimització de rutes de housekeeping",
+      "f3": "Visibilitat centralitzada de l'estat de cada habitació",
+      "stat1Value": "10-15%",
+      "stat1Label": "menys temps buscant habitació lliure",
+      "stat2Value": "99,7%",
+      "stat2Label": "precisió de detecció"
+    },
+    "noiseSmoke": {
+      "label": "Prevenció",
+      "title": "Monitorització de soroll",
+      "titleAccent": "i fum",
+      "subtitle": "Detecteu problemes abans que s'agreugin. Alertes en temps real per soroll excessiu i detecció de fum a les habitacions.",
+      "noiseTitle": "Sensor de soroll",
+      "nf1": "Monitorització 24/7 de nivells de soroll",
+      "nf2": "Alertes instantànies quan se superen els llindars",
+      "nf3": "Evitar queixes de veïns i altres hostes",
+      "smokeTitle": "Sensor de fum",
+      "sf1": "Detecció primerenca de fum a les habitacions",
+      "sf2": "Alertes immediates a l'equip d'operacions",
+      "sf3": "Prevenció de danys i protecció dels hostes",
+      "stat1Value": "24/7",
+      "stat1Label": "monitorització contínua",
+      "stat2Value": "<30s",
+      "stat2Label": "temps d'alerta"
+    },
+    "energy": {
+      "label": "Eficiència energètica",
+      "title": "Control de climatització",
+      "titleAccent": "intel·ligent",
+      "subtitle": "Apagat automàtic quan l'habitació està buida. Limitació de temperatura. Control remot. Estalvi des del primer dia.",
+      "f1": "Apagat automàtic de la climatització en habitacions buides",
+      "f2": "Limitació de temperatura per evitar valors extrems",
+      "f3": "Encesa remota per rebre hostes amb el confort ideal",
+      "f4": "Allarga la vida útil dels equips de climatització",
+      "stat1Value": "fins a 35%",
+      "stat1Label": "estalvi energètic",
+      "stat2Value": "19°C",
+      "stat2Label": "temp. mitjana a la que l'hoste posa l'aire",
+      "stat3Value": "0h",
+      "stat3Label": "de climatització innecessària"
+    },
+    "bigStat": {
+      "source": "Basat en dades pròpies",
+      "title": "Els hostes deixen la climatització encesa més de 320 hores l'any amb l'habitació buida",
+      "subtitle": "Això no només és un malbaratament d'energia i diners, sinó que redueix la vida útil dels equips. Amb el nostre sistema, aquestes hores es redueixen a 0."
+    },
+    "roadmap": {
+      "label": "Posada en marxa",
+      "title": "La teva habitació intel·ligent en menys de 3 hores",
+      "subtitle": "Ens encarreguem de tot el procés. La instal·lació es pot fer durant un canvi d'hostes, sense bloquejar habitacions.",
+      "step1Title": "Instal·lació",
+      "step1Text": "Col·loquem els dispositius en ubicacions estratègiques. Menys de 3 hores per habitació.",
+      "step2Title": "Configuració",
+      "step2Text": "Configurem cada dispositiu durant la instal·lació. Sense temps addicional.",
+      "step3Title": "Testeig i calibratge",
+      "step3Text": "Durant la primera setmana, testegem i calibrem de forma remota per assegurar un funcionament òptim.",
+      "step4Title": "Posada en marxa",
+      "step4Text": "El sistema comença a funcionar de forma automàtica. Alertes, automatitzacions i dashboard en temps real."
+    },
+    "pricing": {
+      "label": "Inversió",
+      "title": "Preu transparent, sense sorpreses",
+      "oneTimeLabel": "Pagament únic",
+      "oneTimePrice": "€5.900",
+      "oneTimeTax": "+ IVA",
+      "includes1": "Tot el hardware inclòs",
+      "includes2": "Instal·lació completa",
+      "includes3": "Configuració i calibratge",
+      "includes4": "Dashboard i alertes en temps real",
+      "monthlyLabel": "Quota mensual",
+      "monthlyPrice": "€5,90",
+      "monthlyUnit": "per habitació / mes",
+      "monthly1": "Suport tècnic prioritari",
+      "monthly2": "Recanvi de dispositius defectuosos",
+      "monthly3": "Actualitzacions i millores contínues"
+    },
+    "about": {
+      "label": "Qui som?",
+      "title": "Ja confien en nosaltres",
+      "text": "A Controlá implementem solucions d'automatització creades específicament per al sector hoteler i vacacional. Amb més de 50 projectes implementats, la nostra solució garanteix resultats mesurables i sostenibles des del primer dia.",
+      "lodging": "Lodging Apartments",
+      "outsite": "OUTSITE",
+      "fridays": "Friday's Flats",
+      "canela": "Canela Homes",
+      "noucentista": "Hotel Noucentista"
+    },
+    "cta": {
+      "title": "Tens algun dubte?",
+      "subtitle": "Pots comunicar-te amb nosaltres directament."
+    }
   }
 }
