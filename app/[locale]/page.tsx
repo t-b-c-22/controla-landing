@@ -113,7 +113,10 @@ function PageContent() {
                           stroke="#69ca90"
                           strokeWidth="2.5"
                           strokeLinecap="round"
-                          className="animated-underline-path"
+                          style={{
+                            strokeDasharray: 320,
+                            animation: "draw-underline 6s ease-in-out 0.5s infinite",
+                          }}
                         />
                       </svg>
                     </span>
