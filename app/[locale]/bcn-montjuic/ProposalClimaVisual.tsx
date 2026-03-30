@@ -27,7 +27,7 @@ export default function ProposalClimaVisual() {
         <div className="rounded-xl px-5 py-4 mb-5 bg-verde/10">
           <p className="text-[0.75rem] text-texto-light mb-1">Ahorro estimado este mes</p>
           <div className="flex items-baseline gap-2">
-            <span className="text-[2.8rem] font-[800] leading-none text-verde">27%</span>
+            <span className="text-[2.8rem] font-extrabold leading-none text-verde">27%</span>
             <span className="text-[0.85rem] font-semibold text-verde">vs. gestión manual</span>
           </div>
         </div>
@@ -81,10 +81,10 @@ export default function ProposalClimaVisual() {
 
             {/* Target temp display */}
             <div className={`px-4 py-1.5 rounded-xl text-center min-w-[70px] ${isOn ? "bg-white shadow-md" : "bg-gray-100"}`}>
-              <span className={`text-[1.5rem] font-[800] ${isOn ? "text-navy" : "text-gray-300"}`}>
+              <span className={`text-[1.5rem] font-extrabold ${isOn ? "text-navy" : "text-gray-300"}`}>
                 {isOn ? targetTemp : "--"}
               </span>
-              {isOn && <span className="text-navy font-[800] text-[1rem]">°C</span>}
+              {isOn && <span className="text-navy font-extrabold text-[1rem]">°C</span>}
             </div>
 
             {/* Temp up */}

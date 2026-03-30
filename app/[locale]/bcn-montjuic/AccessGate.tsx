@@ -57,7 +57,7 @@ export default function AccessGate({
             <path d="M7 11V7a5 5 0 0 1 10 0v4" />
           </svg>
         </div>
-        <h1 className="text-[clamp(1.6rem,3vw,2.2rem)] font-[800] text-navy tracking-[-1px] mb-2">
+        <h1 className="text-[clamp(1.6rem,3vw,2.2rem)] font-extrabold text-navy tracking-[-1px] mb-2">
           {title}
         </h1>
         <p className="text-texto-light text-[0.95rem] mb-8">{subtitle}</p>

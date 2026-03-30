@@ -56,10 +56,17 @@ function CheckIcon({ color = "#4141e2" }: { color?: string }) {
   );
 }
 
+const colorMap: Record<string, string> = {
+  azul: "text-azul",
+  naranja: "text-naranja",
+  verde: "text-verde",
+  navy: "text-navy",
+};
+
 function StatCard({ value, label, color = "azul" }: { value: string; label: string; color?: string }) {
   return (
     <div className="text-center">
-      <div className={`text-[clamp(1.8rem,3vw,2.5rem)] font-[800] text-${color} tracking-tight`}>
+      <div className={`text-[clamp(1.8rem,3vw,2.5rem)] font-extrabold ${colorMap[color] || "text-azul"} tracking-tight`}>
         {value}
       </div>
       <div className="text-texto-light text-[0.85rem] mt-1">{label}</div>
@@ -109,7 +116,7 @@ function PageContent() {
             <div className="inline-block bg-azul-light text-azul text-[0.82rem] font-semibold px-[18px] py-1.5 rounded-full mb-5">
               {t("hero.badge")}
             </div>
-            <h1 className="text-[clamp(2.6rem,5.5vw,4rem)] font-[800] leading-[1.08] tracking-[-2px] mb-4 text-navy">
+            <h1 className="text-[clamp(2.6rem,5.5vw,4rem)] font-extrabold leading-[1.08] tracking-[-2px] mb-4 text-navy">
               {t("hero.title")}{" "}
               <span className="text-azul">{t("hero.titleAccent")}</span>
             </h1>
@@ -168,7 +175,7 @@ function PageContent() {
         <section className="py-[80px] px-6 bg-gris max-md:py-[60px]">
           <div className="max-w-[1000px] mx-auto text-center mb-14">
             <SectionLabel>{t("scope.label")}</SectionLabel>
-            <h2 className="text-[clamp(2rem,4vw,3rem)] font-[800] leading-[1.1] tracking-[-1.5px] text-navy mb-4">
+            <h2 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-1.5px] text-navy mb-4">
               {t("scope.title")}
             </h2>
             <p className="text-texto-light text-[1.05rem] leading-[1.7] max-w-[600px] mx-auto">
@@ -197,7 +204,7 @@ function PageContent() {
               <div className="text-naranja text-[0.78rem] font-bold uppercase tracking-[2px] mb-4">
                 {t("checkout.label")}
               </div>
-              <h2 className="text-[clamp(2rem,4vw,3rem)] font-[800] leading-[1.1] tracking-[-1.5px] text-navy mb-2">
+              <h2 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-1.5px] text-navy mb-2">
                 {t("checkout.title")}{" "}
                 <span className="text-naranja">{t("checkout.titleAccent")}</span>
               </h2>
@@ -234,7 +241,7 @@ function PageContent() {
               <div className="text-azul text-[0.78rem] font-bold uppercase tracking-[2px] mb-4">
                 {t("occupancy.label")}
               </div>
-              <h2 className="text-[clamp(2rem,4vw,3rem)] font-[800] leading-[1.1] tracking-[-1.5px] text-navy mb-2">
+              <h2 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-1.5px] text-navy mb-2">
                 {t("occupancy.title")}{" "}
                 <span className="text-azul">{t("occupancy.titleAccent")}</span>
               </h2>
@@ -264,7 +271,7 @@ function PageContent() {
               <div className="text-verde text-[0.78rem] font-bold uppercase tracking-[2px] mb-4">
                 {t("noiseSmoke.label")}
               </div>
-              <h2 className="text-[clamp(2rem,4vw,3rem)] font-[800] leading-[1.1] tracking-[-1.5px] text-navy mb-2">
+              <h2 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-1.5px] text-navy mb-2">
                 {t("noiseSmoke.title")}{" "}
                 <span className="text-verde">{t("noiseSmoke.titleAccent")}</span>
               </h2>
@@ -319,7 +326,7 @@ function PageContent() {
               <div className="text-azul text-[0.78rem] font-bold uppercase tracking-[2px] mb-4">
                 {t("energy.label")}
               </div>
-              <h2 className="text-[clamp(2rem,4vw,3rem)] font-[800] leading-[1.1] tracking-[-1.5px] text-navy mb-2">
+              <h2 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-1.5px] text-navy mb-2">
                 {t("energy.title")}{" "}
                 <span className="text-azul">{t("energy.titleAccent")}</span>
               </h2>
@@ -349,7 +356,7 @@ function PageContent() {
             <p className="text-white/50 text-[0.85rem] font-medium uppercase tracking-[2px] mb-6">
               {t("bigStat.source")}
             </p>
-            <h2 className="text-[clamp(2rem,5vw,3.5rem)] font-[800] leading-[1.1] tracking-[-2px] text-white mb-6">
+            <h2 className="text-[clamp(2rem,5vw,3.5rem)] font-extrabold leading-[1.1] tracking-[-2px] text-white mb-6">
               {t("bigStat.title")}
             </h2>
             <p className="text-white/70 text-[1.1rem] leading-[1.7] max-w-[600px] mx-auto">
@@ -393,7 +400,7 @@ function PageContent() {
           <div className="max-w-[900px] mx-auto">
             <div className="text-center mb-14">
               <SectionLabel>{t("pricing.label")}</SectionLabel>
-              <h2 className="text-[clamp(2rem,4vw,3rem)] font-[800] leading-[1.1] tracking-[-1.5px] text-navy mb-4">
+              <h2 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-1.5px] text-navy mb-4">
                 {t("pricing.title")}
               </h2>
             </div>
@@ -404,7 +411,7 @@ function PageContent() {
                 <div className="text-white/50 text-[0.78rem] font-semibold uppercase tracking-[2px] mb-4">
                   {t("pricing.oneTimeLabel")}
                 </div>
-                <div className="text-[clamp(2.5rem,5vw,3.5rem)] font-[800] tracking-[-2px] mb-1">
+                <div className="text-[clamp(2.5rem,5vw,3.5rem)] font-extrabold tracking-[-2px] mb-1">
                   {t("pricing.oneTimePrice")}
                 </div>
                 <div className="text-white/50 text-[0.9rem] mb-6">{t("pricing.oneTimeTax")}</div>
@@ -425,7 +432,7 @@ function PageContent() {
                 <div className="text-azul text-[0.78rem] font-semibold uppercase tracking-[2px] mb-4">
                   {t("pricing.monthlyLabel")}
                 </div>
-                <div className="text-[clamp(2.5rem,5vw,3.5rem)] font-[800] tracking-[-2px] text-navy mb-1">
+                <div className="text-[clamp(2.5rem,5vw,3.5rem)] font-extrabold tracking-[-2px] text-navy mb-1">
                   {t("pricing.monthlyPrice")}
                 </div>
                 <div className="text-texto-light text-[0.9rem] mb-6">{t("pricing.monthlyUnit")}</div>
